@@ -1,0 +1,10 @@
+**Table 4. Missed share for each single fixed window, 2020 (selection) and 2021 (frozen evaluation)**
+
+| Country | Year | Complete (4 windows) | Reference-positive | Jan-Feb | Mar-Apr | May-Jun | Jul-Aug | Random window |
+|---|---|---|---|---|---|---|---|---|
+| Malawi | 2020 | 249 | 191 | 13.6% * | 45.5% | 76.4% | 81.7% | 54.3% |
+| Malawi | 2021 | 197 | 102 | 21.6% * | 63.7% | 83.3% | 70.6% | 59.8% |
+| Liberia | 2020 | 89 | 43 | 67.4% | 58.1% * | 65.1% | 74.4% | 66.3% |
+| Liberia | 2021 | 60 | 22 | 59.1% | 54.5% * | 72.7% | 54.5% | 60.2% |
+
+** = window selected on 2020 data only (ties -> earlier window). 2021 values for non-selected windows are post hoc disclosure. Cohorts differ by year.*

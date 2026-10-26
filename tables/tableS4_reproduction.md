@@ -1,0 +1,54 @@
+**Table S4. Earlier exploratory values versus independent recomputation**
+
+| quantity | country | previous_reported | newly_computed | difference | unit | pass_with_tolerance | tolerance | script | reason_if_discrepant |
+|---|---|---|---|---|---|---|---|---|---|
+| Baseline phone-frame households | Malawi | 297.0 | 297.0 | 0.0 | households | True | 0.0 | build_panels.cohort_flow | nan |
+| Households with six 2020 screens | Malawi | 227.0 | 227.0 | 0.0 | households | True | 0.0 | build_panels.cohort_flow | nan |
+| Complete histories reference-positive | Malawi | 185.0 | 185.0 | 0.0 | households | True | 0.0 | build_panels.cohort_flow | nan |
+| Missed, 1 retained screen(s) | Malawi | 55.1 | 55.1351 | 0.0351 | pct | True | 0.05 | estimands.frontier | nan |
+| Missed, 2 retained screen(s) | Malawi | 31.9 | 31.9279 | 0.0279 | pct | True | 0.05 | estimands.frontier | nan |
+| Missed, 3 retained screen(s) | Malawi | 18.2 | 18.2432 | 0.0432 | pct | True | 0.05 | estimands.frontier | nan |
+| Bootstrap 95% lower, m=1 | Malawi | 51.5 | 51.5521 | 0.0521 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% upper, m=1 | Malawi | 58.5 | 58.6594 | 0.1594 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% lower, m=2 | Malawi | 28.4 | 28.26 | -0.14 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% upper, m=2 | Malawi | 35.6 | 35.6011 | 0.0011 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% lower, m=3 | Malawi | 15.4 | 15.188 | -0.212 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% upper, m=3 | Malawi | 21.2 | 21.367 | 0.167 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Missing-history bound lower, m=1 | Malawi | 50.8 | 50.823 | 0.023 | pct | True | 0.05 | missing_bounds | nan |
+| Missing-history bound upper, m=1 | Malawi | 59.3 | 59.3464 | 0.0464 | pct | True | 0.05 | missing_bounds | nan |
+| Missing + 5% label-error bound lower, m=1 | Malawi | 39.6 | 39.6396 | 0.0396 | pct | True | 0.05 | misclassification_bounds | nan |
+| Missing + 5% label-error bound upper, m=1 | Malawi | 65.0 | 64.9832 | -0.0168 | pct | True | 0.05 | misclassification_bounds | nan |
+| Timing: slot selected on 2020 | Malawi | 1.0 | 1.0 | 0.0 | slot | True | 0.0 | timing_validation | nan |
+| Timing: 2020 missed, selected slot | Malawi | 13.6 | 13.6126 | 0.0126 | pct | True | 0.05 | timing_validation | nan |
+| Timing: 2021 missed, frozen slot | Malawi | 21.6 | 21.5686 | -0.0314 | pct | True | 0.05 | timing_validation | nan |
+| Timing: 2021 missed, random slot | Malawi | 59.8 | 59.8039 | 0.0039 | pct | True | 0.05 | timing_validation | nan |
+| Timing: households complete both years | Malawi | 171.0 | 171.0 | 0.0 | households | True | 0.0 | timing_validation | nan |
+| Timing matched: 2021 missed, frozen slot | Malawi | 20.2 | 20.2247 | 0.0247 | pct | True | 0.05 | timing_validation | nan |
+| Timing matched: 2021 missed, random slot | Malawi | 59.8 | 59.8315 | 0.0315 | pct | True | 0.05 | timing_validation | nan |
+| Baseline phone-frame households | Liberia | 206.0 | 206.0 | 0.0 | households | True | 0.0 | build_panels.cohort_flow | nan |
+| Households with six 2020 screens | Liberia | 67.0 | 67.0 | 0.0 | households | True | 0.0 | build_panels.cohort_flow | nan |
+| Complete histories reference-positive | Liberia | 34.0 | 34.0 | 0.0 | households | True | 0.0 | build_panels.cohort_flow | nan |
+| Missed, 1 retained screen(s) | Liberia | 69.6 | 69.6078 | 0.0078 | pct | True | 0.05 | estimands.frontier | nan |
+| Missed, 2 retained screen(s) | Liberia | 47.5 | 47.451 | -0.049 | pct | True | 0.05 | estimands.frontier | nan |
+| Missed, 3 retained screen(s) | Liberia | 30.7 | 30.7353 | 0.0353 | pct | True | 0.05 | estimands.frontier | nan |
+| Bootstrap 95% lower, m=1 | Liberia | 63.9 | 63.8889 | -0.0111 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% upper, m=1 | Liberia | 75.0 | 75.0 | 0.0 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% lower, m=2 | Liberia | 39.8 | 40.1961 | 0.3961 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% upper, m=2 | Liberia | 54.7 | 54.4444 | -0.2556 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% lower, m=3 | Liberia | 24.2 | 23.9695 | -0.2305 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Bootstrap 95% upper, m=3 | Liberia | 38.0 | 37.5 | -0.5 | pct | True | 0.6 | cluster_bootstrap | nan |
+| Missing-history bound lower, m=1 | Liberia | 39.8 | 39.8496 | 0.0496 | pct | True | 0.05 | missing_bounds | nan |
+| Missing-history bound upper, m=1 | Liberia | 78.6 | 78.6127 | 0.0127 | pct | True | 0.05 | missing_bounds | nan |
+| Missing + 5% label-error bound lower, m=1 | Liberia | 25.1 | 25.1055 | 0.0055 | pct | True | 0.05 | misclassification_bounds | nan |
+| Missing + 5% label-error bound upper, m=1 | Liberia | 82.5 | 82.4663 | -0.0337 | pct | True | 0.05 | misclassification_bounds | nan |
+| Timing: slot selected on 2020 | Liberia | 2.0 | 2.0 | 0.0 | slot | True | 0.0 | timing_validation | nan |
+| Timing: 2020 missed, selected slot | Liberia | 58.1 | 58.1395 | 0.0395 | pct | True | 0.05 | timing_validation | nan |
+| Timing: 2021 missed, frozen slot | Liberia | 54.5 | 54.5455 | 0.0455 | pct | True | 0.05 | timing_validation | nan |
+| Timing: 2021 missed, random slot | Liberia | 60.2 | 60.2273 | 0.0273 | pct | True | 0.05 | timing_validation | nan |
+| Timing: households complete both years | Liberia | 40.0 | 40.0 | 0.0 | households | True | 0.0 | timing_validation | nan |
+| Timing matched: 2021 missed, frozen slot | Liberia | 61.5 | 61.5385 | 0.0385 | pct | True | 0.05 | timing_validation | nan |
+| Timing matched: 2021 missed, random slot | Liberia | 63.5 | 63.4615 | -0.0385 | pct | True | 0.05 | timing_validation | nan |
+| Timing matched: 2021 reference-positive | Liberia | 13.0 | 13.0 | 0.0 | households | True | 0.0 | timing_validation | nan |
+| Household-slots with >1 record (2020-2021) | Both | 1.0 | 1.0 | 0.0 | household-slots | True | 0.0 | build_panels.deduplicate | nan |
+
+*Tolerance: 0.05 pp for point estimates and bounds (reported to one decimal); 0.6 pp for bootstrap endpoints (Monte Carlo + implementation differences); exact for counts.*

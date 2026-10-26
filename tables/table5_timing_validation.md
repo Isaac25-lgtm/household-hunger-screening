@@ -1,0 +1,10 @@
+**Table 5. Out-of-year evaluation of the 2020-selected window**
+
+| Country | Cohort (2021) | Frozen window | Complete | Reference-positive | Missed, frozen window | Missed, random window | Difference (95% bootstrap) |
+|---|---|---|---|---|---|---|---|
+| Malawi | 2021 complete four-slot cohort | Jan-Feb | 197 | 102 | 21.6% (13.7% – 30.5%) | 59.8% (55.1% – 63.8%) | -38.2 pp (-46.9 to -29.2) |
+| Malawi | Matched: complete in both years | Jan-Feb | 171 | 89 | 20.2% (12.2% – 29.0%) | 59.8% (54.9% – 64.5%) | -39.6 pp (-48.3 to -30.3) |
+| Liberia | 2021 complete four-slot cohort | Mar-Apr | 60 | 22 | 54.5% (31.6% – 77.3%) | 60.2% (53.0% – 67.5%) | -5.7 pp (-26.9 to 14.1) |
+| Liberia | Matched: complete in both years | Mar-Apr | 40 | 13 | 61.5% (30.0% – 88.9%) | 63.5% (53.6% – 71.4%) | -1.9 pp (-31.8 to 22.1) |
+
+*Brackets: 95% village-cluster percentile bootstrap (2,000 draws) holding the frozen window fixed. Liberia estimates rest on 22 and 13 reference-positive households.*

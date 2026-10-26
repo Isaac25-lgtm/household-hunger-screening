@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="511.154453pt" height="259.984977pt" viewBox="0 0 511.154453 259.984977" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T00:22:58.394185</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.984977 
+L 511.154453 259.984977 
+L 511.154453 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 63.34 93.68334 
+L 495.9 93.68334 
+L 495.9 21.178359 
+L 63.34 21.178359 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p8b97faefde)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAlkAAABlCAYAAAB+3/a4AAACHElEQVR4nO3Wy0lDYRhF0c/3AwKZOLIki7NbQUnuTRNuAvnXquCc2b77+PreZyHb6XdWsv39zEr27TxLWezv8/FzVvL4fpzV7OfTrOTh9TAreXp5m5XcX3sAAMAtElkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAAGRBQAQEFkAAPP/LhkcEQKabwz5AAAAAElFTkSuQmCC" id="imagefc0d2bf532" transform="scale(1 -1) translate(0 -72.72)" x="63.36" y="-20.944977" width="432.72" height="72.72"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5010876648" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5010876648" x="84.968" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(72.479906 106.530941)">Jan-Feb</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(76.315 114.69227)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5010876648" x="128.224" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(114.992688 106.53041)">Mar-Apr</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(119.571 114.691738)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m5010876648" x="171.48" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(157.781719 106.53041)">May-Jun</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(162.827 114.691738)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m5010876648" x="214.736" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(202.842906 106.530941)">Jul-Aug</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(206.083 114.69227)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5010876648" x="257.992" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(244.382969 106.53041)">Sep-Oct</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(249.339 114.691738)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5010876648" x="301.248" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(286.896813 106.53041)">Nov-Dec</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(292.595 114.691738)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5010876648" x="344.504" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(332.015906 106.530941)">Jan-Feb</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(335.851 114.69227)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5010876648" x="387.76" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(374.528688 106.53041)">Mar-Apr</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(379.107 114.691738)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5010876648" x="431.016" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(417.317719 106.53041)">May-Jun</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(422.363 114.691738)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5010876648" x="474.272" y="93.68334" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(462.378906 106.530941)">Jul-Aug</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(465.619 114.69227)">2021</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <defs>
+       <path id="m96cea0a184" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m96cea0a184" x="63.34" y="57.43085" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(23.452188 55.814644)">Malawi</text>
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(10.774141 67.216499)">(n = 297)</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="84.968" y="59.405068" transform="rotate(-0 84.968 59.405068)">90%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="128.224" y="59.405068" transform="rotate(-0 128.224 59.405068)">92%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="171.48" y="59.405068" transform="rotate(-0 171.48 59.405068)">95%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="214.736" y="59.405068" transform="rotate(-0 214.736 59.405068)">96%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="257.992" y="59.405068" transform="rotate(-0 257.992 59.405068)">96%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="301.248" y="59.405068" transform="rotate(-0 301.248 59.405068)">89%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="344.504" y="59.405068" transform="rotate(-0 344.504 59.405068)">85%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="387.76" y="59.405068" transform="rotate(-0 387.76 59.405068)">86%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="431.016" y="59.405068" transform="rotate(-0 431.016 59.405068)">82%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="474.272" y="59.405068" transform="rotate(-0 474.272 59.405068)">79%</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="63.34" y="15.178359" transform="rotate(-0 63.34 15.178359)">Share of baseline phone-frame households with a valid screen, by window</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 63.34 200.36457 
+L 495.9 200.36457 
+L 495.9 127.85959 
+L 63.34 127.85959 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pade61aa943)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAlkAAABlCAYAAAB+3/a4AAACJElEQVR4nO3WsU0CYBhF0V+IhohYSGjtLNyOKRnE3g0EjTt4Y/LlnA1eXnPv3s+X7zXU4/NxTXS7fq2p3l5nfvbxOfezl/12TXV82qyJToe5nx12Mz/79TD0tt393M/mLgMA+EciCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwAgILIAAAIiCwBg/b0f038KAIRJj8oAAAAASUVORK5CYII=" id="imagead3d20c21c" transform="scale(1 -1) translate(0 -72.72)" x="63.36" y="-127.504977" width="432.72" height="72.72"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_11">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m5010876648" x="83.001818" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(70.513724 213.212172)">Jan-Feb</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(74.348818 221.3735)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m5010876648" x="122.325455" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(109.094142 213.211641)">Mar-Apr</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(113.672455 221.372969)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m5010876648" x="161.649091" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(147.95081 213.211641)">May-Jun</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(152.996091 221.372969)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m5010876648" x="200.972727" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(189.079634 213.212172)">Jul-Aug</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(192.319727 221.3735)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m5010876648" x="240.296364" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(226.687332 213.211641)">Sep-Oct</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(231.643364 221.372969)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m5010876648" x="279.62" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(265.268813 213.211641)">Nov-Dec</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(270.967 221.372969)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m5010876648" x="318.943636" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(306.455543 213.212172)">Jan-Feb</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(310.290636 221.3735)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m5010876648" x="358.267273" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(345.03596 213.211641)">Mar-Apr</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(349.614273 221.372969)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m5010876648" x="397.590909" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(383.892628 213.211641)">May-Jun</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(388.937909 221.372969)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m5010876648" x="436.914545" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(425.021452 213.212172)">Jul-Aug</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(428.261545 221.3735)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m5010876648" x="476.238182" y="200.36457" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(462.629151 213.211641)">Sep-Oct</text>
+      <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(467.585182 221.372969)">2021</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_2">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m96cea0a184" x="63.34" y="164.11208" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(24.164688 162.495874)">Liberia</text>
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(10.774141 173.897729)">(n = 206)</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="83.001818" y="166.086299" transform="rotate(-0 83.001818 166.086299)">74%</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="122.325455" y="166.086299" transform="rotate(-0 122.325455 166.086299)">68%</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="161.649091" y="166.086299" transform="rotate(-0 161.649091 166.086299)">70%</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="200.972727" y="166.086299" transform="rotate(-0 200.972727 166.086299)">58%</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="240.296364" y="166.086299" transform="rotate(-0 240.296364 166.086299)">65%</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="279.62" y="166.086299" transform="rotate(-0 279.62 166.086299)">61%</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="318.943636" y="166.086299" transform="rotate(-0 318.943636 166.086299)">57%</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="358.267273" y="166.086299" transform="rotate(-0 358.267273 166.086299)">52%</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="397.590909" y="166.086299" transform="rotate(-0 397.590909 166.086299)">49%</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="436.914545" y="166.086299" transform="rotate(-0 436.914545 166.086299)">48%</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="476.238182" y="166.086299" transform="rotate(-0 476.238182 166.086299)">46%</text>
+   </g>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(7.2 241.076375)">Aggregate observation rates. Malawi's phone survey ended in Aug 2021; Liberia's in Oct 2021. Liberia's lower and declining</text>
+   <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(7.2 250.198453)">follow-up drives its wide identification bounds.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8b97faefde">
+   <rect x="63.34" y="21.178359" width="432.56" height="72.50498"/>
+  </clipPath>
+  <clipPath id="pade61aa943">
+   <rect x="63.34" y="127.85959" width="432.56" height="72.50498"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,221 @@
+{
+  "generated_utc": "2026-10-26T21:22:29Z",
+  "config_sha256": "f82f05da152c9b9a0bfb9e726e3a0724f28328c360ad2013c62df1868df6bc67",
+  "source": {
+    "bytes": 9098158,
+    "sha256": "de2ae59d6190d70722b3aac33a9363e23ebea907ca639f7224bca2d9b11b66bb",
+    "bytes_match": true,
+    "sha256_match": true,
+    "supplement_doi": "10.1371/journal.pone.0271488.s021"
+  },
+  "dedup": {
+    "household_slots_with_multiple": 1,
+    "records_dropped": 1,
+    "binary_outcome_differs_by_threshold": {
+      "1": 1,
+      "2": 0,
+      "4": 0
+    }
+  },
+  "counts": {
+    "Malawi": {
+      "Baseline phone-frame households": 297,
+      "Baseline phone-frame villages": 150,
+      "Phone interview records (all months)": 3408,
+      "Records with valid HHS (0-6)": 3407,
+      "Households with >=1 phone record": 297,
+      "Records after one-per-slot rule (all years)": 3407,
+      "2020 designated-slot screens with valid HHS": 1655,
+      "Households with >=1 valid 2020 screen": 294,
+      "Households with all 6 valid 2020 screens": 227,
+      "Villages with >=1 complete 2020 household": 140,
+      "Complete households reference-positive (HHS>=2 in >=1 slot)": 185
+    },
+    "Liberia": {
+      "Baseline phone-frame households": 206,
+      "Baseline phone-frame villages": 104,
+      "Phone interview records (all months)": 1336,
+      "Records with valid HHS (0-6)": 1336,
+      "Households with >=1 phone record": 186,
+      "Records after one-per-slot rule (all years)": 1335,
+      "2020 designated-slot screens with valid HHS": 818,
+      "Households with >=1 valid 2020 screen": 182,
+      "Households with all 6 valid 2020 screens": 67,
+      "Villages with >=1 complete 2020 household": 47,
+      "Complete households reference-positive (HHS>=2 in >=1 slot)": 34
+    }
+  },
+  "frontier": {
+    "Malawi": [
+      {
+        "m": 1,
+        "missed_fraction": 0.5513513513513514,
+        "ci_low": 0.515521401859713,
+        "ci_high": 0.5865940409683423,
+        "n_reference_positive": 185,
+        "n_complete": 227
+      },
+      {
+        "m": 2,
+        "missed_fraction": 0.3192792792792793,
+        "ci_low": 0.28260007742934584,
+        "ci_high": 0.35601109336679393,
+        "n_reference_positive": 185,
+        "n_complete": 227
+      },
+      {
+        "m": 3,
+        "missed_fraction": 0.18243243243243243,
+        "ci_low": 0.1518800142069196,
+        "ci_high": 0.2136696503204235,
+        "n_reference_positive": 185,
+        "n_complete": 227
+      },
+      {
+        "m": 4,
+        "missed_fraction": 0.09693693693693693,
+        "ci_low": 0.07543834586466165,
+        "ci_high": 0.11912814063087283,
+        "n_reference_positive": 185,
+        "n_complete": 227
+      },
+      {
+        "m": 5,
+        "missed_fraction": 0.04054054054054054,
+        "ci_low": 0.02931300274265099,
+        "ci_high": 0.05232696566998893,
+        "n_reference_positive": 185,
+        "n_complete": 227
+      },
+      {
+        "m": 6,
+        "missed_fraction": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_reference_positive": 185,
+        "n_complete": 227
+      }
+    ],
+    "Liberia": [
+      {
+        "m": 1,
+        "missed_fraction": 0.696078431372549,
+        "ci_low": 0.6388888888888888,
+        "ci_high": 0.75,
+        "n_reference_positive": 34,
+        "n_complete": 67
+      },
+      {
+        "m": 2,
+        "missed_fraction": 0.4745098039215686,
+        "ci_low": 0.4019607843137255,
+        "ci_high": 0.5444444444444444,
+        "n_reference_positive": 34,
+        "n_complete": 67
+      },
+      {
+        "m": 3,
+        "missed_fraction": 0.3073529411764706,
+        "ci_low": 0.23969537815126052,
+        "ci_high": 0.37499999999999994,
+        "n_reference_positive": 34,
+        "n_complete": 67
+      },
+      {
+        "m": 4,
+        "missed_fraction": 0.1784313725490196,
+        "ci_low": 0.12548425430778373,
+        "ci_high": 0.23210089399744568,
+        "n_reference_positive": 34,
+        "n_complete": 67
+      },
+      {
+        "m": 5,
+        "missed_fraction": 0.0784313725490196,
+        "ci_low": 0.04838709677419355,
+        "ci_high": 0.10919540229885054,
+        "n_reference_positive": 34,
+        "n_complete": 67
+      },
+      {
+        "m": 6,
+        "missed_fraction": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_reference_positive": 34,
+        "n_complete": 67
+      }
+    ]
+  },
+  "missing_bounds": {
+    "Malawi": [
+      {
+        "m": 1,
+        "lower": 0.5082304526748971,
+        "upper": 0.5934640522875817
+      },
+      {
+        "m": 2,
+        "lower": 0.2776406035665295,
+        "upper": 0.36549019607843136
+      },
+      {
+        "m": 3,
+        "lower": 0.15102880658436213,
+        "upper": 0.22137254901960784
+      },
+      {
+        "m": 4,
+        "lower": 0.07700680272108844,
+        "upper": 0.12444444444444444
+      },
+      {
+        "m": 5,
+        "lower": 0.030612244897959183,
+        "upper": 0.054901960784313725
+      },
+      {
+        "m": 6,
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    ],
+    "Liberia": [
+      {
+        "m": 1,
+        "lower": 0.39849624060150374,
+        "upper": 0.7861271676300579
+      },
+      {
+        "m": 2,
+        "lower": 0.20657276995305165,
+        "upper": 0.5988439306358382
+      },
+      {
+        "m": 3,
+        "lower": 0.1073943661971831,
+        "upper": 0.4309248554913295
+      },
+      {
+        "m": 4,
+        "lower": 0.051643192488262914,
+        "upper": 0.2774566473988439
+      },
+      {
+        "m": 5,
+        "lower": 0.017660044150110375,
+        "upper": 0.1348747591522158
+      },
+      {
+        "m": 6,
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    ]
+  },
+  "reproduction": {
+    "n_checks": 48,
+    "n_pass": 48
+  },
+  "runtime_seconds": 8.3
+}
