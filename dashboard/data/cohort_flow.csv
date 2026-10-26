@@ -1,0 +1,23 @@
+country,order,step,count,unit
+Malawi,1,Baseline phone-frame households,297,households
+Malawi,2,Baseline phone-frame villages,150,villages
+Malawi,3,Phone interview records (all months),3408,records
+Malawi,4,Records with valid HHS (0-6),3407,records
+Malawi,5,Households with >=1 phone record,297,households
+Malawi,6,Records after one-per-slot rule (all years),3407,records
+Malawi,7,2020 designated-slot screens with valid HHS,1655,records
+Malawi,8,Households with >=1 valid 2020 screen,294,households
+Malawi,9,Households with all 6 valid 2020 screens,227,households
+Malawi,10,Villages with >=1 complete 2020 household,140,villages
+Malawi,11,Complete households reference-positive (HHS>=2 in >=1 slot),185,households
+Liberia,1,Baseline phone-frame households,206,households
+Liberia,2,Baseline phone-frame villages,104,villages
+Liberia,3,Phone interview records (all months),1336,records
+Liberia,4,Records with valid HHS (0-6),1336,records
+Liberia,5,Households with >=1 phone record,186,households
+Liberia,6,Records after one-per-slot rule (all years),1335,records
+Liberia,7,2020 designated-slot screens with valid HHS,818,records
+Liberia,8,Households with >=1 valid 2020 screen,182,households
+Liberia,9,Households with all 6 valid 2020 screens,67,households
+Liberia,10,Villages with >=1 complete 2020 household,47,villages
+Liberia,11,Complete households reference-positive (HHS>=2 in >=1 slot),34,households

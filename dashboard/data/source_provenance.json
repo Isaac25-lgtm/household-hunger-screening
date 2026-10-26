@@ -1,0 +1,70 @@
+{
+  "supplement_url": "https://journals.plos.org/plosone/article/file?type=supplementary&id=10.1371/journal.pone.0271488.s021",
+  "supplement_doi": "10.1371/journal.pone.0271488.s021",
+  "retrieved_utc": "2026-10-26T20:27:50Z",
+  "http_status": "reused local copy",
+  "bytes": 9098158,
+  "sha256": "de2ae59d6190d70722b3aac33a9363e23ebea907ca639f7224bca2d9b11b66bb",
+  "bytes_match": true,
+  "sha256_match": true,
+  "archive_members": [
+    {
+      "name": "readme.docx",
+      "bytes": 16489
+    },
+    {
+      "name": "replication_dofile.do",
+      "bytes": 107888
+    },
+    {
+      "name": "baseline_analysis_fullsample.dta",
+      "bytes": 381067
+    },
+    {
+      "name": "covid_vars_cleaned.dta",
+      "bytes": 37184993
+    },
+    {
+      "name": "cvps_price_analysis.dta",
+      "bytes": 19750225
+    },
+    {
+      "name": "hhps_analysis_fullsample.dta",
+      "bytes": 2772042
+    },
+    {
+      "name": "hhps_analysis_studysample.dta",
+      "bytes": 279831
+    },
+    {
+      "name": "LSMS2019_HIES2016_LR_MW.dta",
+      "bytes": 7680016
+    },
+    {
+      "name": "Appendix_fig_S3.dta",
+      "bytes": 7061907
+    },
+    {
+      "name": "fig1.dta",
+      "bytes": 359416
+    },
+    {
+      "name": "fig3.dta",
+      "bytes": 4504015
+    },
+    {
+      "name": "figures.dta",
+      "bytes": 298052
+    },
+    {
+      "name": "table1.dta",
+      "bytes": 49896
+    },
+    {
+      "name": "table2.dta",
+      "bytes": 573141
+    }
+  ],
+  "sha256_hhps_analysis_fullsample.dta": "c001701f5fa35fa9aba38f21b27db4980487dee7ae7f731c8ea497ce642b94d7",
+  "sha256_baseline_analysis_fullsample.dta": "c734eeec3e932155e09db11b8237cfb93c89713074c5695d4e47a39b40c281f2"
+}
