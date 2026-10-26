@@ -1,0 +1,117 @@
+{
+  "generated_utc": "2026-10-26T21:22:40Z",
+  "files": [
+    {
+      "path": "data/public_aggregates/attrition_balance.csv",
+      "bytes": 1966,
+      "sha256": "03f1b56c65597770557f965b5237531b1ce753976552cbc862611cc9a2b07ef6"
+    },
+    {
+      "path": "data/public_aggregates/bootstrap_stability.csv",
+      "bytes": 3987,
+      "sha256": "93ffd89c3f25ff85fe18f0f8fd093d06809b24b72e247229da58a89a443dd9ff"
+    },
+    {
+      "path": "data/public_aggregates/cohort_flow.csv",
+      "bytes": 1428,
+      "sha256": "e51b5bbf6e0bfcb6d6ff3eb614eab94c50191991263e970c3f864059c2aca5b9"
+    },
+    {
+      "path": "data/public_aggregates/data_dictionary.csv",
+      "bytes": 19482,
+      "sha256": "cd6c5e4aa60b053af50e9f8eae348160d9897bdf914a636f8df2ebdb8b93afbd"
+    },
+    {
+      "path": "data/public_aggregates/fixed_schedules.csv",
+      "bytes": 8864,
+      "sha256": "eee5c1f3d8f737511dc7f42e43154081c922d2c54c39022d0eaf08385ca02d2c"
+    },
+    {
+      "path": "data/public_aggregates/frontier.csv",
+      "bytes": 4723,
+      "sha256": "1b51b3a6cca06bc31151ce316174031651577b72ed49fa422a811938023a039b"
+    },
+    {
+      "path": "data/public_aggregates/hhs_item_crosstab.csv",
+      "bytes": 137,
+      "sha256": "b93818d333fb9533c1fbdbdef53f603c184c6e91d973b986c0e2acb137387a0b"
+    },
+    {
+      "path": "data/public_aggregates/integrity_checks.csv",
+      "bytes": 1049,
+      "sha256": "57ba8acef8a0aeceec2333dbacc54bbe5e778e57ea009a389ad8cbb02e1c04d7"
+    },
+    {
+      "path": "data/public_aggregates/ipw_frontier.csv",
+      "bytes": 1196,
+      "sha256": "9de58d35375863e86c55596469eb53f1de7c8f33dfc836d461bfd416e8b7d85b"
+    },
+    {
+      "path": "data/public_aggregates/k_distribution.csv",
+      "bytes": 683,
+      "sha256": "43910f0faa123985727ee5694ae70bb43266424817d5e20d74b07860371e537d"
+    },
+    {
+      "path": "data/public_aggregates/label_error_bounds.csv",
+      "bytes": 11387,
+      "sha256": "e3ad96acb610af8a0d622570eb1748bf66e019e8aa395d9e1854ebec14b52005"
+    },
+    {
+      "path": "data/public_aggregates/missing_bounds.csv",
+      "bytes": 1774,
+      "sha256": "add731a18955b206db73a5043c2a15d1023ce53a0fe869794339d3a95518c82a"
+    },
+    {
+      "path": "data/public_aggregates/monthly_record_counts.csv",
+      "bytes": 459,
+      "sha256": "37a14d70a54df1f9e50850062d34778466cdd237098448ff7d67b7c41697b65d"
+    },
+    {
+      "path": "data/public_aggregates/observation_pattern.csv",
+      "bytes": 1231,
+      "sha256": "2227b80c29804069be76f31dbd7eba93e2055706ffefd0114d263502cb4c8e14"
+    },
+    {
+      "path": "data/public_aggregates/observed_slot_count_distribution.csv",
+      "bytes": 223,
+      "sha256": "518599a096c2ebd57faede98a6f23f3edd16c3038a19c9c44d96ae211eee86d4"
+    },
+    {
+      "path": "data/public_aggregates/reproduction_comparison.csv",
+      "bytes": 4757,
+      "sha256": "300ab989fac3d7cf1871bbd09ff8b1711acd2614c79f0b478e03cdcf69b92eb2"
+    },
+    {
+      "path": "data/public_aggregates/results_summary.json",
+      "bytes": 5983,
+      "sha256": "dafb0e282fc85d0164fc6473a1daa3836a87d9bcae3e7b7a6b25958132b9f24e"
+    },
+    {
+      "path": "data/public_aggregates/slot_positive_share.csv",
+      "bytes": 1206,
+      "sha256": "0a7aaeffdd8aaaa46f7d679a5c49194a80708548acf6bab218f424fee1b99286"
+    },
+    {
+      "path": "data/public_aggregates/source_provenance.json",
+      "bytes": 1738,
+      "sha256": "06167dbbafc569e813ddf08471c7dd2d686b7373ea87be425c5ed50227829b65"
+    },
+    {
+      "path": "data/public_aggregates/timing_candidates.csv",
+      "bytes": 1214,
+      "sha256": "c0ac2aaafc0e90bf5e88489029319d95d85cc1a96eec6742f05318fc5c432a2b"
+    },
+    {
+      "path": "data/public_aggregates/timing_selection_stability.csv",
+      "bytes": 221,
+      "sha256": "5ba0b9a57bf922aafdb0af3e57ad9aac5bbdbb1de822448fd1f6c8b36c2d3b12"
+    },
+    {
+      "path": "data/public_aggregates/timing_validation.csv",
+      "bytes": 1478,
+      "sha256": "ae1ad9356202565a413628891b230d038f6200ba9a05fb4a73f12b7971d58d2f"
+    }
+  ],
+  "config_sha256": "f82f05da152c9b9a0bfb9e726e3a0724f28328c360ad2013c62df1868df6bc67",
+  "source_sha256": "de2ae59d6190d70722b3aac33a9363e23ebea907ca639f7224bca2d9b11b66bb"
+}

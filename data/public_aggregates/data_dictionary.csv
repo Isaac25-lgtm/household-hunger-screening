@@ -1,0 +1,233 @@
+file,variable,dtype,n_rows,n_missing,n_distinct,label,has_value_labels
+hhps_analysis_fullsample.dta,village_id,int16,4744,0,252,Choose the village:,False
+hhps_analysis_fullsample.dta,id_str,str,4744,0,483,,False
+hhps_analysis_fullsample.dta,id,int32,4744,0,483,,False
+hhps_analysis_fullsample.dta,b1_gender,float64,4744,4744,0,***Enumerator: please record the gender of the respondent. Ask the respondent ab,True
+hhps_analysis_fullsample.dta,b2_maritalstatus,float64,4744,4744,0,Are you married?,True
+hhps_analysis_fullsample.dta,b3_yearseduc,float64,4744,4744,0,What is the highest formal education level you have completed?,True
+hhps_analysis_fullsample.dta,b6_own_rent,float64,4744,4744,0,"Do you own or are you purchasing this house, is it provided to you by an employe",True
+hhps_analysis_fullsample.dta,b7_cost,float64,4744,4744,0,"If you wanted to build a house like yours in this village, how much in LRD would",False
+hhps_analysis_fullsample.dta,b12_roof,float64,4744,4744,0,The roof of the main dwelling is predominantly made of what material?,True
+hhps_analysis_fullsample.dta,b14_electricity,float64,4744,4744,0,Do you have current connected to your house?,True
+hhps_analysis_fullsample.dta,b15_mobile,float64,4744,4744,0,Does your household have access to the use of a mobile phone?,True
+hhps_analysis_fullsample.dta,b16_ymobile,int16,4744,0,1,Do you yourself have access to your own mobile phone?,True
+hhps_analysis_fullsample.dta,received_repeat_count,str,4744,0,9,,False
+hhps_analysis_fullsample.dta,given_repeat_count,str,4744,0,10,,False
+hhps_analysis_fullsample.dta,i3_1_nofood_4w,float64,4744,2,2,"During the past 4 weeks, was there ever no food to eat of any kind in your house",True
+hhps_analysis_fullsample.dta,i3_2_night_4w,float64,4744,2,2,"During the past 4 weeks, did you or any household member go to sleep at night hu",True
+hhps_analysis_fullsample.dta,i3_3_wholeday_4w,float64,4744,1,2,"During the past 4 weeks, did you or any household member go a whole day and nigh",True
+hhps_analysis_fullsample.dta,crop2018,str,4744,0,1,Which crops did you plant or harvest in 2018?,False
+hhps_analysis_fullsample.dta,ph_consent_7,float64,4744,4744,0,I have read this form or it has been read to me. My questions have been answered,True
+hhps_analysis_fullsample.dta,key,str,4744,0,4744,Unique submission ID,False
+hhps_analysis_fullsample.dta,surveytype,str,4744,0,1,,False
+hhps_analysis_fullsample.dta,country,str,4744,0,2,,False
+hhps_analysis_fullsample.dta,studywave,float32,4744,0,2,,False
+hhps_analysis_fullsample.dta,ta,float32,4744,1336,10,,False
+hhps_analysis_fullsample.dta,strata_str,str,4744,0,17,,False
+hhps_analysis_fullsample.dta,b2_intimatepartner,float64,4744,4744,0,Do you have an intimate partner?,True
+hhps_analysis_fullsample.dta,b2_cohabit,float64,4744,4744,0,Do you live together with your husband or intimate partner?,True
+hhps_analysis_fullsample.dta,surveywave,float64,4744,2,13,Which round of phone survey is it for this respondent?,True
+hhps_analysis_fullsample.dta,d8_own_farm,float64,4744,58,2,Did you work on your own farm in the past 30 days?,True
+hhps_analysis_fullsample.dta,i3_1_skip_4w,float64,4744,1938,2,"During the past 4 weeks, did YOU or ANY HOUSEHOLD MEMBER skip at least 1 meal be",True
+hhps_analysis_fullsample.dta,female,float64,4744,4744,0,,False
+hhps_analysis_fullsample.dta,survey_date,datetime64[s],4744,0,734,,False
+hhps_analysis_fullsample.dta,survey_month,datetime64[s],4744,0,28,,False
+hhps_analysis_fullsample.dta,jul2019,float64,4744,3708,2,,False
+hhps_analysis_fullsample.dta,jan2020,float64,4744,3708,2,,False
+hhps_analysis_fullsample.dta,strata,float32,4744,0,17,group(strata_str),False
+hhps_analysis_fullsample.dta,hh_size,int8,4744,0,12,"How many people live in your household (including yourself, all the adults and c",False
+hhps_analysis_fullsample.dta,mwk_usd,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,lrd_usd,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,lrd_usd_w1,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,lrd_usd_w2,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,hhps_ever,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,country_wave,float32,4744,0,2,group(country studywave),False
+hhps_analysis_fullsample.dta,current_partnered,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,age,float32,4744,4744,0,,False
+hhps_analysis_fullsample.dta,years_educ,float32,4744,1336,1,,False
+hhps_analysis_fullsample.dta,house_owned,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,thatch_roof,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,own_business,float32,4744,0,2,,False
+hhps_analysis_fullsample.dta,food_expend,float32,4744,0,1348,food_expend,False
+hhps_analysis_fullsample.dta,food_expend_percapita,float32,4744,0,2199,,False
+hhps_analysis_fullsample.dta,nondur_expend,float32,4744,0,939,nondur_expend,False
+hhps_analysis_fullsample.dta,educ_expend,float32,4744,0,308,,False
+hhps_analysis_fullsample.dta,educ_expend_mon,float32,4744,0,282,educ_expend_mon,False
+hhps_analysis_fullsample.dta,other_expend,float32,4744,0,560,,False
+hhps_analysis_fullsample.dta,tempgoods_expend,float32,4744,0,42,tempgoods_expend,False
+hhps_analysis_fullsample.dta,homerepair_expend,float32,4744,0,109,homerepair_expend,False
+hhps_analysis_fullsample.dta,ovents_expend,float32,4744,0,50,ovents_expend,False
+hhps_analysis_fullsample.dta,preventative_expend,float32,4744,0,1,preventative_expend,False
+hhps_analysis_fullsample.dta,medtreat_expend,float32,4744,0,1,medtreat_expend,False
+hhps_analysis_fullsample.dta,health_expend,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,total_expend_mon,float32,4744,0,2372,,False
+hhps_analysis_fullsample.dta,land_value,float32,4744,0,1,land_value,False
+hhps_analysis_fullsample.dta,housing_value,float32,4744,0,1,housing_value,False
+hhps_analysis_fullsample.dta,wealth_a_total,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,buss_asset,float32,4744,3995,163,buss_asset,False
+hhps_analysis_fullsample.dta,physical_assets,float32,4744,0,163,,False
+hhps_analysis_fullsample.dta,bank_balance,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,mfi_balance,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,sacco_balance,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,vsla_balance,float32,4744,0,1,vsla_balance,False
+hhps_analysis_fullsample.dta,mm_balance,float32,4744,0,1,mm_balance,False
+hhps_analysis_fullsample.dta,home_balance,float32,4744,0,1,home_balance,False
+hhps_analysis_fullsample.dta,savings_balance,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,loan_value,float32,4744,0,1,loan_value,False
+hhps_analysis_fullsample.dta,net_financial_assets,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,wealth_b_total,float32,4744,0,163,,False
+hhps_analysis_fullsample.dta,total_expend_mon_usd,float32,4744,0,2695,,False
+hhps_analysis_fullsample.dta,wealth_a_total_usd,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,wealth_b_total_usd,float32,4744,0,208,,False
+hhps_analysis_fullsample.dta,physical_assets_usd,float32,4744,0,208,,False
+hhps_analysis_fullsample.dta,net_financial_assets_usd,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,savings_balance_usd,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,loan_value_usd,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,food_expend_usd,float32,4744,0,1585,,False
+hhps_analysis_fullsample.dta,insuffFood_12m,float32,4744,4744,0,,False
+hhps_analysis_fullsample.dta,insuffFood_4w,float32,4744,2,2,,False
+hhps_analysis_fullsample.dta,HDDS,float32,4744,0,13,,False
+hhps_analysis_fullsample.dta,FCS,float32,4744,0,177,,False
+hhps_analysis_fullsample.dta,HHS,float32,4744,1,7,,False
+hhps_analysis_fullsample.dta,foodsec_bl,float32,4744,0,2325,,False
+hhps_analysis_fullsample.dta,foodsec_z_bl,float32,4744,0,2325,,False
+hhps_analysis_fullsample.dta,foodsec_2020m2,float32,4744,0,2325,,False
+hhps_analysis_fullsample.dta,foodsec_z_2020m2,float32,4744,0,2325,,False
+hhps_analysis_fullsample.dta,wgt,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,HHS_neg,float32,4744,1,7,,False
+hhps_analysis_fullsample.dta,stdgroup_lrw1,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,stdgroup_lrw2,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,stdgroup_mw,float32,4744,0,1,,False
+hhps_analysis_fullsample.dta,index_foodsec_lrw1,float32,4744,1,1858,,False
+hhps_analysis_fullsample.dta,index_foodsec_lrw2,float32,4744,1,1858,,False
+hhps_analysis_fullsample.dta,index_foodsec_mw,float32,4744,1,1858,,False
+hhps_analysis_fullsample.dta,foodsec_index,float32,4744,1,2324,,False
+hhps_analysis_fullsample.dta,income_casual,float32,4744,0,116,income_casual,False
+hhps_analysis_fullsample.dta,income_business,float32,4744,0,87,income_business,False
+hhps_analysis_fullsample.dta,income_other,float32,4744,0,71,income_other,False
+hhps_analysis_fullsample.dta,large_expend,float32,4744,0,552,large_expend,False
+hhps_analysis_fullsample.dta,other_work,float32,4744,0,2,=1 if worked at some other job in past 30 days,False
+hhps_analysis_fullsample.dta,income_labortotal,float32,4744,0,151,,False
+hhps_analysis_fullsample.dta,income_total,float32,4744,0,202,,False
+hhps_analysis_fullsample.dta,income_casual_usd,float32,4744,0,139,,False
+hhps_analysis_fullsample.dta,income_business_usd,float32,4744,0,110,,False
+hhps_analysis_fullsample.dta,income_other_usd,float32,4744,0,88,,False
+hhps_analysis_fullsample.dta,income_labortotal_usd,float32,4744,0,196,,False
+hhps_analysis_fullsample.dta,income_total_usd,float32,4744,0,257,,False
+hhps_analysis_fullsample.dta,large_expend_usd,float32,4744,0,650,,False
+hhps_analysis_fullsample.dta,buss_asset_usd,float32,4744,3995,208,,False
+baseline_analysis_fullsample.dta,village_id,int16,503,0,254,Choose the village:,False
+baseline_analysis_fullsample.dta,id_str,str,503,0,503,,False
+baseline_analysis_fullsample.dta,id,int32,503,0,503,,False
+baseline_analysis_fullsample.dta,b1_gender,int8,503,0,3,***Enumerator: please record the gender of the respondent. Ask the respondent ab,True
+baseline_analysis_fullsample.dta,b2_maritalstatus,int16,503,0,6,Are you married?,True
+baseline_analysis_fullsample.dta,b3_yearseduc,int16,503,0,18,What is the highest formal education level you have completed?,True
+baseline_analysis_fullsample.dta,b6_own_rent,int16,503,0,6,"Do you own or are you purchasing this house, is it provided to you by an employe",True
+baseline_analysis_fullsample.dta,b7_cost,float64,503,25,121,"If you wanted to build a house like yours in this village, how much in LRD would",False
+baseline_analysis_fullsample.dta,b12_roof,int16,503,0,3,The roof of the main dwelling is predominantly made of what material?,True
+baseline_analysis_fullsample.dta,b14_electricity,int16,503,0,2,Do you have current connected to your house?,True
+baseline_analysis_fullsample.dta,b15_mobile,int16,503,0,2,Does your household have access to the use of a mobile phone?,True
+baseline_analysis_fullsample.dta,b16_ymobile,int16,503,0,2,Do you yourself have access to your own mobile phone?,True
+baseline_analysis_fullsample.dta,received_repeat_count,str,503,0,7,,False
+baseline_analysis_fullsample.dta,given_repeat_count,str,503,0,6,,False
+baseline_analysis_fullsample.dta,i3_1_nofood_4w,int16,503,0,2,"During the past 4 weeks, was there ever no food to eat of any kind in your house",True
+baseline_analysis_fullsample.dta,i3_2_night_4w,int16,503,0,2,"During the past 4 weeks, did you or any household member go to sleep at night hu",True
+baseline_analysis_fullsample.dta,i3_3_wholeday_4w,int16,503,0,2,"During the past 4 weeks, did you or any household member go a whole day and nigh",True
+baseline_analysis_fullsample.dta,crop2018,str,503,0,275,Which crops did you plant or harvest in 2018?,False
+baseline_analysis_fullsample.dta,ph_consent_7,int8,503,0,1,I have read this form or it has been read to me. My questions have been answered,True
+baseline_analysis_fullsample.dta,key,str,503,0,503,Unique submission ID,False
+baseline_analysis_fullsample.dta,surveytype,str,503,0,1,,False
+baseline_analysis_fullsample.dta,country,str,503,0,2,,False
+baseline_analysis_fullsample.dta,studywave,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,ta,float32,503,206,10,,False
+baseline_analysis_fullsample.dta,strata_str,str,503,0,17,,False
+baseline_analysis_fullsample.dta,b2_intimatepartner,float64,503,366,2,Do you have an intimate partner?,True
+baseline_analysis_fullsample.dta,b2_cohabit,float64,503,332,2,Do you live together with your husband or intimate partner?,True
+baseline_analysis_fullsample.dta,surveywave,float64,503,503,0,Which round of phone survey is it for this respondent?,True
+baseline_analysis_fullsample.dta,d8_own_farm,float64,503,503,0,Did you work on your own farm in the past 30 days?,True
+baseline_analysis_fullsample.dta,i3_1_skip_4w,float64,503,503,0,"During the past 4 weeks, did YOU or ANY HOUSEHOLD MEMBER skip at least 1 meal be",True
+baseline_analysis_fullsample.dta,female,int8,503,0,2,,False
+baseline_analysis_fullsample.dta,jul2019,float64,503,503,0,,False
+baseline_analysis_fullsample.dta,jan2020,float64,503,503,0,,False
+baseline_analysis_fullsample.dta,strata,float32,503,0,17,group(strata_str),False
+baseline_analysis_fullsample.dta,hh_size,int8,503,0,12,"How many people live in your household (including yourself, all the adults and c",False
+baseline_analysis_fullsample.dta,mwk_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,lrd_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,lrd_usd_w1,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,lrd_usd_w2,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,hhps_ever,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,country_wave,float32,503,0,2,group(country studywave),False
+baseline_analysis_fullsample.dta,current_partnered,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,age,float32,503,3,341,,False
+baseline_analysis_fullsample.dta,years_educ,float32,503,0,15,,False
+baseline_analysis_fullsample.dta,house_owned,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,thatch_roof,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,own_business,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,food_expend,float32,503,0,385,food_expend,False
+baseline_analysis_fullsample.dta,food_expend_percapita,float32,503,0,444,,False
+baseline_analysis_fullsample.dta,nondur_expend,float32,503,0,191,nondur_expend,False
+baseline_analysis_fullsample.dta,educ_expend,float32,503,0,226,,False
+baseline_analysis_fullsample.dta,educ_expend_mon,float32,503,0,220,educ_expend_mon,False
+baseline_analysis_fullsample.dta,other_expend,float32,503,0,151,,False
+baseline_analysis_fullsample.dta,tempgoods_expend,float32,503,0,23,tempgoods_expend,False
+baseline_analysis_fullsample.dta,homerepair_expend,float32,503,0,38,homerepair_expend,False
+baseline_analysis_fullsample.dta,ovents_expend,float32,503,0,18,ovents_expend,False
+baseline_analysis_fullsample.dta,preventative_expend,float32,503,0,27,preventative_expend,False
+baseline_analysis_fullsample.dta,medtreat_expend,float32,503,0,70,medtreat_expend,False
+baseline_analysis_fullsample.dta,health_expend,float32,503,0,101,,False
+baseline_analysis_fullsample.dta,total_expend_mon,float32,503,0,469,,False
+baseline_analysis_fullsample.dta,land_value,float32,503,0,60,land_value,False
+baseline_analysis_fullsample.dta,housing_value,float32,503,0,97,housing_value,False
+baseline_analysis_fullsample.dta,wealth_a_total,float32,503,0,182,,False
+baseline_analysis_fullsample.dta,buss_asset,float32,503,372,50,buss_asset,False
+baseline_analysis_fullsample.dta,physical_assets,float32,503,0,255,,False
+baseline_analysis_fullsample.dta,bank_balance,float32,503,0,5,,False
+baseline_analysis_fullsample.dta,mfi_balance,float32,503,0,4,,False
+baseline_analysis_fullsample.dta,sacco_balance,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,vsla_balance,float32,503,0,32,vsla_balance,False
+baseline_analysis_fullsample.dta,mm_balance,float32,503,0,1,mm_balance,False
+baseline_analysis_fullsample.dta,home_balance,float32,503,0,22,home_balance,False
+baseline_analysis_fullsample.dta,savings_balance,float32,503,0,49,,False
+baseline_analysis_fullsample.dta,loan_value,float32,503,0,56,loan_value,False
+baseline_analysis_fullsample.dta,net_financial_assets,float32,503,0,94,,False
+baseline_analysis_fullsample.dta,wealth_b_total,float32,503,0,292,,False
+baseline_analysis_fullsample.dta,total_expend_mon_usd,float32,503,0,479,,False
+baseline_analysis_fullsample.dta,wealth_a_total_usd,float32,503,0,199,,False
+baseline_analysis_fullsample.dta,wealth_b_total_usd,float32,503,0,320,,False
+baseline_analysis_fullsample.dta,physical_assets_usd,float32,503,0,272,,False
+baseline_analysis_fullsample.dta,net_financial_assets_usd,float32,503,0,115,,False
+baseline_analysis_fullsample.dta,savings_balance_usd,float32,503,0,63,,False
+baseline_analysis_fullsample.dta,loan_value_usd,float32,503,0,65,,False
+baseline_analysis_fullsample.dta,food_expend_usd,float32,503,0,425,,False
+baseline_analysis_fullsample.dta,insuffFood_12m,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,insuffFood_4w,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,HDDS,float32,503,0,12,,False
+baseline_analysis_fullsample.dta,FCS,float32,503,0,120,,False
+baseline_analysis_fullsample.dta,HHS,float32,503,0,7,,False
+baseline_analysis_fullsample.dta,foodsec_bl,float32,503,0,467,,False
+baseline_analysis_fullsample.dta,foodsec_z_bl,float32,503,0,467,,False
+baseline_analysis_fullsample.dta,foodsec_2020m2,float32,503,0,467,,False
+baseline_analysis_fullsample.dta,foodsec_z_2020m2,float32,503,0,467,,False
+baseline_analysis_fullsample.dta,wgt,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,HHS_neg,float32,503,0,7,,False
+baseline_analysis_fullsample.dta,stdgroup_lrw1,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,stdgroup_lrw2,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,stdgroup_mw,float32,503,0,2,,False
+baseline_analysis_fullsample.dta,index_foodsec_lrw1,float32,503,0,435,,False
+baseline_analysis_fullsample.dta,index_foodsec_lrw2,float32,503,0,435,,False
+baseline_analysis_fullsample.dta,index_foodsec_mw,float32,503,0,435,,False
+baseline_analysis_fullsample.dta,foodsec_index,float32,503,0,467,,False
+baseline_analysis_fullsample.dta,income_casual,float32,503,0,1,income_casual,False
+baseline_analysis_fullsample.dta,income_business,float32,503,0,1,income_business,False
+baseline_analysis_fullsample.dta,income_other,float32,503,0,1,income_other,False
+baseline_analysis_fullsample.dta,large_expend,float32,503,0,1,large_expend,False
+baseline_analysis_fullsample.dta,other_work,float32,503,0,2,=1 if worked at some other job in past 30 days,False
+baseline_analysis_fullsample.dta,income_labortotal,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,income_total,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,income_casual_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,income_business_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,income_other_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,income_labortotal_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,income_total_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,large_expend_usd,float32,503,0,1,,False
+baseline_analysis_fullsample.dta,buss_asset_usd,float32,503,372,64,,False

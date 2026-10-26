@@ -1,0 +1,42 @@
+# Earlier exploratory values (26 Oct 2026 directive, section 3), used ONLY for the
+# reproduction comparison table. Nothing in the analysis reads these values.
+# Percentages are stored as percent points, as originally reported (1 decimal).
+
+tolerance_pp: 0.05          # point estimates: must agree to the reported rounding
+interval_tolerance_pp: 0.6  # bootstrap endpoints: Monte Carlo / implementation tolerance
+
+counts:
+  phone_records: 4744
+  frame_households: {Malawi: 297, Liberia: 206}
+  observed_households: 483
+  observed_villages: 252
+  complete_2020: {Malawi: 227, Liberia: 67}
+  reference_positive_2020: {Malawi: 185, Liberia: 34}
+  hhs_ge4_records: 26
+  duplicate_household_slots: 1
+
+main_missed_pct:
+  Malawi: {1: 55.1, 2: 31.9, 3: 18.2}
+  Liberia: {1: 69.6, 2: 47.5, 3: 30.7}
+
+bootstrap_ci_pct:
+  Malawi: {1: [51.5, 58.5], 2: [28.4, 35.6], 3: [15.4, 21.2]}
+  Liberia: {1: [63.9, 75.0], 2: [39.8, 54.7], 3: [24.2, 38.0]}
+
+missing_bounds_m1_pct:
+  Malawi: [50.8, 59.3]
+  Liberia: [39.8, 78.6]
+
+label_error_5pct_bounds_m1_pct:
+  Malawi: [39.6, 65.0]
+  Liberia: [25.1, 82.5]
+
+timing:
+  selected_slot: {Malawi: 1, Liberia: 2}
+  train_missed_pct: {Malawi: 13.6, Liberia: 58.1}
+  test_frozen_missed_pct: {Malawi: 21.6, Liberia: 54.5}
+  test_random_missed_pct: {Malawi: 59.8, Liberia: 60.2}
+  matched_households: {Malawi: 171, Liberia: 40}
+  matched_frozen_missed_pct: {Malawi: 20.2, Liberia: 61.5}
+  matched_random_missed_pct: {Malawi: 59.8, Liberia: 63.5}
+  matched_reference_positive_liberia: 13

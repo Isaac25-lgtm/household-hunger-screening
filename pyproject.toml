@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hunger-screening"
+version = "0.1.0"
+description = "Reproducible reanalysis of household hunger ascertainment under reduced screening schedules (Liberia and Malawi)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Isaac (Isaac25-lgtm)" }]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "pyyaml>=6.0",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.40", "plotly>=5.20"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+hunger-screening = "hunger_screening.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501", "B905"]  # B905: zips pair aligned columns of one DataFrame

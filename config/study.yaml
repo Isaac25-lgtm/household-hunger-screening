@@ -1,0 +1,47 @@
+# Study configuration. Every analysis parameter used by the pipeline is read from here.
+# Changing a value here changes results; the pipeline records a hash of this file in the
+# artifact manifest so that outputs can be traced to the configuration that produced them.
+
+study:
+  title: "Missed Household Hunger Under Infrequent Screening: Evidence from Liberia and Malawi"
+  short_name: household-hunger-screening
+
+source:
+  article_doi: "10.1371/journal.pone.0271488"
+  supplement_doi: "10.1371/journal.pone.0271488.s021"
+  supplement_url: "https://journals.plos.org/plosone/article/file?type=supplementary&id=10.1371/journal.pone.0271488.s021"
+  expected_bytes: 9098158
+  expected_sha256: "de2ae59d6190d70722b3aac33a9363e23ebea907ca639f7224bca2d9b11b66bb"
+  phone_file: "hhps_analysis_fullsample.dta"
+  baseline_file: "baseline_analysis_fullsample.dta"
+  license_note: "PLOS ONE article and supporting information are published under CC BY 4.0."
+
+outcome:
+  variable: HHS            # source-provided Household Hunger Scale score, 0-6
+  primary_threshold: 2     # moderate/severe household hunger = HHS >= 2
+  secondary_thresholds: [1, 4]
+
+design:
+  countries: [Malawi, Liberia]
+  main_year: 2020
+  n_slots: 6               # two-month designated windows: Jan-Feb, Mar-Apr, ..., Nov-Dec
+  m_values: [1, 2, 3, 4, 5, 6]
+  headline_m: [1, 2, 3]
+  duplicate_rule: earliest_date   # outcome-blind: keep earliest dated record in a household-slot
+
+bootstrap:
+  draws: 2000
+  stability_draws: 20000
+  seed: 20261026
+  level: 0.95
+  quantile_method: linear  # numpy "linear" (Hyndman-Fan type 7) percentile interpolation
+
+misclassification:
+  alphas: [0.0, 0.01, 0.05, 0.10]   # hypothetical share of observed binary screens allowed to flip
+
+timing:
+  train_year: 2020
+  test_year: 2021
+  slots: [1, 2, 3, 4]      # Jan-Feb, Mar-Apr, May-Jun, Jul-Aug: the windows observed in both years
+  tie_break: earliest      # if two slots tie on 2020 missed fraction, choose the earlier slot
+  bootstrap_draws: 2000

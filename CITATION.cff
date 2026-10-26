@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or its outputs, please cite it and the source study."
+title: "Missed Household Hunger Under Infrequent Screening: reproducible reanalysis code (Liberia and Malawi)"
+type: software
+authors:
+  - given-names: Isaac
+    alias: Isaac25-lgtm
+version: 0.1.0
+date-released: 2026-10-27
+license: MIT
+repository-code: "https://github.com/Isaac25-lgtm/household-hunger-screening"
+references:
+  - type: article
+    title: "COVID-19 market disruptions and food security: Evidence from households in rural Liberia and Malawi"
+    authors:
+      - family-names: Aggarwal
+        given-names: Shilpa
+      - family-names: Jeong
+        given-names: Dahyeon
+      - family-names: Kumar
+        given-names: Naresh
+      - family-names: Park
+        given-names: David Sungho
+      - family-names: Robinson
+        given-names: Jonathan
+      - family-names: Spearot
+        given-names: Alan
+    journal: "PLOS ONE"
+    volume: 17
+    issue: 8
+    start: e0271488
+    year: 2022
+    doi: "10.1371/journal.pone.0271488"

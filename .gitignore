@@ -1,0 +1,41 @@
+# --- environments and caches ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# --- secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- source and participant-level data: never committed ---
+data/raw/
+data/interim/
+data/processed_private/
+*.dta
+*.zip
+*.sav
+*.parquet
+*.feather
+*.pkl
+
+# --- local logs (machine paths, network addresses, runtimes): kept locally, never published ---
+logs/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

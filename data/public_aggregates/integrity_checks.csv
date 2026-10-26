@@ -1,0 +1,23 @@
+check,value,expectation,pass
+baseline rows,503,503,True
+baseline households Malawi,297,297,True
+baseline households Liberia,206,206,True
+baseline id unique,True,True,True
+id collisions across countries,0,0,True
+village collisions across countries,0,0,True
+households nested in one village,1,1,True
+phone records,4744,4744 (earlier audit),True
+phone records not in baseline frame,0,0,True
+phone country == baseline country,True,True,True
+phone village == baseline village,True,True,True
+phone households observed,483,483 (earlier audit),True
+phone villages observed,252,252 (earlier audit),True
+unique submission key,True,True,True
+survey_date month == survey_month,0,0 mismatches,True
+survey_month is first of month,True,True,True
+repeated household-month records,0,0,True
+HHS missing records,1,small,True
+HHS outside integer 0-6,0,0,True
+HHS >= 4 records (before slot rule),26,26 (earlier audit),True
+HHS consistent with occurrence items (yes-count <= HHS <= 2*yes-count),4741/4741,all,True
+analytic weight values,1.0,1,True
