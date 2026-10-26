@@ -20,7 +20,8 @@ Times are local (EAT, UTC+3) on 26–27 Oct 2026. Commands are abbreviated; full
 | 00:15 | 8 Dashboard | Local launch + health check | `ok`, HTTP 200 | Server bound to all interfaces by default → launch script pins `localhost` |
 | 00:20 | 9 Safety | Release audit | Flagged `id` column in literature ledger (false positive) and found that `logs/dashboard_local.log` records the machine's public IP | Renamed column to `ref_id`; **all of `logs/` gitignored** |
 | 00:25 | 9 Tests | `ruff` + `pytest` in venv | Lint clean; **134 passed, 0 skipped** | — |
-| later | 9 Git | Commits, clean-clone test, push, CI | see `reports/PROJECT_HANDOFF.md` | — |
+| 00:27 | 9 Git | 6 scoped commits; clean-clone test (131 passed, 3 skipped); `git push -u origin main` (no force) | Remote `main` = `fcaa5d2`; README, figures, reports and workflow verified via the GitHub API | — |
+| 00:30 | 9 CI | GitHub Actions run 40404757667 | **success** (install, lint, safety audit, tests) | Dashboard not publicly deployed: Streamlit Cloud needs the owner's interactive sign-in |
 
 ## Decisions recorded
 

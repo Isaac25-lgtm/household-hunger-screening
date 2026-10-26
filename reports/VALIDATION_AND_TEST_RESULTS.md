@@ -12,7 +12,8 @@ Only statuses actually observed are reported. Local runs: Windows 11, Python 3.1
 | Idempotency | two consecutive full runs, SHA-256 of all CSV outputs | **29/29 files byte-identical** (after moving wall-clock runtimes to `logs/`) |
 | Release-safety audit | `python scripts/check_release_safety.py` | **PASS** (166 candidate files; no raw data, identifiers, secrets or files > 5 MB) |
 | Local dashboard | `streamlit run dashboard/app.py` + `GET /_stcore/health` | `ok`; root page HTTP 200 |
-| CI on GitHub | `.github/workflows/ci.yml` | see `PROJECT_HANDOFF.md` (status recorded after push) |
+| CI on GitHub | `.github/workflows/ci.yml` on commit `fcaa5d2` | **success**: run 40404757667; install, lint, safety audit and tests passed (Ubuntu, Python 3.12; real-data tests skip by design) |
+| Clean-clone simulation of CI (no private data) | fresh `git clone` + ruff + safety + pytest | **131 passed, 3 skipped** (the 3 real-data tests), lint clean, audit PASS |
 
 ## Test matrix
 
@@ -45,4 +46,4 @@ Only statuses actually observed are reported. Local runs: Windows 11, Python 3.1
 
 - **Browser-level visual testing** of the dashboard (screenshots at phone and desktop widths) was not performed; no browser automation was available. Coverage is `AppTest` rendering plus an HTTP health check.
 - **Type checking** (mypy/pyright) was not run; the code uses type hints, but no checker is pinned.
-- **Fresh-machine reproduction** was simulated by a clean clone in a temporary folder (see `PROJECT_HANDOFF.md`), not on a separate computer.
+- **Fresh-machine reproduction** was simulated by a clean clone in a temporary folder and by GitHub CI (synthetic and aggregate tests only). The full pipeline from download was not rerun on a separate computer.
