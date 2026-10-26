@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "matplotlib": "3.11.2",
+  "pyyaml": "6.0.3",
+  "streamlit": "1.66.1",
+  "plotly": "7.1.0",
+  "pytest": "9.1.1",
+  "config_sha256": "f82f05da152c9b9a0bfb9e726e3a0724f28328c360ad2013c62df1868df6bc67"
+}
