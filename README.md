@@ -22,6 +22,7 @@
 > - **Data.** The timing question was re-examined in a second, independent Malawi panel, the World Bank High-Frequency Phone Survey 2020–2024. Its questions are different, so the results are aggregate-only and not pooled with this study's.
 > - **Main finding.** A January–March contact beat a randomly timed contact in every comparison where those months were observed, in both panels.
 > - **Caveats.** Choosing the month from a single earlier year failed when that year began at the pandemic onset. Small amounts of worst-case answer error could erase the advantage. None of these tests is blind.
+> - **Locked five-country test.** A test with its protocol fixed before any data were downloaded (Burkina Faso, Ethiopia, Nigeria, Tanzania, Uganda) **contradicted** a FEWS NET lean-season calendar rule, but **supported** a simple second-contact rule.
 > - **Details.** See [reports/investigation/](reports/investigation/README.md).
 
 ## Contents

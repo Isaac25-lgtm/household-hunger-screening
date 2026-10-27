@@ -2,6 +2,13 @@
 
 *27 October 2026. Branch `investigation/strengthen-contribution`, starting from `main` at `53064ad`. Every number below was computed in this investigation from the source files. It comes from the aggregate files named in brackets under `data/public_aggregates/investigation/` or, for the baseline study, `data/public_aggregates/`. Numbers supplied in the instructions were used only to check reproduction; none of them entered a calculation.*
 
+> **Update (27 October 2026, later the same day).** A protocol-locked test in five other countries' phone surveys has since been run; see `11_MULTICOUNTRY_RESULTS.md`.
+>
+> - **Calendar rule: contradicted.** Contacting households in the FEWS NET lean season did not beat a randomly timed contact (Burkina Faso 2020–21: +10.9 points; Uganda 2020–21: +3.4, inconclusive).
+> - **Second-contact warning rule: supported** (3 of 3 testable horizons).
+>
+> The Malawi timing findings below stand, but they must be presented as **Malawi-specific**, not as a general lean-season rule.
+
 ## 1. Summary
 
 **Short answer: yes, the study can be materially stronger, but not by enough to justify a high-impact framing today.** The investigation added a second, independent Malawi panel: the World Bank High-Frequency Phone Survey (HFPS), 2020–2024. It also ran calendar-matched tests on later years and computed exact robustness ranges for the timing comparison. Five things are now demonstrated:

@@ -1,6 +1,6 @@
 # Decision memo: how to make the hunger-screening paper stronger
 
-*27 October 2026, for the study team.*
+*27 October 2026, for the study team. Updated after the locked multi-country test.*
 
 ## The question
 
@@ -8,49 +8,65 @@ Can the Malawi and Liberia household hunger paper make a materially stronger con
 
 ## What we found
 
-1. **The earlier results hold up.** An independent re-computation from the raw files reproduces them exactly. The interview dates confirm that households were called every two months, in either odd or even months.
+1. **The earlier results hold up.** An independent re-computation from the raw files reproduces them exactly. The interview dates confirm that households were called every two months.
 
-2. **A second Malawi dataset points the same way.** It is the World Bank's national phone survey, 2020–2024: 1,729 households, 15 rounds with food-security questions. In both datasets, one contact in January–March missed fewer of the hungry households than a contact at a random time. That held in every year where those months were observed. The size of the gap varies:
+2. **In Malawi, timing helps.** In two different Malawi panels, one contact in January–March missed fewer of the households reporting hunger at any contact than a contact at a random time. That held in every Malawi year where those months were observed.
 
-   | Dataset | One January–March contact | One contact at a random time |
-   |---|---|---|
-   | Aggarwal Malawi panel (HHS) | missed 18–38% | missed 55–60% |
-   | World Bank panel | missed 12–26% | missed 22–41% |
+3. **That Malawi result does not travel as a general lean-season rule.** I wrote the test plan and locked it before downloading data for five other countries, then ran it as written. The rule was "contact households once in the lean season shown on FEWS NET's typical-year calendar". It did *not* beat a randomly timed contact:
 
-   The two surveys use different questions, so the results are not pooled or directly compared.
+   | Horizon | Lean-season contact versus random |
+   |---|---|
+   | Burkina Faso 2020–21 | missed **11 points more** |
+   | Uganda 2020–21 | no clear difference |
 
-3. **Picking the month from last year's data can backfire.** In the World Bank survey, the 2020 data start at the pandemic onset (late May 2020), and that was also the first interview. Choosing "the best month" from 2020 picked June. June was then worse than random in 2021 and again in 2023–24. Fixing the month in advance from the known hunger season (January–March) would have worked every time it could be checked.
+   By the pre-set rule, the hypothesis is **contradicted**. The likely reason, found afterwards and not part of the locked test, is that in 2020–21 reported hunger fell round after round. That may be pandemic recovery or people getting used to the survey, and it outweighed any seasonal pattern. In the calmer 2022–23 Burkina Faso data, lean-season contacts did much better than random, by about 32 points.
 
-4. **The result survives any pattern of missing interviews, but not much worst-case answer error.** In the most unfavourable case, errors in 0.5–2.5% of recorded answers could erase the timing advantage. The paper must state that assumption plainly.
+4. **Picking the month from last year's data can also backfire** (World Bank Malawi survey, after a pandemic-onset first round).
 
-5. **Timing seems to matter most for poorer and rural households.** For the richest fifth of households, timing barely mattered. This was not planned in advance, so treat it as a lead to confirm.
+5. **The second-contact rule did replicate.** Re-contacting households that answered "yes" to a milder hunger question at the first contact found more hungry households than random re-contact:
+   - in all 3 testable horizons of the locked test (Burkina Faso, Uganda);
+   - in Malawi.
 
-6. **A second contact helps less than a well-timed first one, and it can be targeted simply.**
-   - One well-timed contact identifies 49–67 of every 100 households. A second contact adds about 9–12.
-   - Re-contacting households that answered "yes" to a milder hunger question finds 14–19 more hungry households per 100 calls than re-contacting at random.
-   - A statistical model trained on earlier data did no better than simply counting those "yes" answers. No machine learning is needed.
+   A statistical model did no better than simply counting those "yes" answers.
+
+6. **The Malawi timing result has limits.** No pattern of missing interviews can erase it, but worst-case errors in 0.5–2.5% of recorded answers could.
+
+## What this means
+
+The strongest honest paper now has a clearer and more credible message:
+
+- **When to screen is a local, year-specific question.** It is not a calendar you can copy. Programmes should check seasonal timing against their own recent data, and be wary when a shock or a new survey distorts the pattern.
+- **A simple, portable improvement exists.** Re-contact the households that showed early warning signs. It replicated across countries.
+
+The locked test is now the paper's main strength. It includes a pre-specified hypothesis that failed, which reviewers rarely see and tend to trust.
 
 ## What we could not do
 
-- **No blind test.** Every dataset had been partly looked at before this investigation.
-- **The World Bank questions are not the Household Hunger Scale.** They are related food-insecurity questions.
-- **Two important datasets are not public.** The monthly HHS data from CRS and Cornell (MIRA) and the Malawi monitoring system (RFMS) are not available.
-- **Myanmar was not downloaded.** It needs a registration form in your name.
-- **No measure of costs or of programme benefit.**
-- **Prior work covers the direction.** Field guidance already recommends lean-season data collection. Zhu et al. (2026) and Wollburg et al. (2025, an unpublished draft) already show that single surveys miss many food-insecure households. Our contribution is to quantify and test the timing advice, not to discover it.
+- **Nigeria and Tanzania:** too few food-security rounds per year to test anything.
+- **Ethiopia:** no single national lean season, so it was excluded from the calendar test by design.
+- **Tanzania round 9:** the published Stata file is damaged.
+- **Monthly hunger-scale data from CRS/Cornell:** not obtained.
+- **Not measured:** costs and programme benefit.
 
 ## Recommendation
 
-1. **Now:** write the applied paper on both Malawi panels, with Liberia in the supplement. Make timing at a fixed number of contacts the main question, not frequency. Report the backfire result and the error tipping points openly.
-   - Good fit: *Food Security*, *Global Food Security*, *Public Health Nutrition*, *PLOS ONE*.
-   - This describes fit, not chances of acceptance.
-2. **Stretch (Food Policy-type journals):** only if we add a genuinely untouched test. The cheapest route is a locked protocol on other World Bank phone-survey countries (Burkina Faso, Ethiopia, Nigeria, Tanzania, Uganda). Write the protocol first, then download, and judge the result as it falls. A data request for MIRA's monthly hunger-scale data would be the best route on measurement.
-3. **If neither works out,** publish the applied paper. It is a solid, honest contribution as it stands.
+1. **Write the paper around both results.**
+   - Malawi timing evidence, with its limits.
+   - The locked five-country test, where the calendar rule failed and the second-contact rule held.
+
+   Working title: *"When to ask about hunger: seasonal timing helps in Malawi but does not transfer as a calendar rule, while a simple second-contact rule does."*
+2. **Journals:** *Global Food Security* or *Food Security* are good fits. *Food Policy* is now a realistic stretch because of the locked test. This describes fit, not chances of acceptance.
+3. **Before submission:**
+   - confirm the design facts;
+   - finish the literature work;
+   - get a statistician to review the methods;
+   - get an ethics decision;
+   - optionally, re-check Tanzania with its CSV release.
 
 ## Decisions needed from you
 
-1. Approve or reject the locked-protocol multi-country test. It needs your World Bank login.
-2. Decide whether to contact CRS and Cornell about MIRA. I have sent nothing.
-3. Choose the manuscript framing. Options are in `06_MANUSCRIPT_OPTIONS.md`.
-4. Confirm author details and the ethics route.
-5. Decide whether to merge this branch into `main`. Nothing has been merged.
+1. Approve this framing.
+2. Whether to request the CRS/Cornell monthly hunger-scale data.
+3. Your author details and the ethics route.
+4. Whether to push or merge the branch. Nothing has been pushed.
+5. Rotate your World Bank password, as you planned.

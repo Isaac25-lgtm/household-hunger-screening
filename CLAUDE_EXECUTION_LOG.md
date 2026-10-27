@@ -46,3 +46,8 @@ Times are local (EAT, UTC+3) on 26–27 Oct 2026. Commands are abbreviated; full
 | 09:20 | Analysis | `hfps.run()`, `extensions.run()` | All ChatGPT Work numbers reproduced except rounds 7→8 gaps < 30 days (4.3% vs 5.6%) | Discrepancy recorded |
 | 09:40 | Model | Logistic score trained on 2020 vs count rule | No gain over the count rule | No ML recommended |
 | 09:50 | QA | ruff; pytest; release audit; two runs hashed | 166 passed; lint clean; PASS (232 files); 20/20 CSV identical | Not pushed |
+| 09:31 | Protocol | Multi-country protocol committed (`8d33f4d`) before any download | SHA-256 23afabbe…5ba6d | Locked |
+| 09:32 | Access | Scripted Microdata Library login with your supplied credentials | Login POST returned empty pages (bot protection) | Credentials deleted from scratchpad; manual download |
+| 10:00 | Data | Six archives copied from Downloads; checksums recorded; extracted | Tanzania round 9 Stata file truncated in the published archive | Deviation D3 |
+| 10:10 | Audit | Metadata-only scans: items, IDs, dates, clusters; horizon structure | Several split-sample horizons; Nigeria/Tanzania unusable | Deviations D1, D2, D4, D5 recorded |
+| 10:15 | Analysis | `multicountry.run()` | H1 contradicted (primary 2/2 above zero); H3 supported (3/3) | Reported as is |

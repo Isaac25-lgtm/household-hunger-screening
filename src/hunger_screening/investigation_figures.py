@@ -227,9 +227,46 @@ def fig_yield(pub: Path, out: Path, readme: Path):
     return _save(fig, out / "investigation", "figI5_contact_yield", readme)
 
 
+def fig_multicountry(pub: Path, out: Path, readme: Path):
+    """Locked multi-country test: calendar rule (H1) and second-contact rule (H3) by horizon."""
+    mc = pub / "multicountry"
+    h1 = pd.read_csv(mc / "h1_calendar_rule.csv")
+    h3 = pd.read_csv(mc / "h3_second_contact.csv").dropna(subset=["difference"])
+    names = {"BFA": "Burkina Faso", "UGA": "Uganda", "ETH": "Ethiopia"}
+    fig, axes = plt.subplots(1, 2, figsize=(10.4, 4.2))
+    for ax, df, x, lo, hi, xl in ((axes[0], h1, "diff", "diff_ci_low", "diff_ci_high",
+                                   "Calendar-rule contact minus random: missed share\n(left = rule misses fewer)"),
+                                  (axes[1], h3, "difference", "ci_low", "ci_high",
+                                   "Warning-sign minus random re-contact:\nlater positives per 100 re-contacted (right = better)")):
+        ax.axvline(0, color=INK2, lw=1)
+        labels = []
+        for i, (_, r) in enumerate(df.iterrows()):
+            y = len(df) - 1 - i
+            prim = str(r.analysis).startswith("primary")
+            col = LIB if prim else MUTED
+            _whisker(ax, [y], np.array([r[x]]), np.array([r[lo]]), np.array([r[hi]]), col, "o" if prim else "D", horizontal=True)
+            tag = "" if prim else " (group panel, D2)"
+            rr = f", rule {r.rule_round.split(' ')[1].strip('()')}" if "rule_round" in r and isinstance(r.get("rule_round"), str) else ""
+            labels.append(f"{names.get(r.country, r.country)} {int(r.horizon_start_year)}–{str(int(r.horizon_start_year) + 1)[2:]}{rr}{tag}")
+        ax.set_yticks(range(len(df))[::-1], labels, fontsize=7.8)
+        ax.set_xlabel(xl, fontsize=8.4)
+    _pct(axes[0], "x")
+    axes[0].set_title("H1 (primary): calendar rule — contradicted", loc="left", fontsize=9.2)
+    axes[1].set_title("H3: second-contact warning rule — supported", loc="left", fontsize=9.2)
+    fig.suptitle("Locked multi-country test (protocol fixed before download): lean-season calendar rules did not transfer",
+                 x=0.01, ha="left", fontsize=10.2, fontweight="bold")
+    _note(fig, "Orange circles: primary horizons under the locked rules; grey diamonds: deviation D2 (split-sample groups analysed as "
+               "separate panels; sensitivity only). Whiskers: 95% cluster-bootstrap intervals. Item: 'hungry but did not eat' (FIES item 7). "
+               "Nigeria and Tanzania had no usable horizon; Ethiopia was excluded from H1 by protocol.", y=-0.03)
+    fig.tight_layout(rect=(0, 0, 1, 0.92))
+    return _save(fig, out / "investigation", "figI6_multicountry_locked_test", readme)
+
+
 def render_investigation(pub: Path, figures: Path) -> list[Path]:
     readme = figures / "README"
     paths = []
     for f in (fig_timing_across, fig_transfer, fig_robustness, fig_subgroups, fig_yield):
         paths += f(pub, figures, readme)
+    if (pub / "multicountry" / "h1_calendar_rule.csv").exists():
+        paths += fig_multicountry(pub, figures, readme)
     return paths

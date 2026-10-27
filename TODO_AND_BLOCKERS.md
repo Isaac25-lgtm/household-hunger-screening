@@ -39,3 +39,6 @@ Scripted login to the Microdata Library is not possible (the login POST returns 
 - [ ] Tanzania, catalog 4542: `data/raw/multicountry/TZA/`
 
 Do not open the files before the analysis runs. Everything under `data/raw/` is gitignored.
+- [x] Multi-country archives downloaded (27 Oct 2026) and analysed under the locked protocol; see `reports/investigation/11_MULTICOUNTRY_RESULTS.md`.
+- [ ] Optional: download the Tanzania **CSV** release (catalog 4542) to recover round 9; it cannot change the Tanzania verdict (subsample module) but completes the record.
+- [ ] Rotate the World Bank password.

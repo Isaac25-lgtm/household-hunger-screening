@@ -48,3 +48,17 @@ See `07_REQUIRED_WORK_BEFORE_SUBMISSION.md`. The decisions that need you:
 ## Pushed or published?
 
 **Nothing was pushed, merged, deployed, emailed or submitted.** Everything is local on the investigation branch. Pushing the branch would publish the new aggregate CSV files and figures, which the World Bank terms allow with a citation. Raw data, household IDs and household-level files remain local and gitignored.
+
+## Update: locked multi-country test (27 Oct 2026)
+
+- **Protocol:** `10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md`, locked in commit `8d33f4d` before any of the six archives existed locally.
+- **Results:** `11_MULTICOUNTRY_RESULTS.md`, with outputs in `data/public_aggregates/multicountry/` and figure `figI6_multicountry_locked_test`.
+- **Archives:** six, supplied by you, checksums recorded. Stored in `data/raw/multicountry/` (gitignored); originals remain in your Downloads folder.
+- **Decisions:**
+  - **H1, calendar rule: contradicted.** Burkina Faso 2020–21 +10.9 points (+6.9 to +14.7); Uganda 2020–21 +3.4 (−3.9 to +8.8).
+  - **H3, second-contact rule: supported** (3 of 3 testable horizons).
+  - **H2:** inconclusive.
+  - **H4:** the rule does relatively better for rural households.
+- **Deviations D1–D5** are documented in the results report. None changes a decision.
+- **New code and tests:** `src/hunger_screening/multicountry.py`, `tests/test_multicountry.py`. Full suite: 172 passed; lint clean; release audit PASS; outputs byte-identical across two runs.
+- **Credentials:** your World Bank password was held only in a temporary scratchpad file for the attempted login, then deleted. The scripted login failed because of the site's bot protection. The password is not in the repository. Please rotate it.
