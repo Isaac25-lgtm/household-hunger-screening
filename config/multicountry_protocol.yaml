@@ -1,0 +1,60 @@
+# Locked parameters for reports/investigation/10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md (27 Oct 2026).
+# Do not edit after data download; any change must be reported as a deviation.
+
+items:
+  primary_label_all: ["hungry", "not eat"]
+  secondary_label_all: ["whole day"]
+  milder_item_count: 6         # FIES items 1-6 (worried ... ran out of food)
+usable_horizon:
+  min_candidate_rounds: 3
+  min_complete_households: 100
+transfer:
+  max_circular_day_distance: 45
+bootstrap:
+  draws: 2000
+  seed: 20261028
+  level: 0.95
+countries:
+  BFA:
+    catalog: 3768
+    idno: BFA_2020-2024_HFPS_v23_M
+    lean_months: [6, 7, 8, 9]
+    lean_midpoint: "07-31"
+    horizon_start_month: 10
+    h1: true
+  ETH:
+    catalog: 3716
+    idno: ETH_2020-2024_HFPS_v15_M
+    lean_months: null
+    horizon_start_month: 10
+    h1: false
+  NGA2020:
+    catalog: 3712
+    idno: NGA_2020_NLPS_v12_M
+    lean_months_by_zone: {north: [7, 8, 9], south: [5, 6, 7]}
+    lean_midpoint_by_zone: {north: "08-15", south: "06-15"}
+    north_zones: ["North Central", "North East", "North West"]
+    horizon_start_month: 10
+    h1: true
+  NGA2021:
+    catalog: 4444
+    idno: NGA_2021-2024_NLPS_v10_M
+    lean_months_by_zone: {north: [7, 8, 9], south: [5, 6, 7]}
+    lean_midpoint_by_zone: {north: "08-15", south: "06-15"}
+    north_zones: ["North Central", "North East", "North West"]
+    horizon_start_month: 10
+    h1: true
+  UGA:
+    catalog: 3765
+    idno: UGA_2020-2024_HFPS_v17_M
+    lean_months: [3, 4, 5, 6]
+    lean_midpoint: "04-30"
+    horizon_start_month: 7
+    h1: true
+  TZA:
+    catalog: 4542
+    idno: TZA_2021-2024_HFWMPS_v09_M
+    lean_months: [11, 12]
+    lean_midpoint: "11-30"
+    horizon_start_month: 3
+    h1: true
