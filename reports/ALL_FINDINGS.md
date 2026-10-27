@@ -1,6 +1,6 @@
 # Household hunger screening: all findings
 
-*Compiled 27 October 2026. It covers the reproduction of the original study, the World Bank Malawi replication and the locked five-country test. Every number was computed from the source data in this project. Detailed reports are under `reports/` and `reports/investigation/`. Aggregate results are under `data/public_aggregates/`.*
+*Author: Omoding Isaac (MSc Data Science and Analytics; Ministry of Health, Uganda). Compiled 27 October 2026 and updated after the external review (`REVIEW_RESPONSE.md`). It covers the reproduction of the original study, the World Bank Malawi replication and the locked five-country test. Every number was computed from the source data in this project. Detailed reports are under `reports/` and `reports/investigation/`. Aggregate results are under `data/public_aggregates/`.*
 
 **How to read the uncertainty:**
 - **CI** means a 95% cluster-bootstrap confidence interval. It reflects sampling noise.
@@ -18,7 +18,7 @@
 5. **A simple second-contact rule does transfer.** Re-contacting households that said "yes" to a milder hunger question finds more hungry households than re-contacting at random. This held in Malawi and in all 3 testable horizons of the locked test. A statistical model did no better than simply counting the milder "yes" answers.
 6. **The results have limits.**
    - They survive any pattern of missing interviews.
-   - Small amounts of worst-case answer error (0.5–2.5% of answers) could erase them.
+   - Small amounts of worst-case answer error (0.5–2.5% of answers) could erase them. Random answer error at hypothetical rates up to 20% did not, in Malawi.
    - They are not national prevalence figures and say nothing about the effects of running fewer interviews in a real programme.
 7. **Recommended paper:** "when to screen" is a local, year-specific question; a simple second-contact rule is portable. Good fits: *Global Food Security*, *Food Security*. *Food Policy* is a realistic stretch because of the locked test. This describes fit, not chances of acceptance.
 
@@ -33,7 +33,10 @@
 ### 2.1 Data and design checks
 
 - **Records:** 4,744 phone interviews. The baseline frame has 503 households (Malawi 297, Liberia 206); 483 households in 252 villages were interviewed at least once. All 22 integrity checks pass.
-- **HHS score:** consistent with the answer items on all 4,741 checkable records. The frequency items are absent, so the supplied score was used.
+- **HHS score: standard scoring, checked.** The score equals the number of "yes" answers in 4,698 of 4,740 records, and exceeds it by 1 to 3 in the other 42. It is never below it, which fits standard FANTA scoring (1 point for rarely or sometimes, 2 for often).
+  - It is built from the standard "no food of any kind in the house" item; the do-file's "skipped a meal" caption is a mislabel.
+  - The frequency answers and the phone questionnaire are not public. Confirm with the source authors.
+  - HHS 2 or more is the standard moderate-or-severe threshold, reached here almost always through two or more experiences reported rarely or sometimes.
 - **One duplicate** household-window (Liberia, March–April 2020). It affects only the "any hunger" analysis.
 - **Call schedule verified from dates:**
   - 94% of households stay in odd or even months throughout; the split is even (Malawi 150 / 147, Liberia 93 / 93).
@@ -93,10 +96,31 @@
   | One random contact | 37 |
   | One January–February contact | 67 |
   | Two random contacts | 55 |
-  | January–February + March–April | 76 |
+  | January–February + March–April (best pair, chosen in-sample) | 76 |
 
   One well-timed contact beats two random ones. The second contact adds about 9 identified households per 100 extra calls.
+- **Best pair tested out of time.** Chosen on July 2019 – June 2020, the best pair is November–December + January–February (not the in-sample January–February + March–April). In July 2020 – June 2021 it missed 15.0%, against 36.4% for a random pair: −21.4 points (−27.7 to −14.5).
 - **Second contact (Malawi 2020).** Re-contacting households with HHS = 1 at the first contact gave 61.0 later positives per 100 re-contacted, against 44.0 at random (difference +17.0; +6.6 to +28.4). Malawi 2021 and Liberia were inconclusive.
+
+### 2.7 Responses to the external review (details in `REVIEW_RESPONSE.md`)
+
+- **Evidence classes.**
+  - *Exploratory, in-sample:* the 2020 rankings and the best 2020 pair.
+  - *Out-of-time but not blind:* the 21.6% and 38.3% results and the frozen pair.
+  - *Calendar-based sensitivity, not blind:* the FEWS NET window.
+  - *Genuinely prespecified:* only the five-country test.
+- **The 21.6% and 38.3% use different references.**
+  - 21.6%: four windows, January–August 2021, 102 reference positives.
+  - 38.3%: six windows, July 2020 – June 2021, 133 reference positives.
+- **Calendar-based sensitivity** (FEWS NET lean season: Malawi December–February, so January–February; Liberia June–August, so July–August):
+  - **Malawi:** beats random in every horizon (−37.3, −31.7 and −20.9 points against six-window references; −38.2 against four).
+  - **Liberia:** does **not** (+9.8, +3.7, −5.7; all intervals include zero).
+- **Single-window positives.** 45 of 185 (Malawi) and 16 of 34 (Liberia). Without them the one-screen miss falls to 46.1% and 57.4%, and the Malawi January–February advantage remains (−33.2; −39.8 to −26.5).
+- **Liberia bounds.** Excluding the 24 never-contacted households changes the one-screen range from 39.8–78.6% to 48.6–77.9%.
+- **Answer error.**
+  - No published HHS test-retest or misclassification rate was found.
+  - In World Bank Malawi rounds less than 30 days apart, answers differed in 23.9% ("hungry but did not eat") and 10.0% ("whole day") of 1,485 pairs. This is *discordance*, mixing real change, recall and reporting error; it is not an error rate.
+  - With random flips at hypothetical rates of 5%, 10% and 20%, January–February stayed better than random in at least 999 of 1,000 simulations.
 
 ---
 
@@ -209,6 +233,7 @@ Reported hunger then fell round by round, which may be pandemic recovery or peop
 | Deisemann et al. 2024, slides | Seasonality explains only 1–5% of FIES variance | Consistent with our finding that seasonal rules often fail |
 | McDonough & Millimet 2024, *AJAE* | Partial identification under measurement error (US) | Applied to a screening-schedule contrast, with tipping points |
 | People in Need IndiKit guidance | Already recommends surveying in the lean season | We show when that advice fails |
+| D'Souza & Tandon 2015, ERS *Amber Waves* (Bangladesh) | Household measures misclassify individuals (within-household sharing) | Complementary: misclassification over time, not within households |
 
 **Novelty verdict:** a modest contribution, now strengthened by the locked test. The paper cannot claim to be "first".
 
@@ -279,7 +304,8 @@ Reported hunger then fell round by round, which may be pandemic recovery or peop
   - Statistical review of the exact-range solver and the bootstrap choices.
   - Ethics determination.
 - **Paperwork.**
-  - Author name and affiliation (currently "Isaac (Isaac25-lgtm)").
+  - Confirm the HHS questionnaire with the source authors.
+  - Add the co-researchers to `CITATION.cff`.
   - Draft the manuscript.
 - **Optional.**
   - The Tanzania CSV.
@@ -289,10 +315,9 @@ Reported hunger then fell round by round, which may be pandemic recovery or peop
 
 ## 10. Project state and quality checks
 
-- **Branch.** `investigation/strengthen-contribution` is pushed to GitHub, not merged. `main` is unchanged at `53064ad`.
-- **Pull request.** Not yet opened; open it from the GitHub link and don't merge until the framing is approved.
+- **Branch.** All work is merged into `main` on GitHub, with no force-push.
 - **Checks.**
-  - 172 automated tests pass.
+  - 176 automated tests pass.
   - Lint is clean.
   - The release-safety audit passes: no raw data, IDs or credentials on GitHub.
   - Results are byte-identical across repeated runs.

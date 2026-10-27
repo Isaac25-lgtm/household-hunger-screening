@@ -60,6 +60,13 @@ def main(argv: list[str] | None = None) -> int:
 
         hfps.run(paths)
         extensions.run(paths)
+        from . import review_responses
+
+        review_responses.run(paths)
+        if (paths.root / "data" / "raw" / "multicountry").exists():
+            from . import multicountry
+
+            multicountry.run(paths)
         print(f"investigation: outputs written; {len(render_investigation(paths.public, paths.figures))} figure files")
     return 0
 

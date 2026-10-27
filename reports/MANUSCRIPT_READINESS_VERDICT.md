@@ -1,5 +1,14 @@
 # Manuscript readiness verdict
 
+> **Updated 27 October 2026, after the external review and the investigation.** Changes since the first verdict:
+>
+> - **HHS scoring checked.** The score is consistent with standard scoring and built from the standard items. The questionnaire still needs confirming with the source authors, so this is now blocker 1.
+> - **Timing claims split by evidence class** (see `REVIEW_RESPONSE.md`).
+> - **Calendar rule failed outside Malawi** in a locked five-country test.
+> - **Author details added.**
+>
+> The decision stays CONDITIONAL GO for drafting and NOT READY for submission.
+
 **Decision to start manuscript drafting: CONDITIONAL GO**
 **Submission readiness: NOT READY** (see the blockers below)
 
@@ -25,14 +34,15 @@ The conditions below must be met in the draft itself:
 
 | Rank | Blocker | Severity | Who |
 |---|---|---|---|
+| 0 | **HHS questionnaire and scoring.** The score is consistent with standard FANTA scoring and built from the standard "no food" item (`REVIEW_RESPONSE.md` section 1), but the frequency answers and the phone questionnaire are not public. Confirm with the source authors, and describe HHS 2 or more as "moderate or severe hunger, reached almost always through two or more experiences reported rarely or sometimes" | Critical | Researcher (contact the source authors) |
 | 1 | Full-text reading of McDonough & Millimet (2024) and Zhu et al. supplementary material, plus a structured search of Scholar/SSRN/RePEc and grey literature (FEWS NET, WFP mVAM sentinel designs) for visit-frequency analyses | Critical | Researcher / co-author |
 | 2 | Re-read the source article's Methods and the questionnaire for the exact HHS phone-item wording, interviewer protocol and call schedule (alternating months), and confirm the designated-window mapping with the original authors if possible | Critical | Researcher (optionally contact the source authors) |
 | 3 | Decide the primary manuscript contrast (random frontier vs fixed/calendar schedules) and pre-register it before more exploration | Major | Researcher + methods co-author |
 | 4 | Methods review of the bounds (sharpness proof, shared-budget formulation) by a statistician | Major | Methods reviewer |
 | 5 | Target journal and reporting standard (e.g. *Food Security*, *Food Policy*, *Global Food Security*, *PLOS ONE*; STROBE-style reporting for secondary analysis) | Major | Researcher |
 | 6 | Ethics: confirm institutional view on secondary analysis of public de-identified data (usually exempt; verify) | Major | Institution |
-| 7 | Author identity and affiliation in CITATION/LICENSE (currently "Isaac (Isaac25-lgtm)") | Minor | Researcher |
-| 8 | Optional: replication on a second high-frequency panel (e.g. World Bank HFPS or LSMS-ISA) to address external validity | Minor (strengthening) | Researcher |
+| 7 | Author identity and affiliation: **done** (Omoding Isaac, Ministry of Health, Uganda); add co-researchers | Minor | Researcher |
+| 8 | Replication on a second panel: **done** (World Bank Malawi HFPS 2020 to 2024; locked five-country test). See `reports/investigation/` | Done | |
 
 ## Established vs plausible
 

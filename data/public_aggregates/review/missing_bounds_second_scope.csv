@@ -1,0 +1,13 @@
+country,scope,households,never_observed,m,lower,upper
+Malawi,all baseline-frame households,297,3,1,0.5082304526748971,0.5934640522875817
+Malawi,all baseline-frame households,297,3,2,0.2776406035665295,0.36549019607843136
+Malawi,all baseline-frame households,297,3,3,0.15102880658436213,0.22137254901960784
+Malawi,households with >= 1 observed 2020 window,294,0,1,0.5145833333333333,0.5906084656084656
+Malawi,households with >= 1 observed 2020 window,294,0,2,0.2811111111111111,0.3619047619047619
+Malawi,households with >= 1 observed 2020 window,294,0,3,0.15291666666666667,0.21805555555555556
+Liberia,all baseline-frame households,206,24,1,0.39849624060150374,0.7861271676300579
+Liberia,all baseline-frame households,206,24,2,0.20657276995305165,0.5988439306358382
+Liberia,all baseline-frame households,206,24,3,0.1073943661971831,0.4309248554913295
+Liberia,households with >= 1 observed 2020 window,182,0,1,0.48623853211009177,0.7785234899328859
+Liberia,households with >= 1 observed 2020 window,182,0,2,0.24858757062146894,0.5879194630872483
+Liberia,households with >= 1 observed 2020 window,182,0,3,0.1292372881355932,0.4197986577181208

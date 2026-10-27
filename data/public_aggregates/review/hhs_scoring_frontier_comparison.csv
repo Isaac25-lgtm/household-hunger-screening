@@ -1,0 +1,15 @@
+country,definition,n_complete,n_reference_positive,m,missed_share
+Malawi,supplied HHS >= 2,226,184,1.0,0.5507246376811594
+Malawi,supplied HHS >= 2,226,184,2.0,0.31884057971014496
+Malawi,supplied HHS >= 2,226,184,3.0,0.18233695652173912
+Malawi,two or more of three hunger experiences (occurrence count >= 2),226,183,1.0,0.5510018214936249
+Malawi,two or more of three hunger experiences (occurrence count >= 2),226,183,2.0,0.3187613843351548
+Malawi,two or more of three hunger experiences (occurrence count >= 2),226,183,3.0,0.18169398907103826
+Malawi,households whose reference status differs between definitions,226,1,,
+Liberia,supplied HHS >= 2,67,34,1.0,0.6960784313725491
+Liberia,supplied HHS >= 2,67,34,2.0,0.4745098039215686
+Liberia,supplied HHS >= 2,67,34,3.0,0.30735294117647055
+Liberia,two or more of three hunger experiences (occurrence count >= 2),67,34,1.0,0.6960784313725491
+Liberia,two or more of three hunger experiences (occurrence count >= 2),67,34,2.0,0.4745098039215686
+Liberia,two or more of three hunger experiences (occurrence count >= 2),67,34,3.0,0.30735294117647055
+Liberia,households whose reference status differs between definitions,67,0,,

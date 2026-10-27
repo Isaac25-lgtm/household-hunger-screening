@@ -8,6 +8,8 @@
 
 ## Confirmations
 
+0. **HHS questionnaire.** Confirm with the source authors that the phone HHS used the standard six questions and frequency scoring. The data are consistent with it (see `reports/REVIEW_RESPONSE.md`), but the frequency answers are not public.
+
 4. **Aggarwal call schedule.** Confirm the odd/even-month design and the wording of the HHS phone items, from the article's methods and supporting information and, ideally, with the authors. The dates support the design; the documentation still needs checking.
 5. **World Bank sample groups.** Find out how households were assigned to groups A and B in rounds 19–21. The basic information document lists the groups but doesn't say how they were assigned.
 6. **First round of the World Bank survey.** Look for documentation of round-1 effects (pandemic onset, first-interview conditioning) in World Bank HFPS reports.
@@ -37,5 +39,5 @@
 
 ## Authorship and repository
 
-13. Confirm the author name and affiliation; `CITATION.cff` and `LICENSE` currently say "Isaac (Isaac25-lgtm)".
+13. Author name and affiliation are done (Omoding Isaac, Ministry of Health, Uganda). Add the co-researchers to `CITATION.cff`.
 14. Decide whether to merge `investigation/strengthen-contribution` into `main`, and whether to publish the dashboard.

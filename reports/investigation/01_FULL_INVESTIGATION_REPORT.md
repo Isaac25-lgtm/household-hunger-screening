@@ -255,7 +255,7 @@ Ideas rejected or not pursued:
 ## 8. How to reproduce
 
 ```powershell
-cd "F:\MY FILES\DATA SCIENCE\PUBLISHING\household-hunger-screening"
+cd household-hunger-screening   # the cloned repository folder
 git switch investigation/strengthen-contribution
 # 1. Place the World Bank archive at data\raw\MWI_2020-2024_HFPS_v20_M_Stata.zip (download it with your own
 #    Microdata Library account; it is not redistributed), then extract it:

@@ -1,10 +1,12 @@
-# Execution log
+# Development log
+
+*Record of the analysis steps run with AI assistance (Claude Code). An AI-use disclosure belongs in the manuscript; this log is kept for audit.*
 
 Times are local (EAT, UTC+3) on 26–27 Oct 2026. Commands are abbreviated; full outputs are in local `logs/` (gitignored).
 
 | Time | Phase | Action / command | Outcome | Decision / open issue |
 |---|---|---|---|---|
-| 23:25 | 1 Source | Inventoried parent folder `PUBLISHING` | Only an unrelated `Remittance AI` project and an empty `household-hunger-screening` folder. No `.dta`, `.zip`, earlier dossier, report, ledger or evidence ZIP found | All evidence regenerated from the publisher |
+| 23:25 | 1 Source | Inventoried the project folder | The project folder was empty. No `.dta`, `.zip`, earlier dossier, report, ledger or evidence ZIP found | All evidence regenerated from the publisher |
 | 23:26 | 1 Source | `git ls-remote` on target repo | Repo exists and is empty (no refs) | No history to reconcile |
 | 23:27 | 1 Source | `curl` PLOS S1 Data | HTTP 200; 9,098,158 bytes; SHA-256 `de2ae59d…66bb` | **Matches** earlier provenance exactly |
 | 23:28 | 1 Source | Extracted archive to `data/raw/extracted`; read `readme.docx` and `replication_dofile.do` | Do-file confirms "roughly half called each calendar month" (alternating schedule) | Two-month designated windows adopted |
@@ -51,3 +53,14 @@ Times are local (EAT, UTC+3) on 26–27 Oct 2026. Commands are abbreviated; full
 | 10:00 | Data | Six archives copied from Downloads; checksums recorded; extracted | Tanzania round 9 Stata file truncated in the published archive | Deviation D3 |
 | 10:10 | Audit | Metadata-only scans: items, IDs, dates, clusters; horizon structure | Several split-sample horizons; Nigeria/Tanzania unusable | Deviations D1, D2, D4, D5 recorded |
 | 10:15 | Analysis | `multicountry.run()` | H1 contradicted (primary 2/2 above zero); H3 supported (3/3) | Reported as is |
+
+## External review responses (27 Oct 2026)
+
+| Phase | Action | Outcome | Decision |
+|---|---|---|---|
+| HHS scoring | Score against item counts; source variable labels; alternative first item | 4,698/4,740 equal the yes count; never below; built from the "no food" item (99.1%), not "skipped a meal" (74.5%, 421 impossible cases) | Standard scoring retained; questionnaire confirmation with source authors pending |
+| Interpretation (second review) | First response divided discordance by two and called it an error bound | Reviewer correctly objected | Reported as discordance only; random-error rates relabelled as hypothetical (5/10/20%) |
+| Wording (second review) | "A priori" lean-season window | Reviewer: outcomes already seen | Renamed "calendar-based sensitivity analysis, not blind" |
+| Analyses | `review_responses.run()` | Malawi calendar window beats random in all horizons; Liberia does not; frozen best pair holds out of time; Liberia second-scope range 48.6 to 77.9% | All reported, including Liberia's failure |
+| Housekeeping | Log moved to `docs/`; local paths removed; authorship added; README dashes removed | Earlier commits still contain the old log (no force-push) | |
+| QA | ruff, pytest, release audit, determinism | 176 passed; clean; PASS; identical | Pushed to `main` |

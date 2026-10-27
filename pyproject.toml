@@ -9,7 +9,7 @@ description = "Reproducible reanalysis of household hunger ascertainment under r
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Isaac (Isaac25-lgtm)" }]
+authors = [{ name = "Omoding Isaac", email = "omodingisaac111@gmail.com" }]
 dependencies = [
   "numpy>=1.26",
   "pandas>=2.1",

@@ -6,7 +6,7 @@
 
 | Item | Location / value |
 |---|---|
-| Local project | `F:\MY FILES\DATA SCIENCE\PUBLISHING\household-hunger-screening` |
+| Local project | the cloned repository folder `household-hunger-screening` |
 | GitHub | https://github.com/Isaac25-lgtm/household-hunger-screening (branch `main`) |
 | Analysis commit pushed | `fcaa5d28f342b43585dbd76e3e9cec5872d59a7b` (6 scoped commits; no force-push) |
 | CI on that commit | **success**: GitHub Actions run [40404757667](https://github.com/Isaac25-lgtm/household-hunger-screening/actions/runs/40404757667) (Install, Lint, Release-safety audit, Tests all succeeded; ubuntu-latest, Python 3.12; 21:29–21:30 UTC) |
@@ -41,7 +41,7 @@
 ## Resuming work
 
 ```powershell
-cd "F:\MY FILES\DATA SCIENCE\PUBLISHING\household-hunger-screening"
+cd household-hunger-screening   # the cloned repository folder
 .\.venv\Scripts\python.exe -m hunger_screening.cli all     # regenerate everything (about 40 s)
 .\.venv\Scripts\python.exe -m pytest -q                    # 134 tests
 .\.venv\Scripts\python.exe scripts\check_release_safety.py # before any push

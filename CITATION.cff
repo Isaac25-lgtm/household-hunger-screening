@@ -3,9 +3,13 @@ message: "If you use this code or its outputs, please cite it and the source stu
 title: "Missed Household Hunger Under Infrequent Screening: reproducible reanalysis code (Liberia and Malawi)"
 type: software
 authors:
-  - given-names: Isaac
+  - family-names: Omoding
+    given-names: Isaac
+    affiliation: "Ministry of Health, Uganda"
+    email: omodingisaac111@gmail.com
     alias: Isaac25-lgtm
-version: 0.1.0
+# Co-researchers will be added here.
+version: 0.2.0
 date-released: 2026-10-27
 license: MIT
 repository-code: "https://github.com/Isaac25-lgtm/household-hunger-screening"
