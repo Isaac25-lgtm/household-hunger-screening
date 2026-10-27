@@ -1,0 +1,8 @@
+**Table S8. HHS scoring check against item counts**
+
+| records_with_score_and_items   | score_equals_yes_count   | score_exceeds_yes_count   | score_below_yes_count   | max_excess   | excess_never_exceeds_yes_count   | interpretation                                                                                                      | first_item                                                             |
+|:-------------------------------|:-------------------------|:--------------------------|:------------------------|:-------------|:---------------------------------|:--------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
+| 4740                           | 4698                     | 42                        | 0                       | 3.0          | True                             | consistent with standard HHS scoring (yes with rarely/sometimes = 1, often = 2): excess = number of 'often' answers | i3_1_nofood_4w (no food of any kind in the house; standard HHS item 1) |
+| 2805                           | 2090                     | 294                       | 421                     | 3.0          | False                            | inconsistent with HHS scoring (scores below the yes count occur): the score is not built from the skipped-meal item | i3_1_skip_4w (skipped a meal; alternative)                             |
+
+*Consistent with standard FANTA scoring built from the 'no food' item.*

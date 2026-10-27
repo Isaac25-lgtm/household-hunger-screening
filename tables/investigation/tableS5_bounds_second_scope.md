@@ -1,0 +1,18 @@
+**Table S5. Missing-history identification ranges, all frame households vs households observed at least once (2020)**
+
+| country   | scope                                     | households   | never_observed   | m   | range         |
+|:----------|:------------------------------------------|:-------------|:-----------------|:----|:--------------|
+| Malawi    | all baseline-frame households             | 297          | 3                | 1   | 50.8 to 59.3% |
+| Malawi    | all baseline-frame households             | 297          | 3                | 2   | 27.8 to 36.5% |
+| Malawi    | all baseline-frame households             | 297          | 3                | 3   | 15.1 to 22.1% |
+| Malawi    | households with >= 1 observed 2020 window | 294          | 0                | 1   | 51.5 to 59.1% |
+| Malawi    | households with >= 1 observed 2020 window | 294          | 0                | 2   | 28.1 to 36.2% |
+| Malawi    | households with >= 1 observed 2020 window | 294          | 0                | 3   | 15.3 to 21.8% |
+| Liberia   | all baseline-frame households             | 206          | 24               | 1   | 39.8 to 78.6% |
+| Liberia   | all baseline-frame households             | 206          | 24               | 2   | 20.7 to 59.9% |
+| Liberia   | all baseline-frame households             | 206          | 24               | 3   | 10.7 to 43.1% |
+| Liberia   | households with >= 1 observed 2020 window | 182          | 0                | 1   | 48.6 to 77.9% |
+| Liberia   | households with >= 1 observed 2020 window | 182          | 0                | 2   | 24.9 to 58.8% |
+| Liberia   | households with >= 1 observed 2020 window | 182          | 0                | 3   | 12.9 to 42.0% |
+
+*Exact identification ranges, not confidence intervals.*

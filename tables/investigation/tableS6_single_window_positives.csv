@@ -1,0 +1,5 @@
+country,n_complete,reference_positive,positive_in_one_window,single_positive_with_score_exactly_2,single_positive_with_score_3_plus,reference,random_missed_m1,random_missed_m2,random_missed_m3,calendar_window,calendar_window_missed,calendar_diff_vs_random,diff_ci_low,diff_ci_high
+Malawi,227,185,45,26,19,all reference positives,0.551,0.319,0.182,Jan-Feb,0.178,-0.373,-0.436,-0.306
+Malawi,227,185,45,26,19,persistent only (positive in >= 2 windows),0.461,0.208,0.08,Jan-Feb,0.129,-0.332,-0.398,-0.265
+Liberia,67,34,16,12,4,all reference positives,0.696,0.475,0.307,Jul-Aug,0.794,0.098,-0.068,0.236
+Liberia,67,34,16,12,4,persistent only (positive in >= 2 windows),0.574,0.304,0.136,Jul-Aug,0.722,0.148,-0.115,0.349
