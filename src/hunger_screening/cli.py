@@ -1,4 +1,8 @@
-"""Command-line entry point: ``python -m hunger_screening.cli [all|analysis|figures|tables|dashboard-data]``."""
+"""Command-line entry point: ``python -m hunger_screening.cli [all|analysis|figures|tables|dashboard-data|investigation]``.
+
+``investigation`` (World Bank HFPS external analyses + Aggarwal extensions + their figures)
+needs the World Bank archive extracted locally; ``all`` runs it only when that data exists.
+"""
 
 from __future__ import annotations
 
@@ -19,7 +23,8 @@ def dashboard_data(paths: Paths) -> None:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="hunger-screening")
-    ap.add_argument("step", nargs="?", default="all", choices=["all", "analysis", "figures", "tables", "dashboard-data"])
+    ap.add_argument("step", nargs="?", default="all",
+                    choices=["all", "analysis", "figures", "tables", "dashboard-data", "investigation"])
     ap.add_argument("--no-download", action="store_true", help="fail instead of downloading the source archive")
     args = ap.parse_args(argv)
     paths = Paths()
@@ -40,6 +45,22 @@ def main(argv: list[str] | None = None) -> int:
     if args.step in ("all", "dashboard-data"):
         dashboard_data(paths)
         print("dashboard data refreshed")
+    if args.step in ("all", "investigation"):
+        from .hfps import load_investigation_config
+
+        extracted = paths.root / load_investigation_config(paths)["hfps"]["extracted_dir"]
+        if not extracted.exists():
+            if args.step == "investigation":
+                print(f"investigation: World Bank data not found at {extracted.relative_to(paths.root)}")
+                return 1
+            print("investigation: skipped (World Bank data not present)")
+            return 0
+        from . import extensions, hfps
+        from .investigation_figures import render_investigation
+
+        hfps.run(paths)
+        extensions.run(paths)
+        print(f"investigation: outputs written; {len(render_investigation(paths.public, paths.figures))} figure files")
     return 0
 
 

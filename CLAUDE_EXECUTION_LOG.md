@@ -30,3 +30,19 @@ Times are local (EAT, UTC+3) on 26–27 Oct 2026. Commands are abbreviated; full
 - **Label-error budget base:** observed binary 2020 screens per country (frame scope) or 6 × complete households (complete-only scope).
 - **No ML:** see `reports/METHOD_SELECTION_AND_MODELS.md` §7.
 - **Author metadata:** the git identity is "Isaac"; the surname was not assumed. CITATION/LICENSE use "Isaac (Isaac25-lgtm)" pending confirmation.
+
+## Contribution-strengthening investigation (27 Oct 2026, EAT)
+
+| Time | Phase | Action / command | Outcome | Decision / open issue |
+|---|---|---|---|---|
+| 08:20 | Repo | `git status`, log, branches; `git switch -c investigation/strengthen-contribution` | `main` = `53064ad`, clean, no stashes | All work on the branch; nothing merged |
+| 08:22 | WB data | `sha256sum` on `data/raw/MWI_2020-2024_HFPS_v20_M_Stata.zip` | `5dfbd541…9c16`, matches | Extracted with `unzip -n` to `data/raw/worldbank_mwi_hfps_v20/extracted` (279 files) |
+| 08:25 | WB audit | Variable labels, value labels, cover-page merges, dates | 15 food-security rounds; 20,610 records; 1,729 households; groups A/B in rounds 19–21; no PSU/strata | Round-level marginals of s8q7/s8q8 for all rounds were printed here (exposure logged in the protocol) |
+| 08:30 | Verify | Independent script on the Aggarwal raw files | 227/185, 67/34, frontier and 22/102 reproduced exactly; odd/even-month schedule confirmed; Malawi panel starts Jul 2019 | — |
+| 08:35 | Literature | Crossref/OpenAlex; Smith et al. (author version), Wollburg et al. draft, Deisemann slides read; IndiKit timing guidance | Novelty narrowed: lean-season timing is established guidance | Reframe as quantification, validation and robustness |
+| 08:45 | Docs | World Bank questionnaires r1/r7/r11/r20 and basic information document | 30-day recall confirmed; HHS-style frequency categories only in rounds 20–21; no panel weights | — |
+| 08:55 | Protocol | `reports/investigation/00_PROTOCOL_AND_EXPOSURE_LOG.md` written | Locked before household-level 2022–24 results | Not a preregistration |
+| 09:00 | Solver | `history_bounds.py` + brute-force tests | First version failed 14/20 tests (Dinkelbach started from a single household) | Fixed (start from a full feasible world); 20/20 pass |
+| 09:20 | Analysis | `hfps.run()`, `extensions.run()` | All ChatGPT Work numbers reproduced except rounds 7→8 gaps < 30 days (4.3% vs 5.6%) | Discrepancy recorded |
+| 09:40 | Model | Logistic score trained on 2020 vs count rule | No gain over the count rule | No ML recommended |
+| 09:50 | QA | ruff; pytest; release audit; two runs hashed | 166 passed; lint clean; PASS (232 files); 20/20 CSV identical | Not pushed |

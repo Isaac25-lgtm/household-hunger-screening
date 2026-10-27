@@ -15,3 +15,13 @@
 - [ ] Browser screenshots of the dashboard at phone and desktop widths.
 - [ ] Add a type checker (pyright/mypy) to CI.
 - [ ] Replicate on a second high-frequency panel (e.g. World Bank HFPS) to address external validity.
+
+## From the contribution-strengthening investigation (27 Oct 2026)
+
+See `reports/investigation/07_REQUIRED_WORK_BEFORE_SUBMISSION.md` for the full list. Owner decisions:
+
+- [ ] Approve a protocol-locked test on other LSMS-HFPS countries (lock the protocol before downloading; needs your login).
+- [ ] Decide whether to request MIRA monthly HHS data from CRS/Cornell (nothing sent).
+- [ ] Confirm how World Bank HFPS rounds 19–21 sample groups A/B were assigned.
+- [ ] Choose the manuscript framing (`reports/investigation/06_MANUSCRIPT_OPTIONS.md`).
+- [ ] Push and/or merge `investigation/strengthen-contribution` (currently local only).

@@ -1,0 +1,23 @@
+test,item,candidate,selection_frequency,draws
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q7,Jun,0.749,2000
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q7,Dec,0.251,2000
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q7,Apr,0.0,2000
+HFPS matched (train: group-B households only),s8q7,Jun,0.5155,2000
+HFPS matched (train: group-B households only),s8q7,Dec,0.4845,2000
+HFPS matched (train: group-B households only),s8q7,Apr,0.0,2000
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q7,Jun,0.0,2000
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q7,Dec,1.0,2000
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q7,Apr,0.0,2000
+"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q7,Jun,0.529,2000
+"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q7,Feb-Mar,0.471,2000
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q8,Jun,1.0,2000
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q8,Dec,0.0,2000
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q8,Apr,0.0,2000
+HFPS matched (train: group-B households only),s8q8,Jun,1.0,2000
+HFPS matched (train: group-B households only),s8q8,Dec,0.0,2000
+HFPS matched (train: group-B households only),s8q8,Apr,0.0,2000
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q8,Jun,0.0,2000
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q8,Dec,0.9885,2000
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q8,Apr,0.0115,2000
+"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q8,Jun,1.0,2000
+"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q8,Feb-Mar,0.0,2000

@@ -16,6 +16,14 @@
 > [!IMPORTANT]
 > **What these results do *not* show.** They are **not** national or annual hunger prevalence, **not** an undercount of official statistics or IPC phases, **not** full-year incidence (six screens cover six ~30-day windows), and **not** the causal effect of interviewing less often (interviews were removed after the fact). The sample is the control arm of a cash-transfer study and is not nationally representative.
 
+> [!NOTE]
+> **External check, October 2026 (branch `investigation/strengthen-contribution`).**
+>
+> - **Data.** The timing question was re-examined in a second, independent Malawi panel, the World Bank High-Frequency Phone Survey 2020–2024. Its questions are different, so the results are aggregate-only and not pooled with this study's.
+> - **Main finding.** A January–March contact beat a randomly timed contact in every comparison where those months were observed, in both panels.
+> - **Caveats.** Choosing the month from a single earlier year failed when that year began at the pandemic onset. Small amounts of worst-case answer error could erase the advantage. None of these tests is blind.
+> - **Details.** See [reports/investigation/](reports/investigation/README.md).
+
 ## Contents
 
 - [Key findings](#key-findings)
