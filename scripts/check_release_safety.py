@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FORBIDDEN_EXT = {".dta", ".zip", ".sav", ".parquet", ".feather", ".pkl", ".pickle", ".rds", ".env"}
 FORBIDDEN_DIRS = ("data/raw/", "data/interim/", "data/processed_private/", "logs/private/", ".venv/")
 ID_COLUMNS = {"id", "id_str", "key", "village_id", "household_id", "hhid", "phone", "gps", "latitude",
-              "longitude", "name"}
+              "longitude", "name", "y4_hhid", "hh", "case_id", "ea_id"}
 SECRET_PATTERNS = [
     re.compile(r"ghp_[A-Za-z0-9]{30,}"),
     re.compile(r"github_pat_[A-Za-z0-9_]{30,}"),

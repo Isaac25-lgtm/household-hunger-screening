@@ -24,7 +24,7 @@ def test_gitignore_blocks_private_data(root):
 def test_public_aggregates_have_no_identifier_columns(root):
     checker = _load_checker(root)
     pub = root / "data" / "public_aggregates"
-    for p in list(pub.glob("*.csv")) + list((root / "dashboard" / "data").glob("*.csv")):
+    for p in list(pub.rglob("*.csv")) + list((root / "dashboard" / "data").glob("*.csv")):
         if p.name == "data_dictionary.csv":
             continue  # lists variable *names* only, no values
         with open(p, encoding="utf-8") as fh:

@@ -1,0 +1,10 @@
+set,households
+all 15 food-security rounds (any),1729
+"2020 rounds 1,2,3,5,6 (all five)",1481
+"2021 rounds 7,9,11 (all three)",1443
+"2021 rounds 7,8,9,11,12 (all five)",1387
+rounds 19 and 20,0
+rounds 20 and 21,0
+rounds 19 and 21,600
+"rounds 18,19,21 (group B horizon)",557
+"rounds 18,20 (group A horizon)",617

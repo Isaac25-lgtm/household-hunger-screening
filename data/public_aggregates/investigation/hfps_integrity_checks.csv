@@ -1,0 +1,7 @@
+check,pass
+household id unique within every round,True
+every food-security record links one-to-one to a cover-page record with the same panel id,True
+no refreshment sample: every household appears in round 1,True
+Sample_Type constant within household (load() raises otherwise),True
+rounds 19/21 vs 20 have disjoint households,True
+items coded only YES/NO/missing after recode,True

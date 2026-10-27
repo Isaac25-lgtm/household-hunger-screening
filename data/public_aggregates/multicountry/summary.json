@@ -1,0 +1,50 @@
+{
+  "generated_utc": "2026-10-27T07:16:38Z",
+  "protocol_sha256": "23afabbe12a849533c4614aa48eea3f34406c36f329c3219c2c8bb5a2095ba6d",
+  "archives": {
+    "BFA": {
+      "BFA_2020-2024_HFPS_v23_M_Stata.zip": {
+        "sha256": "a3123aa7944e432d08ea52e298dc39f437eb1929cf70280b64da8d3c826e6298",
+        "bytes": 18557309
+      }
+    },
+    "ETH": {
+      "ETH_2020-2024_HFPS_v15_M_Stata.zip": {
+        "sha256": "2a7b7733684aae180445b61561ee4ad8abaf771c6fefd1a6f8c21800b5f16d55",
+        "bytes": 32053368
+      }
+    },
+    "NGA2020": {
+      "NGA_2020_NLPS_v12_M_Stata.zip": {
+        "sha256": "8444b147092bf273e64ca21e0492989ec51511da1074b0902d280d1b0231b32f",
+        "bytes": 9199296
+      }
+    },
+    "NGA2021": {
+      "NGA_2021-2024_NLPS_v10_M_Stata.zip": {
+        "sha256": "00bef7dad921f29e4a9741e17964fbf569c0c7824de664ba550d9bfe48799eb8",
+        "bytes": 14698875
+      }
+    },
+    "UGA": {
+      "UGA_2020-2024_HFPS_v17_M_STATA14.zip": {
+        "sha256": "dae5979baaccddcc605303f599b0bf4135d687d32fa26bb01ec13ff5cc0012de",
+        "bytes": 16150332
+      }
+    },
+    "TZA": {
+      "TZA_2021-2024_HFWMPS_v09_M_Stata12.zip": {
+        "sha256": "86bf8d080fc6607c13239ae3239b886bb8ff067e16fbad28f07629cfc03b7b16",
+        "bytes": 12853804
+      }
+    }
+  },
+  "h1_decision_primary": "contradicted",
+  "h1_testable_horizons_primary": 2,
+  "h3_positive_share_primary": 1.0,
+  "h3_decision_primary": "supported",
+  "h1_decision_with_D2": "contradicted",
+  "h1_testable_horizons_with_D2": 5,
+  "h3_positive_share_with_D2": 0.8571428571428571,
+  "h3_decision_with_D2": "supported"
+}

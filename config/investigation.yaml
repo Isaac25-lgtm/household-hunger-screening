@@ -1,0 +1,53 @@
+# Parameters for the contribution-strengthening investigation (see
+# reports/investigation/00_PROTOCOL_AND_EXPOSURE_LOG.md). Every value used by
+# src/hunger_screening/hfps.py and src/hunger_screening/extensions.py is read from here.
+
+hfps:
+  archive: "data/raw/MWI_2020-2024_HFPS_v20_M_Stata.zip"
+  expected_sha256: "5dfbd541af7d791f1b1571d9c50e95c2f52619ef20a6b43b0bf665c3c36c9c16"
+  extracted_dir: "data/raw/worldbank_mwi_hfps_v20/extracted"
+  catalog_url: "https://microdata.worldbank.org/catalog/3766"
+  doi: "https://doi.org/10.48529/s2n6-9f47"
+  food_security_rounds: [1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 16, 18, 19, 20, 21]
+  primary_item: s8q7      # hungry but did not eat (FIES item 7), 30-day recall
+  secondary_item: s8q8    # went without eating for a whole day (FIES item 8)
+  milder_items: [s8q1, s8q2, s8q3, s8q4, s8q5, s8q6]
+  yes_code: 1
+  no_code: 2
+  analyses:
+    reproduce_2021: [7, 9, 11]
+    five_round_2021: [7, 8, 9, 11, 12]
+    train_2020: [1, 2, 3, 5, 6]
+    transfer_target_2021_round: 11        # late May-June 2021 corresponds to round 1 (late May-June 2020)
+    matched_groupB:
+      candidates: [Jun, Dec, Apr]
+      train: [1, 6, 9]
+      train_variant: [11, 6, 9]          # pandemic-onset round 1 replaced by round 11
+      test: [18, 19, 21]
+      test_sample_type: 2                # Sample_Type B
+    matched_groupA:
+      candidates: [Jun, Feb-Mar]
+      train: [1, 8]
+      test: [18, 20]
+      test_sample_type: 1                # Sample_Type A
+    hhs_analogue_rounds: [20, 21]
+  bootstrap:
+    draws: 2000
+    seed: 20261027
+    level: 0.95
+  min_reference_positives_for_subgroup: 30
+  label_error_alphas: [0.01, 0.05, 0.10]
+
+aggarwal_extensions:
+  country: Malawi
+  july_june:
+    train_consumption_year: 2019   # July 2019 - June 2020
+    test_consumption_year: 2020    # July 2020 - June 2021
+  timing_bounds_year: 2021
+  timing_bounds_slots: [1, 2, 3, 4]
+  frozen_slot_2021: 1             # Jan-Feb, the slot selected on 2020 in the baseline analysis
+  label_error_alphas: [0.01, 0.05, 0.10]
+  bootstrap:
+    draws: 2000
+    seed: 20261027
+    level: 0.95

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="830.047563pt" height="338.068156pt" viewBox="0 0 830.047563 338.068156" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T10:18:50.364849</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 338.068156 
+L 830.047563 338.068156 
+L 830.047563 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 250.80325 250.708719 
+L 404.262 250.708719 
+L 404.262 69.434391 
+L 250.80325 69.434391 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 253.531305 250.708719 
+L 253.531305 69.434391 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mefa52ff4b1" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mefa52ff4b1" x="253.531305" y="250.708719" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="253.531305" y="264.926492" transform="rotate(-0 253.531305 264.926492)">−40%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 306.110029 250.708719 
+L 306.110029 69.434391 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mefa52ff4b1" x="306.110029" y="250.708719" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="306.110029" y="264.926492" transform="rotate(-0 306.110029 264.926492)">−20%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 358.688754 250.708719 
+L 358.688754 69.434391 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mefa52ff4b1" x="358.688754" y="250.708719" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="358.688754" y="264.926492" transform="rotate(-0 358.688754 264.926492)">0%</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(219.868906 278.432227)">Calendar-rule contact minus random: missed share</text>
+     <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(274.239875 288.514523)">(left = rule misses fewer)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <path d="M 250.80325 77.674133 
+L 404.262 77.674133 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <defs>
+       <path id="ma2100116d0" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma2100116d0" x="250.80325" y="77.674133" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="243.80325" y="80.637523" transform="rotate(-0 243.80325 80.637523)">Burkina Faso 2020–21, rule 2021-07-07</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <path d="M 250.80325 118.872844 
+L 404.262 118.872844 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#ma2100116d0" x="250.80325" y="118.872844" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="243.80325" y="121.836234" transform="rotate(-0 243.80325 121.836234)">Burkina Faso 2022–23, rule 2023-07-23 (group panel, D2)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 250.80325 160.071555 
+L 404.262 160.071555 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#ma2100116d0" x="250.80325" y="160.071555" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="243.80325" y="163.034945" transform="rotate(-0 243.80325 163.034945)">Burkina Faso 2022–23, rule 2023-09-25 (group panel, D2)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 250.80325 201.270266 
+L 404.262 201.270266 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#ma2100116d0" x="250.80325" y="201.270266" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="243.80325" y="204.233656" transform="rotate(-0 243.80325 204.233656)">Uganda 2020–21, rule 2021-03-28</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <path d="M 250.80325 242.468977 
+L 404.262 242.468977 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#ma2100116d0" x="250.80325" y="242.468977" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="243.80325" y="245.432367" transform="rotate(-0 243.80325 245.432367)">Uganda 2023–24, rule 2024-03-05 (group panel, D2)</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_17">
+    <path d="M 358.688754 250.708719 
+L 358.688754 69.434391 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 376.893597 77.674133 
+L 397.205782 77.674133 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #eb6834; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 257.778648 118.872844 
+L 291.700313 118.872844 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 258.651707 160.071555 
+L 292.093752 160.071555 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_4">
+    <path d="M 348.421712 201.270266 
+L 381.834145 201.270266 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #eb6834; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_5">
+    <path d="M 356.610139 242.468977 
+L 397.286602 242.468977 
+" clip-path="url(#pa8e16537b6)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="line2d_18">
+    <defs>
+     <path id="m338a625149" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ffffff"/>
+    </defs>
+    <g clip-path="url(#pa8e16537b6)">
+     <use xlink:href="#m338a625149" x="387.280558" y="77.674133" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <defs>
+     <path id="m8fa4c0bf2f" d="M 0 4.242641 
+L 4.242641 0 
+L 0 -4.242641 
+L -4.242641 0 
+z
+" style="stroke: #ffffff; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#pa8e16537b6)">
+     <use xlink:href="#m8fa4c0bf2f" x="273.656777" y="118.872844" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <g clip-path="url(#pa8e16537b6)">
+     <use xlink:href="#m8fa4c0bf2f" x="274.413635" y="160.071555" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_21">
+    <g clip-path="url(#pa8e16537b6)">
+     <use xlink:href="#m338a625149" x="367.565681" y="201.270266" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <g clip-path="url(#pa8e16537b6)">
+     <use xlink:href="#m8fa4c0bf2f" x="377.011642" y="242.468977" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 250.80325 250.708719 
+L 250.80325 69.434391 
+" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 250.80325 250.708719 
+L 404.262 250.708719 
+" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'DejaVu Sans'; text-anchor: start" x="250.80325" y="63.434391" transform="rotate(-0 250.80325 63.434391)">H1 (primary): calendar rule — contradicted</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 584.79325 250.708719 
+L 738.252 250.708719 
+L 738.252 69.434391 
+L 584.79325 69.434391 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_23">
+      <path d="M 625.308873 250.708719 
+L 625.308873 69.434391 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mefa52ff4b1" x="625.308873" y="250.708719" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="625.308873" y="264.926492" transform="rotate(-0 625.308873 264.926492)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_25">
+      <path d="M 685.753286 250.708719 
+L 685.753286 69.434391 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mefa52ff4b1" x="685.753286" y="250.708719" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="685.753286" y="264.926492" transform="rotate(-0 685.753286 264.926492)">5</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(578.127688 278.432227)">Warning-sign minus random re-contact:</text>
+     <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(552.6035 288.514523)">later positives per 100 re-contacted (right = better)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_27">
+      <path d="M 584.79325 77.674133 
+L 738.252 77.674133 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="77.674133" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="80.637523" transform="rotate(-0 577.79325 80.637523)">Burkina Faso 2020–21</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_29">
+      <path d="M 584.79325 105.13994 
+L 738.252 105.13994 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="105.13994" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="108.103331" transform="rotate(-0 577.79325 108.103331)">Burkina Faso 2022–23 (group panel, D2)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_31">
+      <path d="M 584.79325 132.605747 
+L 738.252 132.605747 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="132.605747" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="135.569138" transform="rotate(-0 577.79325 135.569138)">Burkina Faso 2022–23 (group panel, D2)</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_33">
+      <path d="M 584.79325 160.071555 
+L 738.252 160.071555 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="160.071555" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="163.034945" transform="rotate(-0 577.79325 163.034945)">Uganda 2020–21</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_35">
+      <path d="M 584.79325 187.537362 
+L 738.252 187.537362 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="187.537362" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="190.500753" transform="rotate(-0 577.79325 190.500753)">Uganda 2022–23</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_37">
+      <path d="M 584.79325 215.003169 
+L 738.252 215.003169 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="215.003169" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="217.96656" transform="rotate(-0 577.79325 217.96656)">Uganda 2023–24 (group panel, D2)</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_39">
+      <path d="M 584.79325 242.468977 
+L 738.252 242.468977 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#ma2100116d0" x="584.79325" y="242.468977" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="577.79325" y="245.432367" transform="rotate(-0 577.79325 245.432367)">Uganda 2023–24 (group panel, D2)</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_41">
+    <path d="M 625.308873 250.708719 
+L 625.308873 69.434391 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+   </g>
+   <g id="LineCollection_6">
+    <path d="M 682.867119 77.674133 
+L 718.944182 77.674133 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #eb6834; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_7">
+    <path d="M 650.847102 105.13994 
+L 716.423908 105.13994 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_8">
+    <path d="M 619.078204 132.605747 
+L 693.794482 132.605747 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_9">
+    <path d="M 678.059382 160.071555 
+L 731.276602 160.071555 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #eb6834; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_10">
+    <path d="M 603.375976 187.537362 
+L 689.75644 187.537362 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #eb6834; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_11">
+    <path d="M 591.768648 215.003169 
+L 645.565472 215.003169 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="LineCollection_12">
+    <path d="M 636.986631 242.468977 
+L 689.6649 242.468977 
+" clip-path="url(#p0d60d553b7)" style="fill: none; stroke: #8a8984; stroke-width: 1.2"/>
+   </g>
+   <g id="line2d_42">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m338a625149" x="700.412287" y="77.674133" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="line2d_43">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m8fa4c0bf2f" x="683.809803" y="105.13994" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_44">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m8fa4c0bf2f" x="656.717372" y="132.605747" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_45">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m338a625149" x="703.262328" y="160.071555" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="line2d_46">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m338a625149" x="643.946174" y="187.537362" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="line2d_47">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m8fa4c0bf2f" x="619.306441" y="215.003169" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_48">
+    <g clip-path="url(#p0d60d553b7)">
+     <use xlink:href="#m8fa4c0bf2f" x="665.177681" y="242.468977" style="fill: #8a8984; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 584.79325 250.708719 
+L 584.79325 69.434391 
+" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 584.79325 250.708719 
+L 738.252 250.708719 
+" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'DejaVu Sans'; text-anchor: start" x="584.79325" y="63.434391" transform="rotate(-0 584.79325 63.434391)">H3: second-contact warning rule — supported</text>
+   </g>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start" x="7.2" y="14.950406" transform="rotate(-0 7.2 14.950406)">Locked multi-country test (protocol fixed before download): lean-season calendar rules did not transfer</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(7.2 319.159555)">Orange circles: primary horizons under the locked rules; grey diamonds: deviation D2 (split-sample groups analysed as separate panels; sensitivity only). Whiskers: 95% cluster-bootstrap intervals. Item: 'hungry but</text>
+   <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(7.2 328.281633)">did not eat' (FIES item 7). Nigeria and Tanzania had no usable horizon; Ethiopia was excluded from H1 by protocol.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa8e16537b6">
+   <rect x="250.80325" y="69.434391" width="153.45875" height="181.274328"/>
+  </clipPath>
+  <clipPath id="p0d60d553b7">
+   <rect x="584.79325" y="69.434391" width="153.45875" height="181.274328"/>
+  </clipPath>
+ </defs>
+</svg>

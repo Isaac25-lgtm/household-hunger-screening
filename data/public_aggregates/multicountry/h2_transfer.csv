@@ -1,0 +1,2 @@
+country,train_horizon,test_horizon,train_selected_round,train_selected_date,train_selected_missed,train_pandemic_onset_flag,selection_stability,testable,test_round,test_date,day_distance,n_test_complete,n_test_reference_positive,frozen_missed,random_missed,frozen_minus_random,ci_low,ci_high
+UGA,2020,2022,2,2020-08-05,0.2987012987012987,False,1.0,True,9,2022-08-14,8,1409,759,0.48484848484848486,0.5177865612648221,-0.03293807641633729,-0.09768621171142333,0.03679134684260783
