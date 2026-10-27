@@ -32,6 +32,7 @@
 | Release-safety audit | PASS on 232 candidate files |
 | Determinism | 20/20 investigation CSV files byte-identical across two runs |
 | Exact solver | Equal to brute force on 180 random small instances, and to both baseline solvers where their targets overlap |
+| Clean clone of the branch, no private data (CI simulation) | 162 passed, 4 skipped (the 3 Aggarwal and 1 World Bank real-data tests); lint and audit pass |
 | CI on GitHub | **Not run**, because nothing was pushed |
 
 ## What remains
