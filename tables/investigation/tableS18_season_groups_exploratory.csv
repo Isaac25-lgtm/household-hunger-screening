@@ -1,0 +1,8 @@
+dataset,horizon,sep_feb_windows,mar_aug_windows,mean_missed_sep_feb,mean_missed_mar_aug,difference,balanced_design,status
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),"Sep-Oct, Nov-Dec, Jan-Feb","Jul-Aug, Mar-Apr, May-Jun",39.8%,78.7%,-38.8,True,exploratory post hoc description; not a test; window availability differs by horizon
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),"Sep-Oct, Nov-Dec, Jan-Feb","Jul-Aug, Mar-Apr, May-Jun",34.0%,64.3%,-30.3,True,exploratory post hoc description; not a test; window availability differs by horizon
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),"Jan-Feb, Sep-Oct, Nov-Dec","Mar-Apr, May-Jun, Jul-Aug",40.5%,69.7%,-29.2,True,exploratory post hoc description; not a test; window availability differs by horizon
+Aggarwal trial (HHS >= 2),Jan - Aug 2021 (four windows),Jan-Feb,"Mar-Apr, May-Jun, Jul-Aug",21.6%,72.5%,-51.0,False,exploratory post hoc description; not a test; window availability differs by horizon
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/8/9/11/12,R7 Jan 2021,"R8 Mar 2021, R9 Apr 2021, R11 May 2021, R12 Jun 2021",30.9%,44.1%,-13.1,False,exploratory post hoc description; not a test; window availability differs by horizon
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/9/11,R7 Jan 2021,"R9 Apr 2021, R11 May 2021",23.9%,40.7%,-16.8,False,exploratory post hoc description; not a test; window availability differs by horizon
+World Bank HFPS (FIES item: hungry but did not eat),Jun 2023 / Dec 2023 / Apr 2024 (group B),R19 Dec 2023,"R18 Jun 2023, R21 Apr 2024",14.7%,33.1%,-18.4,False,exploratory post hoc description; not a test; window availability differs by horizon

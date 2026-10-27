@@ -1,5 +1,7 @@
 # Response to the external review (27 October 2026)
 
+> **Revision note (27 October 2026, revised manuscript package).** Some statements in this historical report were corrected in place. The current, authoritative summary is `reports/ALL_FINDINGS.md`; the analysis history and evidence classes are in `reports/ANALYSIS_HISTORY_AND_EVIDENCE_CLASSES.md`. Changes are listed in the package's `07_quality_control/CHANGELOG_FROM_PREVIOUS_PACKAGE.md`.
+
 *Author: Omoding Isaac (MSc Data Science and Analytics; Ministry of Health, Uganda). Analyses were run with AI assistance (Claude Code); see `docs/DEVELOPMENT_LOG.md`. New outputs are in `data/public_aggregates/review/`, code in `src/hunger_screening/review_responses.py`, tests in `tests/test_review_responses.py`.*
 
 This document covers both rounds of review:
@@ -15,7 +17,7 @@ Every analysis requested is reported, including the ones that did not support th
 | **Exploratory, in-sample** | Window or schedule chosen and evaluated on the same data | 2020 single-window ranking (January–February 17.8% missed against 55.1% at random, six windows); best two-window pair in 2020 (January–February + March–April, 6.5% missed) |
 | **Out-of-time, not blind** | Chosen on an earlier period, frozen, evaluated on a later period, but the later data had already been seen by the investigators | 2020 → 2021, four-window reference: **21.6%** missed (22 of 102) against 59.8%. July 2019 – June 2020 → July 2020 – June 2021, six-window reference: **38.3%** missed (51 of 133) against 59.3%. The frozen best pair (below). The World Bank Malawi transfer tests |
 | **Calendar-based sensitivity, not blind** | Window fixed from an external source (FEWS NET typical-year lean season), applied after the exploratory findings | January–February (Malawi) and July–August (Liberia) in every available horizon (below) |
-| **Genuinely out-of-sample and prespecified** | Protocol locked before the data existed locally | Only the five-country test (`reports/investigation/10_*`, `11_*`). The calendar rule was **contradicted**; the second-contact rule was **supported** |
+| **Protocol-locked (not fully blind)** | Protocol committed before access to household- and item-level outcomes; some published aggregate charts had been seen | Only the multi-country investigation (`reports/investigation/10_*`, `11_*`): five countries assessed, two with eligible primary H1 horizons. The calendar rule was **contradicted** under its prespecified rule (Uganda individually inconclusive); the second-contact rule was **supported** directionally (one interval includes zero) |
 
 **Denominators.** The 21.6% and 38.3% figures answer different questions and must not be compared directly:
 
@@ -60,10 +62,12 @@ This was done after the exploratory findings, so it is not blind and not prespec
 | Calendar 2020 (6) | 17.8% vs 55.1%: −37.3 (−43.6 to −30.6) | 79.4% vs 69.6%: +9.8 (−6.8 to +23.6) |
 | July 2019 – June 2020 (6) | 17.4% vs 49.1%: −31.7 (−38.0 to −25.9) | — (Liberia starts January 2020) |
 | July 2020 – June 2021 (6) | 38.3% vs 59.3%: −20.9 (−27.5 to −13.6) | 72.2% vs 68.5%: +3.7 (−14.5 to +24.4) |
-| Calendar 2021, January–August only (4) | 21.6% vs 59.8%: −38.2 (−46.5 to −29.6) | 54.5% vs 60.2%: −5.7 (−26.3 to +11.8) |
+| Calendar 2021, January–August only (4) | 21.6% vs 59.8%: −38.2 (−46.9 to −29.2)* | 54.5% vs 60.2%: −5.7 (−26.3 to +11.8) |
+
+\* Canonical interval from the primary pipeline (`timing_validation.csv`). The calendar-sensitivity rerun of the same estimand, a separate bootstrap run, gives −46.5 to −29.6; see the package's `07_quality_control/NUMERICAL_RECONCILIATION.md`.
 
 - **Malawi:** the calendar window outperforms random in every horizon, including all three six-window references, where November–December can compete.
-- **Liberia:** the calendar window does **not** outperform random. This is consistent with the five-country test.
+- **Liberia:** the calendar window does **not** outperform random. This is consistent with the protocol-locked multi-country test.
 - **README:** the four-window 21.6% no longer sits next to the six-window headline without its reference.
 
 ### 3. Intermittency versus noise
@@ -121,8 +125,8 @@ The in-sample January–February + March–April figure (6.5%) is no longer head
 ## What these responses do and do not establish
 
 - **They make the existing claims defensible.** The outcome is the standard HHS. The Malawi calendar window holds against six-window references and under random error. The frozen pair holds out of time. Liberia's bounds are explained.
-- **They do not make the contribution larger.** The only genuinely prespecified evidence is the five-country test, and there the calendar rule failed. The strongest honest claims are:
-  1. In Malawi, lean-season timing has repeatedly mattered (exploratory and out-of-time, not blind).
+- **They do not make the contribution larger.** The only protocol-locked evidence is the multi-country investigation (two eligible primary H1 horizons), and there the calendar rule was contradicted under its prespecified rule. The strongest honest claims are:
+  1. In Malawi, timing has repeatedly mattered: September–February windows generally did better than March–August. No single month is established as best (exploratory and out-of-time, not blind).
   2. That advantage did not transfer as a calendar rule to other countries in a locked test.
   3. A simple second-contact rule did transfer.
 - **Whether that is substantially stronger than the original timing finding is a judgement for the study team.** My view: it is more credible and more useful to programmes, but a solid field-journal paper, not a high-impact one, unless further genuinely prospective evidence is added.

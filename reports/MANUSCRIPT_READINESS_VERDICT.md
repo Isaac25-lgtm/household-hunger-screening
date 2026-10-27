@@ -4,7 +4,7 @@
 >
 > - **HHS scoring checked.** The score is consistent with standard scoring and built from the standard items. The questionnaire still needs confirming with the source authors, so this is now blocker 1.
 > - **Timing claims split by evidence class** (see `REVIEW_RESPONSE.md`).
-> - **Calendar rule failed outside Malawi** in a locked five-country test.
+> - **Calendar rule contradicted** under the prespecified rule in the protocol-locked multi-country test (five countries assessed, two with eligible primary horizons; not fully blind).
 > - **Author details added.**
 >
 > The decision stays CONDITIONAL GO for drafting and NOT READY for submission.
@@ -42,7 +42,7 @@ The conditions below must be met in the draft itself:
 | 5 | Target journal and reporting standard (e.g. *Food Security*, *Food Policy*, *Global Food Security*, *PLOS ONE*; STROBE-style reporting for secondary analysis) | Major | Researcher |
 | 6 | Ethics: confirm institutional view on secondary analysis of public de-identified data (usually exempt; verify) | Major | Institution |
 | 7 | Author identity and affiliation: **done** (Omoding Isaac, Ministry of Health, Uganda); add co-researchers | Minor | Researcher |
-| 8 | Replication on a second panel: **done** (World Bank Malawi HFPS 2020 to 2024; locked five-country test). See `reports/investigation/` | Done | |
+| 8 | Replication on a second panel: **done** (World Bank Malawi HFPS 2020 to 2024; protocol-locked multi-country test). See `reports/investigation/` | Done | |
 
 ## Established vs plausible
 

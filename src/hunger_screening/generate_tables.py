@@ -33,6 +33,8 @@ def build_tables(pub: Path, out: Path) -> list[str]:
     flow = pd.read_csv(pub / "cohort_flow.csv")
     t1 = flow.pivot_table(index=["order", "step", "unit"], columns="country", values="count").reset_index()
     t1 = t1[["step", "unit", "Malawi", "Liberia"]].rename(columns={"step": "Step", "unit": "Unit"})
+    for c in ("Malawi", "Liberia"):  # observed counts are integers
+        t1[c] = t1[c].round().astype("Int64")
     _write(t1, out, "table1_cohort_flow", "Table 1. Cohort construction (aggregate counts)",
            "Baseline phone frame = control households selected for the household phone survey. One "
            "household-slot had two records; the earliest dated record was kept (outcome-blind).")
@@ -48,7 +50,7 @@ def build_tables(pub: Path, out: Path) -> list[str]:
                          "Complete households": int(r.n_complete),
                          "Reference-positive": int(r.n_reference_positive),
                          "Missed (exact)": _pct(r.missed_fraction),
-                         "95% village bootstrap": f"{_pct(r.ci_low)} – {_pct(r.ci_high)}",
+                         "95% village bootstrap": f"{_pct(r.ci_low)} to {_pct(r.ci_high)}",
                          "Expected households missed": f"{r.expected_missed_households:.1f}"})
     _write(pd.DataFrame(rows), out, "table2_main_frontier",
            "Table 2. Expected share of reference-positive households missed by m uniformly random screens of six",
@@ -65,12 +67,12 @@ def build_tables(pub: Path, out: Path) -> list[str]:
         for m in (1, 2, 3):
             b = mb[(mb.country == c) & (mb.m == m)].iloc[0]
             row = {"Country": c, "m": m, "Complete-history estimate": _pct(b.complete_case_point),
-                   "Sharp bounds (missing arbitrary)": f"{_pct(b.lower)} – {_pct(b.upper)}",
+                   "Sharp bounds (missing arbitrary)": f"{_pct(b.lower)} to {_pct(b.upper)}",
                    "All missing negative": _pct(b.all_missing_negative),
                    "All missing positive": _pct(b.all_missing_positive)}
             for a in (0.01, 0.05, 0.10):
                 e = le[(le.country == c) & (le.m == m) & (abs(le.alpha - a) < 1e-9)].iloc[0]
-                row[f"+ {a:.0%} label budget"] = f"{_pct(e.lower)} – {_pct(e.upper)} ({int(e.budget_flips)} flips)"
+                row[f"+ {a:.0%} label budget"] = f"{_pct(e.lower)} to {_pct(e.upper)} ({int(e.budget_flips)} flips)"
             rows.append(row)
     _write(pd.DataFrame(rows), out, "table3_identification_bounds",
            "Table 3. Identification ranges over the full baseline phone frame (not confidence intervals)",
@@ -104,8 +106,8 @@ def build_tables(pub: Path, out: Path) -> list[str]:
             continue
         rows.append({"Country": r.country, "Cohort (2021)": r.cohort, "Frozen window": SLOT_LABELS[int(r.slot)],
                      "Complete": int(r.n_complete), "Reference-positive": int(r.n_reference_positive),
-                     "Missed, frozen window": f"{_pct(r.missed_frozen)} ({_pct(r.frozen_ci_low)} – {_pct(r.frozen_ci_high)})",
-                     "Missed, random window": f"{_pct(r.missed_random_one_slot)} ({_pct(r.random_ci_low)} – {_pct(r.random_ci_high)})",
+                     "Missed, frozen window": f"{_pct(r.missed_frozen)} ({_pct(r.frozen_ci_low)} to {_pct(r.frozen_ci_high)})",
+                     "Missed, random window": f"{_pct(r.missed_random_one_slot)} ({_pct(r.random_ci_low)} to {_pct(r.random_ci_high)})",
                      "Difference (95% bootstrap)": f"{100 * (r.missed_frozen - r.missed_random_one_slot):.1f} pp "
                                                    f"({100 * r.diff_ci_low:.1f} to {100 * r.diff_ci_high:.1f})"})
     _write(pd.DataFrame(rows), out, "table5_timing_validation",
@@ -133,7 +135,7 @@ def build_tables(pub: Path, out: Path) -> list[str]:
         b = mbm.loc[(r.country, r.m)]
         rows.append({"Country": r.country, "m": int(r.m), "Complete-case": _pct(b.complete_case_point),
                      "IPW (MAR given baseline)": _pct(r.ipw_missed_fraction),
-                     "Sharp bounds": f"{_pct(b.lower)} – {_pct(b.upper)}",
+                     "Sharp bounds": f"{_pct(b.lower)} to {_pct(b.upper)}",
                      "Max weight": f"{r.max_weight:.1f}", "Effective n (positives)": f"{r.effective_n_positive:.0f}"})
     _write(pd.DataFrame(rows), out, "tableS2_ipw_vs_bounds",
            "Table S2. Assumption-dependent IPW estimate versus assumption-free bounds",
@@ -143,7 +145,7 @@ def build_tables(pub: Path, out: Path) -> list[str]:
 
     st = pd.read_csv(pub / "bootstrap_stability.csv")
     st = st[st.m <= 3].copy()
-    st["interval"] = [("" if pd.isna(lo) else f"{_pct(lo, 2)} – {_pct(hi, 2)}") for lo, hi in zip(st.ci_low, st.ci_high)]
+    st["interval"] = [("" if pd.isna(lo) else f"{_pct(lo, 2)} to {_pct(hi, 2)}") for lo, hi in zip(st.ci_low, st.ci_high)]
     st["SE"] = st.se.map(lambda s: f"{100 * s:.2f} pp")
     _write(st[["country", "m", "variant", "interval", "SE", "villages"]], out, "tableS3_bootstrap_stability",
            "Table S3. Monte Carlo and resampling-unit stability of the village bootstrap",

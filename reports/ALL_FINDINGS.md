@@ -1,6 +1,6 @@
 # Household hunger screening: all findings
 
-*Author: Omoding Isaac (MSc Data Science and Analytics; Ministry of Health, Uganda). Compiled 27 October 2026 and updated after the external review (`REVIEW_RESPONSE.md`). It covers the reproduction of the original study, the World Bank Malawi replication and the locked five-country test. Every number was computed from the source data in this project. Detailed reports are under `reports/` and `reports/investigation/`. Aggregate results are under `data/public_aggregates/`.*
+*Author: Omoding Isaac (MSc Data Science and Analytics; Ministry of Health, Uganda). Compiled 27 October 2026 and updated after the external review (`REVIEW_RESPONSE.md`). It covers the reproduction of the original study, the World Bank Malawi replication and the protocol-locked multi-country investigation (five countries assessed, two with eligible primary calendar-test horizons). Revised for the corrected manuscript package (see `reports/ANALYSIS_HISTORY_AND_EVIDENCE_CLASSES.md` and the package's `07_quality_control/`). Every number was computed from the source data in this project. Detailed reports are under `reports/` and `reports/investigation/`. Aggregate results are under `data/public_aggregates/`.*
 
 **How to read the uncertainty:**
 - **CI** means a 95% cluster-bootstrap confidence interval. It reflects sampling noise.
@@ -13,14 +13,32 @@
 
 1. **The original analysis is correct.** Every earlier number reproduces exactly from the raw data, and the interview dates confirm the "call every two months" design.
 2. **Hunger is intermittent.** Most households that report hunger do so in only some interviews, so infrequent screening misses many of them. In Malawi one interview out of six misses about 55%; in Liberia, about 70%.
-3. **In Malawi, timing matters.** In two separate Malawi panels, one contact in January–March missed far fewer households than a randomly timed contact, in every year where those months were observed.
-4. **That timing advantage does not transfer as a general rule.** A test locked in advance in five other countries found that contacting households in the FEWS NET lean season did **not** beat random timing. In 2020–21, reported hunger declined round after round, and that trend swamped seasonality.
-5. **A simple second-contact rule does transfer.** Re-contacting households that said "yes" to a milder hunger question finds more hungry households than re-contacting at random. This held in Malawi and in all 3 testable horizons of the locked test. A statistical model did no better than simply counting the milder "yes" answers.
+3. **In Malawi, timing matters, but no single month is established as best.**
+   - **Full year (July 2020 – June 2021, six windows):** January–February missed 38.3% against 59.3% at random (−20.9 points).
+     The best observed window was November–December (37.6%). Neither January–February nor September–October was statistically
+     separable from it, while every March–August window was clearly worse.
+   - **World Bank panel, 2021:** the best observed round was late February to mid-March, not January.
+   - **Reading:** contacts between September and February generally did better than contacts between March and August in these
+     Malawi data. That grouping is a post hoc, exploratory description, not a tested hypothesis.
+4. **The lean-season calendar rule did not transfer under the protocol-locked test.**
+   - **Scope:** five countries were assessed, but only Burkina Faso and Uganda had eligible primary horizons.
+   - **Decision:** contradicted under the prespecified rule. Burkina Faso 2020–21: +10.9 points (+6.9 to +14.7), rule worse than
+     random. Uganda 2020–21: +3.4 (−3.9 to +8.8), individually inconclusive.
+   - **Not a conclusive failure across five countries.** In 2020–21, reported hunger declined round after round, which may have
+     swamped seasonality.
+5. **A simple second-contact rule looked useful.** Re-contacting households that said "yes" to a milder hunger question found more later positives than random re-contact.
+   - **Protocol-locked test (H3):** the point estimate was positive in all 3 eligible primary horizons, so H3 was supported under its prespecified directional rule. One interval (Uganda 2022–23) includes zero.
+   - **Malawi:** the result was similar.
+   - **Model comparison:** a logistic regression benchmark trained on 2020 did no better than simply counting the milder "yes" answers.
+   - **Caveat:** the comparison is against random re-contact, a weak benchmark, because milder hunger naturally predicts later hunger.
 6. **The results have limits.**
-   - They survive any pattern of missing interviews.
-   - Small amounts of worst-case answer error (0.5–2.5% of answers) could erase them. Random answer error at hypothetical rates up to 20% did not, in Malawi.
+   - **Missing interviews:** three of the four timing comparisons tested keep their advantage under every completion of missing interviews. The World Bank "whole day" item does not; its range reaches zero.
+   - **Worst-case answer error:** adversarial flips of 0.5–2.5% of recorded answers could erase them. These are tipping points, not error-rate estimates.
+   - **Random answer error:** flips at hypothetical rates of 5%, 10% and 20% did not erase the Malawi trial (HHS) comparisons. In at least 999 of 1,000 simulations per rate, January–February stayed below random.
    - They are not national prevalence figures and say nothing about the effects of running fewer interviews in a real programme.
-7. **Recommended paper:** "when to screen" is a local, year-specific question; a simple second-contact rule is portable. Good fits: *Global Food Security*, *Food Security*. *Food Policy* is a realistic stretch because of the locked test. This describes fit, not chances of acceptance.
+7. **Recommended paper:** *Missed Household Hunger Under Infrequent Screening: Timing, Uncertainty, and Evidence from African Longitudinal Surveys*, first-choice journal *Food Security*.
+   - **Core message:** "when to screen" is context-dependent.
+   - **Second contact:** the second-contact rule is a promising, modest addition.
 
 ---
 
@@ -108,7 +126,7 @@
   - *Exploratory, in-sample:* the 2020 rankings and the best 2020 pair.
   - *Out-of-time but not blind:* the 21.6% and 38.3% results and the frozen pair.
   - *Calendar-based sensitivity, not blind:* the FEWS NET window.
-  - *Genuinely prespecified:* only the five-country test.
+  - *Protocol-locked:* only the multi-country test. It was locked before access to household- and item-level outcomes, with prior exposure to some published aggregate charts, so it is not fully blind.
 - **The 21.6% and 38.3% use different references.**
   - 21.6%: four windows, January–August 2021, 102 reference positives.
   - 38.3%: six windows, July 2020 – June 2021, 133 reference positives.
@@ -180,9 +198,9 @@ The exception: round 7 → round 8 gaps under 30 days are 4.3% (65 of 1,508), no
 
 ---
 
-## 4. Locked five-country test (World Bank LSMS phone surveys)
+## 4. Protocol-locked multi-country investigation (World Bank LSMS phone surveys): five countries assessed, two with eligible primary H1 horizons
 
-**How it was run:** the protocol was committed in `8d33f4d` (SHA-256 `23afabbe…5ba6d`) **before** any data were downloaded. The lean-season months were fixed in advance from FEWS NET typical-year calendars. The archives were downloaded by the study owner and their checksums recorded.
+**How it was run:** the protocol was committed in `8d33f4d` (SHA-256 `23afabbe…5ba6d`) before any household- or item-level outcomes were accessed. Some published aggregate prevalence charts had been seen, so the test is not fully blind. The lean-season months were fixed in advance from FEWS NET typical-year calendars. The archives were downloaded by the study owner and their checksums recorded.
 
 | Panel | Usable horizons |
 |---|---|
@@ -211,7 +229,12 @@ Reported hunger then fell round by round, which may be pandemic recovery or peop
 ### Other hypotheses
 
 - **H2, data-driven transfer:** one testable pair (Uganda); inconclusive at −3.3 (−9.8 to +3.7).
-- **H3, second-contact rule: supported.** Burkina Faso +6.2 (+4.8 to +7.8); Uganda 2020–21 +6.5 (+4.4 to +8.8); Uganda 2022–23 +1.5 (−1.8 to +5.3). That is 3 of 3 positive, and 6 of 7 including the sensitivity groups.
+- **H3, second-contact rule: supported directionally** (later positives per 100 re-contacted households, warning-sign minus random):
+  - Burkina Faso 2020–21: +6.2 (+4.8 to +7.7).
+  - Uganda 2020–21: +6.4 (+4.4 to +8.8).
+  - Uganda 2022–23: +1.5 (−1.8 to +5.3); the interval includes zero.
+
+  That is 3 of 3 point estimates positive, and 6 of 7 including the sensitivity groups.
 - **H4, rural vs urban:** the rule did relatively better for rural households (Burkina Faso −10.8, from −19.2 to −2.6; Uganda −6.2, inconclusive). Exploratory.
 
 **Deviations from the protocol (all documented; none changes a decision):**
@@ -281,17 +304,20 @@ Reported hunger then fell round by round, which may be pandemic recovery or peop
 - **Selection.** Analyses use complete-case cohorts. Attrition is related to household characteristics. The World Bank surveys have no panel weights or cluster IDs, so their intervals are approximate.
 - **Confounding.** Survey round and calendar time cannot be separated, including the first-round and pandemic effects.
 - **Response error.** Small worst-case answer errors can reverse the timing rankings.
-- **Blindness.** Malawi and Liberia results are not blind, and only part of the five-country test was testable.
+- **Blindness.**
+  - The Malawi and Liberia results are not blind.
+  - The multi-country test was locked before access to household-level outcomes but after seeing some published aggregate charts.
+  - Only two countries had eligible primary H1 horizons.
 
 ---
 
 ## 9. Recommended paper and next steps
 
-**Working title:** *When to ask about hunger: seasonal timing helps in Malawi but does not transfer as a calendar rule, while a simple second-contact rule does.*
+**Working title:** *Missed Household Hunger Under Infrequent Screening: Timing, Uncertainty, and Evidence from African Longitudinal Surveys* (first-choice journal: *Food Security*).
 
 **Structure:**
 1. Malawi evidence (two panels) with its limits.
-2. The locked five-country test.
+2. The protocol-locked multi-country investigation (five countries assessed, two with eligible primary H1 horizons).
 3. The second-contact rule.
 4. Liberia and secondary items in the supplement.
 

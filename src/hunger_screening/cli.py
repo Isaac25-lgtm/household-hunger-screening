@@ -42,6 +42,12 @@ def main(argv: list[str] | None = None) -> int:
         from .generate_tables import build_tables
 
         print(f"tables: {len(build_tables(paths.public, paths.tables))} tables")
+        if (paths.public / "review" / "window_paired_comparisons.csv").exists():
+            from . import manuscript_tables
+
+            made = manuscript_tables.build(paths.public, paths.tables / "manuscript", paths.tables / "investigation")
+            made += manuscript_tables.supplementary(paths.public, paths.tables / "investigation")
+            print(f"manuscript tables: {len(made)} tables")
     if args.step in ("all", "dashboard-data"):
         dashboard_data(paths)
         print("dashboard data refreshed")
@@ -63,6 +69,9 @@ def main(argv: list[str] | None = None) -> int:
         from . import review_responses
 
         review_responses.run(paths)
+        from . import revision
+
+        revision.run(paths)
         if (paths.root / "data" / "raw" / "multicountry").exists():
             from . import multicountry
 

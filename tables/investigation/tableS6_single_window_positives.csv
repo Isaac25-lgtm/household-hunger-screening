@@ -1,5 +1,5 @@
-country,n_complete,reference_positive,positive_in_one_window,single_positive_with_score_exactly_2,single_positive_with_score_3_plus,reference,random_missed_m1,random_missed_m2,random_missed_m3,calendar_window,calendar_window_missed,calendar_diff_vs_random,diff_ci_low,diff_ci_high
-Malawi,227,185,45,26,19,all reference positives,0.551,0.319,0.182,Jan-Feb,0.178,-0.373,-0.436,-0.306
-Malawi,227,185,45,26,19,persistent only (positive in >= 2 windows),0.461,0.208,0.08,Jan-Feb,0.129,-0.332,-0.398,-0.265
-Liberia,67,34,16,12,4,all reference positives,0.696,0.475,0.307,Jul-Aug,0.794,0.098,-0.068,0.236
-Liberia,67,34,16,12,4,persistent only (positive in >= 2 windows),0.574,0.304,0.136,Jul-Aug,0.722,0.148,-0.115,0.349
+Country,Reference,Complete households,Reference positive,Positive in one window only,Single-window positives scoring exactly 2,"Random missed, 1 screen","Random missed, 2 screens","Random missed, 3 screens",Calendar window,Calendar window missed,Difference vs random (pp),95% CI (pp)
+Malawi,all reference positives,227,185,45,26,55.1%,31.9%,18.2%,Jan-Feb,17.8%,-37.3,-43.6 to -30.6
+Malawi,persistent only (positive in >= 2 windows),227,185,45,26,46.1%,20.8%,8.0%,Jan-Feb,12.9%,-33.2,-39.8 to -26.5
+Liberia,all reference positives,67,34,16,12,69.6%,47.5%,30.7%,Jul-Aug,79.4%,+9.8,-6.8 to +23.6
+Liberia,persistent only (positive in >= 2 windows),67,34,16,12,57.4%,30.4%,13.6%,Jul-Aug,72.2%,+14.8,-11.5 to +34.9

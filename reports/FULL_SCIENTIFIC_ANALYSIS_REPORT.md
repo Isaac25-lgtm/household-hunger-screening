@@ -61,7 +61,7 @@ M_m is conditional on (a) the analysed households and (b) the six observed 30-da
 5. **Frozen timing assessment**: the best of four common windows (Jan–Aug) is chosen on 2020 only (ties → earlier) and evaluated in 2021 (full and matched cohorts) against a random-window benchmark with the same denominator. Uncertainty comes from village bootstrap, plus a bootstrap of the selection step to measure its stability.
 6. **Secondary**: attrition balance (CR1 village-clustered), IPW under MAR-given-baseline, alternative thresholds (HHS ≥ 1, ≥ 4) and the fixed-schedule enumeration.
 
-**No machine learning** was used. The estimand is an exact design quantity, and a prospective risk-prediction task was considered and rejected (§6 of the methods file).
+**No machine learning** was used in this trial-data analysis (a logistic regression benchmark was later fitted only for the World Bank second-contact decision problem; see `METHOD_SELECTION_AND_MODELS.md`, section on model history). The estimand is an exact design quantity, and a prospective risk-prediction task was considered and rejected (§6 of the methods file).
 
 ## 6. Model and method inventory: strengths, weaknesses and diagnostics
 

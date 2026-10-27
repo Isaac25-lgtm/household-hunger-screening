@@ -14,7 +14,7 @@ Can the household hunger screening study make a materially stronger contribution
 | [07_REQUIRED_WORK_BEFORE_SUBMISSION.md](07_REQUIRED_WORK_BEFORE_SUBMISSION.md) | Data access, confirmations, statistical review, ethics |
 | [08_LIMITATIONS_AND_UNRESOLVED_CLAIMS.md](08_LIMITATIONS_AND_UNRESOLVED_CLAIMS.md) | Claims register and limitations |
 | [09_INVESTIGATION_HANDOFF.md](09_INVESTIGATION_HANDOFF.md) | What changed, what was tested, what remains, and what was pushed |
-| [10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md](10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md) | Protocol for the five-country test, locked before any data were downloaded |
+| [10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md](10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md) | Protocol for the multi-country test, locked before access to household- and item-level outcomes (five countries assessed) |
 | [11_MULTICOUNTRY_RESULTS.md](11_MULTICOUNTRY_RESULTS.md) | **Results of the locked test.** The calendar rule was contradicted; the second-contact rule was supported |
 
 ## Data sources and citations

@@ -1,5 +1,7 @@
 # Can the household hunger screening study make a stronger contribution? Full investigation report
 
+> **Revision note (27 October 2026, revised manuscript package).** Some statements in this historical report were corrected in place. The current, authoritative summary is `reports/ALL_FINDINGS.md`; the analysis history and evidence classes are in `reports/ANALYSIS_HISTORY_AND_EVIDENCE_CLASSES.md`. Changes are listed in the package's `07_quality_control/CHANGELOG_FROM_PREVIOUS_PACKAGE.md`.
+
 *27 October 2026. Branch `investigation/strengthen-contribution`, starting from `main` at `53064ad`. Every number below was computed in this investigation from the source files. It comes from the aggregate files named in brackets under `data/public_aggregates/investigation/` or, for the baseline study, `data/public_aggregates/`. Numbers supplied in the instructions were used only to check reproduction; none of them entered a calculation.*
 
 > **Update (27 October 2026, later the same day).** A protocol-locked test in five other countries' phone surveys has since been run; see `11_MULTICOUNTRY_RESULTS.md`.

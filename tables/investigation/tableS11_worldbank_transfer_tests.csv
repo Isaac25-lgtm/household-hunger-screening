@@ -1,11 +1,11 @@
-test,item,candidate,train_round,train_missed,selected_on_train,n_train_complete,n_train_reference_positive,test_round,n_test_complete,n_test_reference_positive,test_missed,test_missed_ci_low,test_missed_ci_high,test_random_missed,diff_vs_random,diff_ci_low,diff_ci_high,test_group,train_group,zero_denominator_draws
-HFPS 2020 -> 2021 (reproduction),s8q7,R1 Jun 2020,1,0.321,True,1481,1173,11.0,1443.0,933.0,0.478,0.436,0.52,0.351,0.127,0.103,0.153,,,
-"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q7,Jun,1,0.274,True,1509,1116,18.0,556.0,443.0,0.395,0.345,0.445,0.269,0.126,0.085,0.166,B,all,0.0
-HFPS matched (train: group-B households only),s8q7,Jun,1,0.296,True,656,480,18.0,556.0,443.0,0.395,0.345,0.445,0.269,0.126,0.085,0.166,B,B,0.0
-"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q7,Dec,6,0.208,True,1456,963,19.0,556.0,443.0,0.147,0.113,0.178,0.269,-0.123,-0.147,-0.098,B,all,0.0
-"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q7,Jun,1,0.231,True,1551,1088,18.0,615.0,447.0,0.315,0.278,0.36,0.217,0.098,0.062,0.138,A,all,0.0
-HFPS 2020 -> 2021 (reproduction),s8q8,R1 Jun 2020,1,0.39,True,1481,629,11.0,1443.0,375.0,0.613,0.545,0.67,0.478,0.135,0.082,0.18,,,
-"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q8,Jun,1,0.313,True,1509,565,18.0,556.0,236.0,0.538,0.47,0.598,0.438,0.1,0.059,0.142,B,all,0.0
-HFPS matched (train: group-B households only),s8q8,Jun,1,0.316,True,656,228,18.0,556.0,236.0,0.538,0.47,0.598,0.438,0.1,0.059,0.142,B,B,0.0
-"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q8,Dec,6,0.363,True,1456,383,19.0,556.0,236.0,0.25,0.189,0.308,0.438,-0.188,-0.243,-0.13,B,all,0.0
-"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q8,Jun,1,0.207,True,1551,513,18.0,615.0,221.0,0.443,0.377,0.515,0.324,0.12,0.057,0.184,A,all,0.0
+Test,Item,Chosen in training,Training missed,Test round,Test complete,Test reference positive,Test missed,Random missed,Difference (pp),95% CI (pp)
+HFPS 2020 -> 2021 (reproduction),s8q7,R1 Jun 2020,32.1%,11,1443,933,47.8%,35.1%,+12.7,+10.3 to +15.3
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q7,Jun,27.4%,18,556,443,39.5%,26.9%,+12.6,+8.5 to +16.6
+HFPS matched (train: group-B households only),s8q7,Jun,29.6%,18,556,443,39.5%,26.9%,+12.6,+8.5 to +16.6
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q7,Dec,20.8%,19,556,443,14.7%,26.9%,-12.3,-14.7 to -9.8
+"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q7,Jun,23.1%,18,615,447,31.5%,21.7%,+9.8,+6.2 to +13.8
+HFPS 2020 -> 2021 (reproduction),s8q8,R1 Jun 2020,39.0%,11,1443,375,61.3%,47.8%,+13.5,+8.2 to +18.0
+"HFPS matched Jun/Dec/Apr, 2020-21 -> 2023-24, group B",s8q8,Jun,31.3%,18,556,236,53.8%,43.8%,+10.0,+5.9 to +14.2
+HFPS matched (train: group-B households only),s8q8,Jun,31.6%,18,556,236,53.8%,43.8%,+10.0,+5.9 to +14.2
+"HFPS matched, training June = round 11 (pandemic-onset round excluded)",s8q8,Dec,36.3%,19,556,236,25.0%,43.8%,-18.8,-24.3 to -13.0
+"HFPS matched Jun/Feb-Mar, 2020-21 -> 2023-24, group A",s8q8,Jun,20.7%,18,615,221,44.3%,32.4%,+12.0,+5.7 to +18.4

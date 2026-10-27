@@ -1,5 +1,7 @@
 # Manuscript options
 
+> **Revision note (27 October 2026, revised manuscript package).** Some statements in this historical report were corrected in place. The current, authoritative summary is `reports/ALL_FINDINGS.md`; the analysis history and evidence classes are in `reports/ANALYSIS_HISTORY_AND_EVIDENCE_CLASSES.md`. Changes are listed in the package's `07_quality_control/CHANGELOG_FROM_PREVIOUS_PACKAGE.md`.
+
 Fit describes the type of journal each option suits. It is not a probability of acceptance, and nothing here guarantees publication.
 
 ## Option 1 (recommended now): two Malawi panels, timing at a fixed contact budget
@@ -9,7 +11,7 @@ Fit describes the type of journal each option suits. It is not a probability of 
 - *One well-timed contact: lean-season screening and missed household hunger in two Malawi panels*
 - *Missed household hunger under infrequent screening: timing, frequency and transfer across two Malawi panels*
 
-**Core claim.** In two independent Malawi panels with different instruments, one contact in January–March identified more of the households reporting hunger at any observed contact than a contact at a random time. Choosing the month from one earlier year failed when that year began at an atypical moment. The timing advantage survives any pattern of missing interviews but could be erased by small amounts of worst-case answer error.
+**Core claim (revised).** In two independent Malawi panels with different instruments, contacts between September and February generally identified more of the households reporting hunger at any observed contact than contacts at random or between March and August. No single month is established as best. Choosing the month from one earlier year failed when that year began at an atypical moment. In three of four timing comparisons the exact missing-history identification range excludes zero; all could be erased by small amounts of worst-case answer error, but not by random error at hypothetical rates up to 20%. **Current working title:** *Missed Household Hunger Under Infrequent Screening: Timing, Uncertainty, and Evidence from African Longitudinal Surveys*.
 
 **Structure:**
 1. **Introduction.** Screening budgets; existing timing advice (IndiKit HFIAS guidance); evidence that single surveys miss households (Zhu et al. 2026; Wollburg et al. 2025); the open monitoring-frequency question (Smith et al. 2026).

@@ -1,25 +1,25 @@
 country,m,variant,interval,SE,villages
-Malawi,1,primary_2000_draws,51.55% – 58.66%,1.83 pp,140
-Malawi,1,20000_draws_seed+1,51.63% – 58.65%,1.80 pp,140
-Malawi,1,2000_draws_all_frame_villages,51.60% – 58.70%,1.78 pp,150
+Malawi,1,primary_2000_draws,51.55% to 58.66%,1.83 pp,140
+Malawi,1,20000_draws_seed+1,51.63% to 58.65%,1.80 pp,140
+Malawi,1,2000_draws_all_frame_villages,51.60% to 58.70%,1.78 pp,150
 Malawi,1,village_jackknife_se,,1.80 pp,140
-Malawi,2,primary_2000_draws,28.26% – 35.60%,1.86 pp,140
-Malawi,2,20000_draws_seed+1,28.38% – 35.52%,1.84 pp,140
-Malawi,2,2000_draws_all_frame_villages,28.52% – 35.54%,1.80 pp,150
+Malawi,2,primary_2000_draws,28.26% to 35.60%,1.86 pp,140
+Malawi,2,20000_draws_seed+1,28.38% to 35.52%,1.84 pp,140
+Malawi,2,2000_draws_all_frame_villages,28.52% to 35.54%,1.80 pp,150
 Malawi,2,village_jackknife_se,,1.84 pp,140
-Malawi,3,primary_2000_draws,15.19% – 21.37%,1.54 pp,140
-Malawi,3,20000_draws_seed+1,15.32% – 21.26%,1.52 pp,140
-Malawi,3,2000_draws_all_frame_villages,15.45% – 21.34%,1.50 pp,150
+Malawi,3,primary_2000_draws,15.19% to 21.37%,1.54 pp,140
+Malawi,3,20000_draws_seed+1,15.32% to 21.26%,1.52 pp,140
+Malawi,3,2000_draws_all_frame_villages,15.45% to 21.34%,1.50 pp,150
 Malawi,3,village_jackknife_se,,1.53 pp,140
-Liberia,1,primary_2000_draws,63.89% – 75.00%,2.87 pp,47
-Liberia,1,20000_draws_seed+1,63.73% – 75.00%,2.91 pp,47
-Liberia,1,2000_draws_all_frame_villages,63.64% – 75.24%,2.97 pp,104
+Liberia,1,primary_2000_draws,63.89% to 75.00%,2.87 pp,47
+Liberia,1,20000_draws_seed+1,63.73% to 75.00%,2.91 pp,47
+Liberia,1,2000_draws_all_frame_villages,63.64% to 75.24%,2.97 pp,104
 Liberia,1,village_jackknife_se,,3.03 pp,47
-Liberia,2,primary_2000_draws,40.20% – 54.44%,3.63 pp,47
-Liberia,2,20000_draws_seed+1,40.18% – 54.58%,3.70 pp,47
-Liberia,2,2000_draws_all_frame_villages,40.00% – 54.67%,3.79 pp,104
+Liberia,2,primary_2000_draws,40.20% to 54.44%,3.63 pp,47
+Liberia,2,20000_draws_seed+1,40.18% to 54.58%,3.70 pp,47
+Liberia,2,2000_draws_all_frame_villages,40.00% to 54.67%,3.79 pp,104
 Liberia,2,village_jackknife_se,,3.83 pp,47
-Liberia,3,primary_2000_draws,23.97% – 37.50%,3.45 pp,47
-Liberia,3,20000_draws_seed+1,23.87% – 37.50%,3.50 pp,47
-Liberia,3,2000_draws_all_frame_villages,23.65% – 37.50%,3.60 pp,104
+Liberia,3,primary_2000_draws,23.97% to 37.50%,3.45 pp,47
+Liberia,3,20000_draws_seed+1,23.87% to 37.50%,3.50 pp,47
+Liberia,3,2000_draws_all_frame_villages,23.65% to 37.50%,3.60 pp,104
 Liberia,3,village_jackknife_se,,3.61 pp,47

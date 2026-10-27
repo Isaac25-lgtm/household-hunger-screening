@@ -1,0 +1,13 @@
+Panel,Country,Screens retained of 6,Households,Reference-positive households,Missed share or range,Uncertainty,Expected households missed
+A. Complete observed 2020 histories (sampling uncertainty),Malawi,1,227,185,55.1%,95% village bootstrap CI 51.6 to 58.7%,102.0 (expected)
+A. Complete observed 2020 histories (sampling uncertainty),Malawi,2,227,185,31.9%,95% village bootstrap CI 28.3 to 35.6%,59.1 (expected)
+A. Complete observed 2020 histories (sampling uncertainty),Malawi,3,227,185,18.2%,95% village bootstrap CI 15.2 to 21.4%,33.8 (expected)
+A. Complete observed 2020 histories (sampling uncertainty),Liberia,1,67,34,69.6%,95% village bootstrap CI 63.9 to 75.0%,23.7 (expected)
+A. Complete observed 2020 histories (sampling uncertainty),Liberia,2,67,34,47.5%,95% village bootstrap CI 40.2 to 54.4%,16.1 (expected)
+A. Complete observed 2020 histories (sampling uncertainty),Liberia,3,67,34,30.7%,95% village bootstrap CI 24.0 to 37.5%,10.4 (expected)
+"B. Full baseline frame, missing interviews unrestricted (identification, not a CI)",Malawi,1,297,243 to 255 (depends on completion),50.8 to 59.3%,identification range; 3 never observed; excluding them: 51.5 to 59.1% (294 households),
+"B. Full baseline frame, missing interviews unrestricted (identification, not a CI)",Malawi,2,297,243 to 255 (depends on completion),27.8 to 36.5%,identification range; 3 never observed; excluding them: 28.1 to 36.2% (294 households),
+"B. Full baseline frame, missing interviews unrestricted (identification, not a CI)",Malawi,3,297,243 to 255 (depends on completion),15.1 to 22.1%,identification range; 3 never observed; excluding them: 15.3 to 21.8% (294 households),
+"B. Full baseline frame, missing interviews unrestricted (identification, not a CI)",Liberia,1,206,133 to 173 (depends on completion),39.8 to 78.6%,identification range; 24 never observed; excluding them: 48.6 to 77.9% (182 households),
+"B. Full baseline frame, missing interviews unrestricted (identification, not a CI)",Liberia,2,206,142 to 173 (depends on completion),20.7 to 59.9%,identification range; 24 never observed; excluding them: 24.9 to 58.8% (182 households),
+"B. Full baseline frame, missing interviews unrestricted (identification, not a CI)",Liberia,3,206,142 to 173 (depends on completion),10.7 to 43.1%,identification range; 24 never observed; excluding them: 12.9 to 42.0% (182 households),

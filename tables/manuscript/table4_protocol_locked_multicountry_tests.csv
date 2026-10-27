@@ -1,0 +1,17 @@
+Status,Hypothesis,Country and horizon,Contact chosen,Denominator,Rule,Random,Difference,95% CI,Reading
+Primary (prespecified),H1 calendar rule,Burkina Faso 2020-21,R11 (2021-07-07),398 reference positives,76.9% missed,66.0% missed,+10.9 pp,+6.9 to +14.7 pp,rule worse than random
+Primary (prespecified),H1 calendar rule,Uganda 2020-21,R6 (2021-03-28),539 reference positives,62.3% missed,59.0% missed,+3.4 pp,-3.9 to +8.8 pp,inconclusive
+Primary (prespecified),H3 second-contact rule,Burkina Faso 2020-21,first contact R4,821 re-contacted,18.6 per 100,12.4 per 100,+6.2 per 100,+4.8 to +7.7 per 100,rule better than random
+Primary (prespecified),H3 second-contact rule,Ethiopia 2019-20,first contact R1,-,-,-,-,-,untestable: first round asked only FIES items 6 to 8
+Primary (prespecified),H3 second-contact rule,Uganda 2020-21,first contact R2,799 re-contacted,16.9 per 100,10.4 per 100,+6.4 per 100,+4.4 to +8.8 per 100,rule better than random
+Primary (prespecified),H3 second-contact rule,Uganda 2022-23,first contact R9,589 re-contacted,37.7 per 100,36.1 per 100,+1.5 per 100,-1.8 to +5.3 per 100,inconclusive
+Sensitivity (deviation D2),H1 calendar rule,Burkina Faso 2022-23 (sample group 1),R18 (2023-07-23),236 reference positives,24.2% missed,56.5% missed,-32.3 pp,-38.4 to -25.5 pp,rule better than random
+Sensitivity (deviation D2),H1 calendar rule,Burkina Faso 2022-23 (sample group 2),R19 (2023-09-25),235 reference positives,24.7% missed,56.7% missed,-32.1 pp,-38.1 to -25.3 pp,rule better than random
+Sensitivity (deviation D2),H1 calendar rule,Uganda 2023-24,R18 (2024-03-05),220 reference positives,61.8% missed,54.8% missed,+7.0 pp,-0.8 to +14.7 pp,inconclusive
+Sensitivity (deviation D2),H3 second-contact rule,Burkina Faso 2022-23 (sample group 1),first contact R15,386 re-contacted,34.5 per 100,29.6 per 100,+4.8 per 100,+2.1 to +7.5 per 100,rule better than random
+Sensitivity (deviation D2),H3 second-contact rule,Burkina Faso 2022-23 (sample group 2),first contact R15,350 re-contacted,34.0 per 100,31.4 per 100,+2.6 per 100,-0.5 to +5.7 per 100,inconclusive
+Sensitivity (deviation D2),H3 second-contact rule,Uganda 2023-24 (sample group 1),first contact R14,446 re-contacted,18.4 per 100,18.9 per 100,-0.5 per 100,-2.8 to +1.7 per 100,inconclusive
+Sensitivity (deviation D2),H3 second-contact rule,Uganda 2023-24 (sample group 2),first contact R13,402 re-contacted,22.6 per 100,19.3 per 100,+3.3 per 100,+1.0 to +5.3 per 100,rule better than random
+Not eligible,H1,Ethiopia,-,-,-,-,-,-,excluded from H1 by protocol (no single national lean season); H3 untestable (row above)
+Not eligible,H1 and H3,Nigeria (both panels),-,-,-,-,-,-,no usable horizon (at most two food-security rounds per year)
+Not eligible,H1 and H3,Tanzania,-,-,-,-,-,-,no usable horizon (subsample module; round 9 file truncated in the official release)

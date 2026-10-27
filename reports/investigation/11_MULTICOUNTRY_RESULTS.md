@@ -1,14 +1,16 @@
-# Results of the locked multi-country test
+# Results of the protocol-locked multi-country investigation (five countries assessed, two with eligible primary H1 horizons)
+
+> **Revision note (27 October 2026, revised manuscript package).** Some statements in this historical report were corrected in place. The current, authoritative summary is `reports/ALL_FINDINGS.md`; the analysis history and evidence classes are in `reports/ANALYSIS_HISTORY_AND_EVIDENCE_CLASSES.md`. Changes are listed in the package's `07_quality_control/CHANGELOG_FROM_PREVIOUS_PACKAGE.md`.
 
 *Run 27 October 2026 under the protocol in `10_LOCKED_PROTOCOL_MULTICOUNTRY_HFPS.md` (commit `8d33f4d`; SHA-256 of the protocol document `23afabbe…5ba6d`, confirmed by the run). Outputs are in `data/public_aggregates/multicountry/` and figure `figures/investigation/figI6_multicountry_locked_test.*`. Two runs gave byte-identical outputs.*
 
 ## Headline
 
 - **H1 (calendar rule, primary): contradicted** under the locked decision rule. A single contact timed by the FEWS NET typical-year lean season did *not* miss fewer households than a randomly timed contact in either testable primary horizon. In Burkina Faso 2020–21 it missed **10.9 points more** (95% CI +6.9 to +14.7).
-- **H3 (second-contact warning rule): supported.** Re-contacting first-contact negatives who answered "yes" to a milder FIES item gave more later positives per 100 re-contacts than random re-contact, in all 3 testable primary horizons.
+- **H3 (second-contact warning rule): supported under its prespecified directional rule.** Re-contacting first-contact negatives who answered "yes" to a milder FIES item gave more later positives per 100 re-contacts than random re-contact in all 3 testable primary horizons (point estimates). One interval (Uganda 2022–23) includes zero, so not every comparison is individually significant.
 - **H2 (data-driven transfer):** a single testable pair (Uganda), inconclusive.
 - **H4 (rural vs urban):** in both primary horizons the rule did relatively better for rural households (exploratory, as pre-specified).
-- **What this means for the paper:** the January–March advantage found in Malawi does **not** carry over as a general "screen in the lean season" rule. Whether a seasonal contact helps depends on the year and the setting.
+- **What this means for the paper:** the Malawi timing advantage did **not** carry over as a general "screen in the lean season" rule in the two eligible horizons. Whether a seasonal contact helps depends on the year and the setting. Two eligible horizons are too few to call this a conclusive failure across countries.
 
 ## Data and provenance
 
@@ -59,9 +61,9 @@ Only one ordered pair of usable horizons exists: Uganda 2020–21 → 2022–23.
 
 | Horizon | Analysis | Re-contacted | Warning rule | Random | Difference (95% CI) |
 |---|---|---|---|---|---|
-| Burkina Faso 2020–21 | Primary | 821 | 18.6 | 12.4 | +6.2 (+4.8 to +7.8) |
-| Uganda 2020–21 | Primary | 799 | 16.9 | 10.5 | +6.5 (+4.4 to +8.8) |
-| Uganda 2022–23 | Primary | 589 | 37.7 | 36.2 | +1.5 (−1.8 to +5.3) |
+| Burkina Faso 2020–21 | Primary | 821 | 18.6 | 12.4 | +6.2 (+4.8 to +7.7) |
+| Uganda 2020–21 | Primary | 799 | 16.9 | 10.4 | +6.4 (+4.4 to +8.8) |
+| Uganda 2022–23 | Primary | 589 | 37.7 | 36.1 | +1.5 (−1.8 to +5.3) |
 | Ethiopia 2019–20 | Primary | — | — | — | Untestable: the first round asked only FIES items 6–8 |
 | Burkina Faso 2022–23 (two groups) | D2 | 386 / 350 | 34.5 / 34.0 | 29.6 / 31.4 | +4.8 (+2.1 to +7.5) / +2.6 (−0.5 to +5.7) |
 | Uganda 2023–24 (two groups) | D2 | 446 / 402 | 18.4 / 22.6 | 18.9 / 19.3 | −0.5 (−2.8 to +1.7) / +3.3 (+1.0 to +5.3) |

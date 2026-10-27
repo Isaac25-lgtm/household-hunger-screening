@@ -1,5 +1,7 @@
 # Decision memo: how to make the hunger-screening paper stronger
 
+> **Revision note (27 October 2026, revised manuscript package).** Some statements in this historical report were corrected in place. The current, authoritative summary is `reports/ALL_FINDINGS.md`; the analysis history and evidence classes are in `reports/ANALYSIS_HISTORY_AND_EVIDENCE_CLASSES.md`. Changes are listed in the package's `07_quality_control/CHANGELOG_FROM_PREVIOUS_PACKAGE.md`.
+
 *27 October 2026, for the study team. Updated after the locked multi-country test.*
 
 ## The question
@@ -10,9 +12,9 @@ Can the Malawi and Liberia household hunger paper make a materially stronger con
 
 1. **The earlier results hold up.** An independent re-computation from the raw files reproduces them exactly. The interview dates confirm that households were called every two months.
 
-2. **In Malawi, timing helps.** In two different Malawi panels, one contact in January–March missed fewer of the households reporting hunger at any contact than a contact at a random time. That held in every Malawi year where those months were observed.
+2. **In Malawi, timing helps, but no single month is established as best.** In two different Malawi panels, contacts between September and February generally missed fewer households than contacts between March and August. In the full July 2020 – June 2021 year, November–December, January–February and September–October could not be separated statistically.
 
-3. **That Malawi result does not travel as a general lean-season rule.** I wrote the test plan and locked it before downloading data for five other countries, then ran it as written. The rule was "contact households once in the lean season shown on FEWS NET's typical-year calendar". It did *not* beat a randomly timed contact:
+3. **That Malawi result does not travel as a general lean-season rule.** I wrote the test plan and locked it before downloading data for five other countries (some published aggregate charts had been seen, so it is not fully blind), then ran it as written. Only Burkina Faso and Uganda had eligible primary horizons. The rule was "contact households once in the lean season shown on FEWS NET's typical-year calendar". It did *not* beat a randomly timed contact:
 
    | Horizon | Lean-season contact versus random |
    |---|---|
@@ -24,12 +26,12 @@ Can the Malawi and Liberia household hunger paper make a materially stronger con
 4. **Picking the month from last year's data can also backfire** (World Bank Malawi survey, after a pandemic-onset first round).
 
 5. **The second-contact rule did replicate.** Re-contacting households that answered "yes" to a milder hunger question at the first contact found more hungry households than random re-contact:
-   - in all 3 testable horizons of the locked test (Burkina Faso, Uganda);
+   - in all 3 testable horizons of the locked test (Burkina Faso, Uganda), as point estimates; one interval includes zero;
    - in Malawi.
 
    A statistical model did no better than simply counting those "yes" answers.
 
-6. **The Malawi timing result has limits.** No pattern of missing interviews can erase it, but worst-case errors in 0.5–2.5% of recorded answers could.
+6. **The Malawi timing result has limits.** For three of the four comparisons tested, no pattern of missing interviews can erase the advantage (the World Bank "whole day" item is the exception). Worst-case errors in 0.5–2.5% of recorded answers could erase it; random errors at hypothetical rates up to 20% did not.
 
 ## What this means
 
@@ -52,9 +54,9 @@ The locked test is now the paper's main strength. It includes a pre-specified hy
 
 1. **Write the paper around both results.**
    - Malawi timing evidence, with its limits.
-   - The locked five-country test, where the calendar rule failed and the second-contact rule held.
+   - The protocol-locked multi-country test (two eligible primary horizons), where the calendar rule was contradicted and the second-contact rule was supported directionally.
 
-   Working title: *"When to ask about hunger: seasonal timing helps in Malawi but does not transfer as a calendar rule, while a simple second-contact rule does."*
+   Working title (revised): *Missed Household Hunger Under Infrequent Screening: Timing, Uncertainty, and Evidence from African Longitudinal Surveys*.
 2. **Journals:** *Global Food Security* or *Food Security* are good fits. *Food Policy* is now a realistic stretch because of the locked test. This describes fit, not chances of acceptance.
 3. **Before submission:**
    - confirm the design facts;

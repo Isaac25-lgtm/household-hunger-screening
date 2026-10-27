@@ -1,0 +1,34 @@
+dataset,horizon,window,is_best_observed,n_reference_positive,missed,diff_vs_random_pp,ci_vs_random_pp,diff_vs_best_observed_pp,paired_ci_vs_best_pp,separable_from_best_at_95
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),Jul-Aug,False,133,79.7%,+20.4,+15.0 to +25.8,+42.1,+32.1 to +51.6,True
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),Sep-Oct,False,133,43.6%,-15.7,-23.1 to -8.3,+6.0,-5.5 to +17.8,False
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),Nov-Dec,True,133,37.6%,-21.7,-28.6 to -14.9,+0.0,,False
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),Jan-Feb,False,133,38.3%,-20.9,-27.5 to -13.6,+0.8,-9.8 to +12.1,False
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),Mar-Apr,False,133,70.7%,+11.4,+4.9 to +17.3,+33.1,+22.3 to +43.6,True
+Aggarwal trial (HHS >= 2),Jul 2020 - Jun 2021 (six windows),May-Jun,False,133,85.7%,+26.4,+20.9 to +31.6,+48.1,+39.2 to +56.5,True
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),Jul-Aug,False,155,56.1%,+7.0,-0.0 to +14.0,+38.7,+28.5 to +48.3,True
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),Sep-Oct,False,155,53.5%,+4.4,-1.7 to +10.2,+36.1,+26.3 to +45.5,True
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),Nov-Dec,False,155,31.0%,-18.2,-24.3 to -12.0,+13.5,+4.5 to +22.4,True
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),Jan-Feb,True,155,17.4%,-31.7,-38.0 to -25.9,+0.0,,False
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),Mar-Apr,False,155,57.4%,+8.3,+2.4 to +14.1,+40.0,+31.0 to +49.3,True
+Aggarwal trial (HHS >= 2),Jul 2019 - Jun 2020 (six windows),May-Jun,False,155,79.4%,+30.2,+25.1 to +35.3,+61.9,+53.5 to +70.8,True
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),Jan-Feb,True,185,17.8%,-37.3,-43.6 to -30.6,+0.0,,False
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),Mar-Apr,False,185,47.6%,-7.6,-14.1 to -1.3,+29.7,+20.0 to +39.1,True
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),May-Jun,False,185,78.4%,+23.2,+18.9 to +27.5,+60.5,+51.9 to +68.6,True
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),Jul-Aug,False,185,83.2%,+28.1,+23.9 to +32.1,+65.4,+57.4 to +72.8,True
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),Sep-Oct,False,185,53.5%,-1.6,-7.4 to +4.6,+35.7,+25.3 to +45.3,True
+Aggarwal trial (HHS >= 2),calendar 2020 (six windows),Nov-Dec,False,185,50.3%,-4.9,-11.1 to +1.2,+32.4,+21.9 to +42.9,True
+Aggarwal trial (HHS >= 2),Jan - Aug 2021 (four windows),Jan-Feb,True,102,21.6%,-38.2,-46.5 to -29.6,+0.0,,False
+Aggarwal trial (HHS >= 2),Jan - Aug 2021 (four windows),Mar-Apr,False,102,63.7%,+3.9,-3.6 to +10.9,+42.2,+28.8 to +54.5,True
+Aggarwal trial (HHS >= 2),Jan - Aug 2021 (four windows),May-Jun,False,102,83.3%,+23.5,+17.5 to +29.3,+61.8,+50.0 to +73.6,True
+Aggarwal trial (HHS >= 2),Jan - Aug 2021 (four windows),Jul-Aug,False,102,70.6%,+10.8,+3.5 to +18.1,+49.0,+34.7 to +62.5,True
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/8/9/11/12,R7 Jan 2021,False,986,30.9%,-10.5,-13.9 to -7.3,+5.1,+2.5 to +7.7,True
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/8/9/11/12,R8 Mar 2021,True,986,25.9%,-15.6,-19.0 to -12.3,+0.0,,False
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/8/9/11/12,R9 Apr 2021,False,986,40.9%,-0.6,-4.3 to +3.7,+15.0,+8.7 to +22.2,True
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/8/9/11/12,R11 May 2021,False,986,52.2%,+10.8,+8.2 to +13.5,+26.4,+20.7 to +32.0,True
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/8/9/11/12,R12 Jun 2021,False,986,57.3%,+15.9,+12.5 to +19.1,+31.4,+25.9 to +37.0,True
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/9/11,R7 Jan 2021,True,933,23.9%,-11.2,-15.6 to -7.3,+0.0,,False
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/9/11,R9 Apr 2021,False,933,33.7%,-1.5,-4.5 to +2.3,+9.8,+3.0 to +17.4,True
+World Bank HFPS (FIES item: hungry but did not eat),2021 rounds 7/9/11,R11 May 2021,False,933,47.8%,+12.7,+10.3 to +15.3,+23.9,+18.0 to +30.1,True
+World Bank HFPS (FIES item: hungry but did not eat),Jun 2023 / Dec 2023 / Apr 2024 (group B),R18 Jun 2023,False,443,39.5%,+12.6,+8.5 to +16.6,+24.8,+19.1 to +30.1,True
+World Bank HFPS (FIES item: hungry but did not eat),Jun 2023 / Dec 2023 / Apr 2024 (group B),R19 Dec 2023,True,443,14.7%,-12.3,-14.7 to -9.8,+0.0,,False
+World Bank HFPS (FIES item: hungry but did not eat),Jun 2023 / Dec 2023 / Apr 2024 (group B),R21 Apr 2024,False,443,26.6%,-0.3,-4.2 to +3.5,+12.0,+6.9 to +17.1,True

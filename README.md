@@ -71,12 +71,12 @@
 | Chosen on Jul 2019 to Jun 2020, tested Jul 2020 to Jun 2021 | 6 | 133 | 38.3% | 59.3% | -20.9 (-27.5 to -13.6) |
 
 **Beyond Malawi.**
-- **Locked five-country test.** The protocol was committed before any data were downloaded. Contacting households in the FEWS NET lean season did **not** beat a randomly timed contact: Burkina Faso 2020-21 missed 10.9 points more (6.9 to 14.7); Uganda 2020-21 was inconclusive.
-- **Second-contact rule.** Re-contacting first-contact negatives who answered "yes" to a milder hunger question found more hungry households than random re-contact in all 3 testable horizons, and in Malawi. Details: [11_MULTICOUNTRY_RESULTS.md](reports/investigation/11_MULTICOUNTRY_RESULTS.md).
+- **Protocol-locked multi-country test (five countries assessed, two with eligible primary horizons).** The protocol was committed before access to household- and item-level outcomes (some published aggregate charts had been seen, so it is not fully blind). Contacting households in the FEWS NET lean season did **not** beat a randomly timed contact: Burkina Faso 2020-21 missed 10.9 percentage points more (6.9 to 14.7); Uganda 2020-21 was individually inconclusive. H1 was contradicted under its prespecified rule.
+- **Second-contact rule.** Re-contacting first-contact negatives who answered "yes" to a milder hunger question found more later positives than random re-contact in all 3 eligible primary horizons (point estimates; one interval includes zero) and in Malawi. Random re-contact is a weak benchmark. Details: [11_MULTICOUNTRY_RESULTS.md](reports/investigation/11_MULTICOUNTRY_RESULTS.md).
 
 **In one paragraph.**
 - **Hunger is intermittent.** 75% (Malawi) and 94% (Liberia) of ever-positive households were positive in only one to three of six windows, so screening fewer windows misses many of them.
-- **Timing mattered in Malawi.** A January-February contact did much better than a random one in every Malawi year observed, against four- and six-window references, in two independent Malawi panels, and under random answer error.
+- **Timing mattered in Malawi, but no single month is established as best.** September-February contacts generally did better than March-August contacts. In the full July 2020 to June 2021 year, November-December, January-February and September-October could not be separated statistically.
 - **That advantage did not transfer.** As a lean-season calendar rule it failed in a locked test in other countries, where reported hunger fell round by round in 2020-21.
 - **A simple second-contact rule did transfer.**
 
@@ -87,7 +87,7 @@
 | Exploratory, in-sample | 2020 window ranking; best 2020 pair (January-February + March-April, 6.5% missed: **not** headlined) |
 | Out-of-time, not blind | 2020 to 2021 (21.6%); July-June test (38.3%); frozen best pair (November-December + January-February: 15.0% vs 36.4% for a random pair); World Bank Malawi transfer tests |
 | Calendar-based sensitivity, not blind | FEWS NET lean-season window: Malawi beats random in every horizon; Liberia does not |
-| Genuinely out-of-sample and prespecified | Five-country test only: calendar rule **contradicted**, second-contact rule **supported** |
+| Protocol-locked, not fully blind | Multi-country investigation only (five countries assessed, two with eligible primary calendar-test horizons): calendar rule **contradicted** under its prespecified rule; second-contact rule **supported directionally** (one of three intervals includes zero) |
 
 ## The question and why it matters
 
@@ -129,13 +129,13 @@ It is conditional on the analysed households and the six observed windows. The r
 | Does a window chosen earlier work later? | Selection on earlier data only, frozen, evaluated later | Cluster bootstrap |
 | Does a calendar rule travel? | Protocol locked before download, five countries | Cluster bootstrap; prespecified decision rule |
 
-All exact solvers are checked against brute-force enumeration. No machine learning is used: a logistic model trained on earlier data did no better than a simple count rule ([METHOD_SELECTION_AND_MODELS.md](reports/METHOD_SELECTION_AND_MODELS.md)).
+All exact solvers are checked against brute-force enumeration. The main estimand needs no predictive model; a logistic regression benchmark, fitted only for the World Bank second-contact problem, did no better than a simple count rule ([METHOD_SELECTION_AND_MODELS.md](reports/METHOD_SELECTION_AND_MODELS.md)).
 
 ## More results
 
 <table>
 <tr>
-<td width="50%"><img src="figures/README/figI6_multicountry_locked_test.png" alt="Forest plots: calendar rule against random in each horizon (primary horizons above zero) and second-contact rule against random (above zero in all primary horizons)."><br><sub><b>Fig I6.</b> Locked five-country test. <a href="figures/investigation/figI6_multicountry_locked_test.pdf">PDF</a></sub></td>
+<td width="50%"><img src="figures/README/figI6_multicountry_locked_test.png" alt="Forest plots: calendar rule against random in each horizon (primary horizons above zero) and second-contact rule against random (above zero in all primary horizons)."><br><sub><b>Fig I6.</b> Protocol-locked multi-country tests. <a href="figures/investigation/figI6_multicountry_locked_test.pdf">PDF</a></sub></td>
 <td width="50%"><img src="figures/README/figI1_timing_across_datasets.png" alt="Missed share by contact window in two Malawi panels; January to March contacts miss fewer households than a random contact."><br><sub><b>Fig I1.</b> Timing in two Malawi panels. <a href="figures/investigation/figI1_timing_across_datasets.pdf">PDF</a></sub></td>
 </tr>
 <tr>
@@ -157,7 +157,7 @@ All tables are in [`tables/`](tables/); machine-readable aggregates are in [`dat
 **This project adds:**
 1. exact ascertainment frontiers and bounds for an experiential 30-day indicator in two African panels;
 2. out-of-time and calendar-based tests of timing in two Malawi panels;
-3. a locked five-country test in which a calendar rule failed and a second-contact rule held.
+3. a protocol-locked multi-country test (five countries assessed, two with eligible primary horizons) in which a calendar rule was contradicted and a second-contact rule was supported directionally.
 
 Comparison table: [04_CLOSEST_PRIOR_WORK.md](reports/investigation/04_CLOSEST_PRIOR_WORK.md).
 
@@ -243,7 +243,7 @@ Details: [VALIDATION_AND_TEST_RESULTS.md](reports/VALIDATION_AND_TEST_RESULTS.md
 |---|---|
 | [ALL_FINDINGS.md](reports/ALL_FINDINGS.md) | Every finding in one place |
 | [REVIEW_RESPONSE.md](reports/REVIEW_RESPONSE.md) | Point-by-point response to the external review, with evidence classes |
-| [investigation/](reports/investigation/README.md) | World Bank replication, locked protocol and five-country results |
+| [investigation/](reports/investigation/README.md) | World Bank replication, locked protocol and multi-country results |
 | [FULL_SCIENTIFIC_ANALYSIS_REPORT.md](reports/FULL_SCIENTIFIC_ANALYSIS_REPORT.md) | Original trial-data analysis |
 | [MANUSCRIPT_READINESS_VERDICT.md](reports/MANUSCRIPT_READINESS_VERDICT.md) | Readiness and remaining blockers |
 | [REPRODUCTION_AUDIT.md](reports/REPRODUCTION_AUDIT.md) | Earlier numbers against independent recomputation |

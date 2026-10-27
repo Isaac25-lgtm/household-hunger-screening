@@ -1,6 +1,6 @@
 # Method selection and models actually executed
 
-The principal estimand is an **exact design quantity of observed histories**. The methods were chosen to compute it exactly, describe its sampling variability, bound it under missingness and label error, and test one operational design choice out of year. No predictive model was fitted (see §7).
+The principal estimand is an **exact design quantity of observed histories**. The methods were chosen to compute it exactly, describe its sampling variability, bound it under missingness and label error, and test one operational design choice out of year. No predictive model was fitted in the trial-data analysis (see §7). Two models were fitted elsewhere in the project, for different stages: a logistic completeness model for the inverse-probability-weighting sensitivity check (row 7 below), and a logistic regression ranking benchmark for the World Bank second-contact decision problem (§8). Neither is used to compute the primary estimand.
 
 | # | Method (module) | Target | Inputs | Key assumptions | Output | Validation | Role |
 |---|---|---|---|---|---|---|---|
@@ -34,3 +34,14 @@ The principal estimand is an **exact design quantity of observed histories**. Th
 3. **What would change this decision:** a programme partner specifying a targeting rule and cost structure, or data from several years and more clusters, so that a risk-based adaptive schedule could be evaluated prospectively against fixed schedules.
 
 No benchmark charts, AUCs or feature importances are reported, because none were computed.
+
+
+## 8. Model history across the whole project (added for the revised manuscript package)
+
+| Stage | Model | Purpose | Inputs | Training data | Evaluation data | Metric and contact budget | Result | Source |
+|---|---|---|---|---|---|---|---|---|
+| Trial analysis: primary estimand | **None** | The missed-share estimand is computed exactly from observed histories under a specified random-retention design | n/a | n/a | n/a | n/a | n/a | `combinatorics.py`, `estimands.py` |
+| Trial analysis: sensitivity | Logistic regression (IRLS), completeness on 7 baseline covariates | Inverse-probability weights for a missing-at-random sensitivity estimate | Baseline covariates | 2020 frame | Same data (weighting, not prediction) | Reweighted missed share | Malawi 54.9%, Liberia 70.3% (one screen) | `optional_diagnostics.py`, `ipw_frontier.csv` |
+| World Bank Malawi: second-contact benchmark | Logistic regression (IRLS, ridge 1e-3) | Rank first-contact negatives for re-contact | FIES items 1 to 6 at first contact, 2019 wealth quintile, urban, region | First contact July 2020 (round 2); later rounds August and November 2020 (rounds 3, 5) | First contact January 2021 (round 7); later rounds April and late May to June 2021 (rounds 9, 11) | Later positives per 100 re-contacted at matched budgets (all warning-sign negatives; half of them) | Half budget, item 7: logistic 52.3 vs count rule 52.9 vs random 30.4 per 100; item 8: 18.4 vs 17.1 vs 10.8. No material gain over the count rule | `hfps.py` (`model_vs_rule`), `hfps_model_vs_rule.csv`, Table S16 |
+
+This is not a machine-learning study. The logistic benchmark exists only to check whether a fitted ranking adds value over a transparent rule; it did not.
